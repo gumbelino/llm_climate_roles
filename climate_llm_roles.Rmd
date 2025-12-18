@@ -1,0 +1,1355 @@
+---
+title: 'Supplemental Materials. Deliberative Reasoning with(in) the Machine: Can Large Language Models Serve as System-0 Agents for Democratic Judgement?'
+author: "Francesco Veri, Gustavo Umbelino, Nardine Alnemr"
+date: "`r Sys.Date()`"
+output:
+  bookdown::html_document2: default
+  html_document: default
+  pdf_document: default
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# install deliberr if the package doesn't exist
+# renv::install("gumbelino/deliberr")
+
+library(deliberr)
+library(readr)
+library(readxl)
+library(dplyr)
+library(rstatix)
+library(tidyr)
+library(ggplot2)
+library(psych)
+library(gridExtra)
+library(ggpubr)
+library(lme4)
+library(emmeans)
+library(car)
+library(reshape2)
+
+LLM_DATA_DIR <- "llm_data"
+SURVEY_FILE <- "surveys_v5.xlsx"
+LLMS_FILE <- "llms.csv"
+CASES_FILE <- "deliberative_cases.csv"
+PROMPTS_FILE <- "prompts.csv"
+OUTPUT_DIR <- "data"
+
+```
+
+# Large-Language Models (LLMs)
+
+```{r models, warning=FALSE}
+
+# get models info
+models <- read_csv(LLMS_FILE, show_col_types = FALSE) %>%
+  filter(included) %>% # only included "included" models]
+  mutate(class = case_when(
+    estimate > 1 ~ "top",
+    estimate <= 1 ~"bottom",
+    .default = "new")
+  )
+
+models %>%
+  select(provider, name, model, estimate, class) %>% 
+  arrange(-estimate, provider, model) %>%
+  knitr::kable(caption = "LLMs", row.names = TRUE, col.names = c("Provider", "Model", "Version", "Estimate", "Rank"))
+
+models_top <- models %>%
+  filter(class != "bottom")
+
+models_bottom <- models %>%
+  filter(class == "bottom")
+
+```
+
+Building on our previous analysis, we selected models based on their performance. We chose 4 top[^1], which were consistently more consistent than chance, and 4 bottom models, which were consistently less consistent than chance in terms of deliberative reasoning.
+
+[^1]: Note that `gemini-2.5-pro-preview-03-25` was replaced by `gemini-2.5-pro`, however, this version of the model became significantly slower and more expensive, since it has "thinking" enabled by default and cannot be toggled. As a result, we decided to use the *flash* version (`gemini-2.5-flash`), a lighter and cheaper alternative.
+
+```{r cases_all, warning=FALSE, include=FALSE}
+
+cases <- read_csv(CASES_FILE, show_col_types = FALSE)
+
+cases %>% arrange(survey) %>%
+  knitr::kable(caption = "Deliberative Cases", row.names = TRUE)
+
+```
+
+```{r surveys_all, warning=FALSE, include=FALSE}
+
+# get deliberative survey names
+survey_names <- unique(cases$survey)
+
+get_surveys <- function(survey_names) {
+  
+  surveys <- list()
+  
+  # Iterate over each sheet in the workbook
+  for (survey_name in survey_names) {
+
+    # Read the current sheet into a data frame
+    df <- read_excel(SURVEY_FILE, sheet = survey_name)
+    
+    # Check if required columns exist
+    required_columns <- c("considerations", "policies", "scale_max", "q-method")
+    missing_cols <- setdiff(required_columns, colnames(df))
+    if (length(missing_cols) > 0) {
+      cat(
+        "Sheet",
+        survey_name,
+        "is missing the following columns:",
+        paste(missing_cols, collapse = ", "),
+        "\n\n"
+      )
+      next
+    }
+    
+    # Calculate the number of non-NA rows in "considerations" column
+    n_c <- sum(!is.na(df$considerations))
+    
+    # Calculate the number of non-NA rows in "policies" column
+    n_p <- sum(!is.na(df$policies))
+    
+    # Extract integer values from "scale_max" column, assuming they are already integers
+    scale_max <- as.integer(na.omit(df$scale_max))
+    
+    # Extract logical (boolean) values from "q-method" column
+    q_method <- as.logical(na.omit(df$`q-method`))
+    
+    surveys[[length(surveys) + 1]] <- tibble(
+      survey = survey_name,
+      considerations = n_c,
+      policies = n_p,
+      scale_max,
+      q_method,
+    )
+    
+  }
+  
+  surveys <- bind_rows(surveys)
+  surveys
+  
+}
+
+surveys <- get_surveys(survey_names)
+
+surveys %>% arrange(survey) %>%
+  knitr::kable(caption = "Surveys", row.names = TRUE)
+
+```
+
+```{r prompts_all, warning=FALSE, include=FALSE}
+
+prompts <- read_csv(PROMPTS_FILE, show_col_types = FALSE)
+
+prompts %>% 
+  group_by(type) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  knitr::kable(caption = "Number of Prompts by Type")
+
+prompts %>% arrange(type) %>%
+  select(-article) %>%
+  knitr::kable(caption = "System Prompts", row.names = TRUE)
+
+```
+
+```{r format LLM data, include=FALSE}
+
+# source("get_llm_data.R")
+
+llm_data <- read_csv("data/llm_data_clean.csv", show_col_types = FALSE) %>%
+  # attach model name to data
+  left_join(models %>% select(model, name), join_by(model)) %>% rename("model_name" = "name")
+
+```
+
+# Cases, surveys, and roles
+
+```{r cc_meta}
+# get cases
+cc_cases <- cases %>% 
+  filter(topic == "climate", survey != "fnqcj", survey != "forestera")
+# NOTE: we remove fnqcj and forestera because they are not consistent with our roles
+
+# get surveys
+cc_surveys <- unique(cc_cases$survey)
+
+# get roles: ecologist ideology, climate perspectives, or devil's advocate
+cc_roles <- prompts %>% filter(type != "ideology" | uid == "eco")
+
+cc_cases %>%
+  knitr::kable(caption = "Cases", row.names = TRUE)
+
+surveys %>%
+  filter(survey %in% cc_surveys) %>%
+  knitr::kable(caption = "Surveys", row.names = TRUE)
+
+cc_roles %>%
+  knitr::kable(caption = "Roles", row.names = TRUE)
+
+```
+
+```{r}
+
+cc_llm_data <- llm_data %>%
+  filter(survey %in% cc_surveys, prompt_uid %in% cc_roles$uid)
+
+```
+
+# Methods
+
+## Data collection
+
+We collected `r nrow(cc_llm_data)` responses generated by `r nrow(models)` models cross `r length(cc_surveys)` surveys and `r nrow(cc_roles)` roles described above. We prompted each LLM 5 times with the same prompt.
+
+### System prompt (Roles)
+
+We instructed LLMs to play each of the roles described above by including a system instruction in each request following the pattern:
+
+> _Answer the following prompts as **[article]** **[role]**, who **[description]**._
+
+For example:
+
+> _Answer the following prompts as **`r cc_roles[12,]$article`** **`r cc_roles[12,]$role`**, who **`r cc_roles[12,]$description`**._
+
+## Analysis
+
+We calculated one DRI value per model/survey/role by treating each LLM response as one participant in a deliberation. The role "all" indicates that all roles were part of that deliberation (n = 60 participants, which equals 5 participants for each of the 12 roles). DRI plots are shown in Figure \@ref(fig:driplots).
+
+```{r, include=FALSE}
+res <- list()
+plots <- list()
+
+
+for (model in models$model) {
+
+  for (survey in cc_surveys) {
+  
+    data <- llm_data %>% filter(model == !!model, survey == !!survey, prompt_uid %in% cc_roles$uid) %>%
+        mutate(pnum = row_number()) # treat each response as a participant
+    ic <- get_dri_ic(data)
+    dri <- get_dri(ic)
+    alpha <- get_dri_alpha(data)
+    
+    title <- paste(model, survey, sep = "/")
+    # suffix <- paste("all", nrow(cc_roles), "climate roles")
+    plot <- plot_dri_ic(ic, title, dri = dri)
+    
+    file_name <- paste0(model, "-", survey, ".png")
+    
+    # ggsave(
+    #   paste("plots", file_name, sep="/"),
+    #   plot,
+    #   width = 8,
+    #   height = 6
+    # )
+    plots[[length(plots)+1]] <- plot
+    
+    res[[length(res)+1]] <- tibble(
+      model,
+      survey,
+      role = "all",
+      dri,
+      alpha,
+      n = nrow(data),
+    )
+    
+    
+    for (role in cc_roles$uid) {
+      
+      data <- llm_data %>%
+        filter(model == !!model, survey == !!survey, prompt_uid == role) %>%
+        mutate(pnum = row_number()) # treat each response as a participant
+      ic <- get_dri_ic(data)
+      dri <- get_dri(ic) 
+      alpha <- get_dri_alpha(data)
+      
+      res[[length(res)+1]] <- tibble(
+        model,
+        survey,
+        role,
+        dri,
+        alpha,
+        n = nrow(data),
+      )
+      
+    }
+    
+    
+    
+  }
+  
+}
+
+res <- bind_rows(res)
+
+write_csv(res, "data/dri_alpha_data.csv")
+dri_alpha_data <- res
+
+```
+
+# Hypotheses Testing
+## H1a: random data
+```{r}
+
+random_res <- list()
+N <- 5
+
+set.seed(14)
+
+## generate random data
+survey_names <- res %>%
+  select(survey) %>%
+  unique()
+
+relevant_surveys <- surveys %>%
+  filter(survey %in% survey_names$survey)
+
+for (i in 1:nrow(relevant_surveys)) {
+  
+  # get survey meta data
+  survey <- relevant_surveys[i, ]$survey
+  scale_max <- relevant_surveys[i, ]$scale_max
+  c_n <- relevant_surveys[i, ]$considerations
+  p_n <- relevant_surveys[i, ]$policies
+  
+  # generate N responses for each role
+  for (j in 1:nrow(cc_roles)) {
+    
+    # get role
+    role <- cc_roles[j,]$uid
+    
+    for (pnum in 1:N) {
+      
+      ## generate random Cs
+      random_c <- sample(1:scale_max, size = c_n, replace = TRUE)
+      padded_c <- c(random_c, rep(NA, 50 - c_n))
+      c_df <- matrix(padded_c, nrow = 1, ncol = 50)
+      colnames(c_df) <- paste0("C", 1:50)
+      c_df <- as.data.frame(c_df)
+      
+      ## generate random Ps
+      random_p <- sample(1:p_n, size = p_n, replace = FALSE)
+      padded_p <- c(random_p, rep(NA, 10 - p_n))
+      p_df <- matrix(padded_p, nrow = 1, ncol = 10)
+      colnames(p_df) <- paste0("P", 1:10)
+      p_df <- as.data.frame(p_df)
+    
+      # merge results
+      random_res[[length(random_res)+1]] <- tibble(
+        pnum,
+        survey,
+        role,
+        c_df,
+        p_df
+      )
+      
+    }
+  
+  }
+
+}
+
+random_res <- bind_rows(random_res)
+
+random_data <- random_res %>%
+  group_by(survey, role) %>%
+  summarise(n = n(), .groups = "drop")
+
+random_dri <- list()
+
+## calculate DRI for random participants
+for (i in 1:nrow(random_data)) {
+  role <- random_data[i,]$role
+  survey <- random_data[i,]$survey
+  
+  # get subset of data to test
+  random_dri_data <- random_res %>%
+    filter(role == !!role, 
+           survey == !!survey)
+  
+  # calculate dri
+  ic <- get_dri_ic(random_dri_data)
+  dri <- get_dri(ic)
+  
+  random_dri[[length(random_dri)+1]] <- tibble(
+    random_data[i,],
+    dri
+  )
+  
+}
+
+random_dri <- bind_rows(random_dri)
+
+# select model/surveys
+llm_data_it <- res %>%
+  select(model, survey) %>%
+  unique()
+
+random_res <- list()
+
+# test each model/survey
+for (i in 1:nrow(llm_data_it)) {
+  model <- llm_data_it[i,]$model
+  survey <- llm_data_it[i,]$survey
+  
+  # get subset of data to test
+  test_data <- res %>%
+    filter(model == !!model, 
+           survey == !!survey,
+           role != "all")
+  
+  random_data <- random_dri %>%
+    filter(model == !!model, 
+           survey == !!survey)
+
+  # compare model/survey DRI across roles
+  test_result_ts <- wilcox.test(test_data$dri, random_data$dri)
+  test_result_gt <- wilcox.test(test_data$dri, random_data$dri, alternative = "greater")
+  
+  # save response
+  random_res[[length(random_res)+1]] <- tibble(
+    model,
+    survey,
+    obs_mean = mean(test_data$dri),
+    llm_N = nrow(test_data),
+    random_mean = mean(random_data$dri),
+    random_N = nrow(random_data),
+    p_value_two.sided = test_result_ts$p.value,
+    sig_two.sided = case_when(
+      test_result_ts$p.value < 0.05 ~ "*",
+      .default = "n.s."
+    ),
+    p_value_greater = test_result_gt$p.value,
+    sig_greater = case_when(
+      test_result_gt$p.value < 0.05 ~ "*",
+      .default = "n.s."
+    ),
+  )
+  
+}
+
+random_res <- bind_rows(random_res)
+
+write_csv(random_res, "data/H1a_random_results.csv")
+
+
+# Read your file (adjust path if needed)
+h1 <- random_res
+
+# Optional: make shorter, nicer labels for models
+h1 <- h1 |>
+  left_join(models %>% 
+              select(model, name), 
+            join_by(model)) %>%
+  mutate(model_clean = name)
+
+
+# 2. Order models by average observed DRI ----------------------------------
+
+model_order <- h1 |>
+  group_by(model_clean) |>
+  summarise(avg_obs = mean(obs_mean, na.rm = TRUE)) |>
+  arrange(avg_obs) |>
+  pull(model_clean)
+
+h1 <- h1 |>
+  mutate(model_clean = factor(model_clean, levels = model_order),
+         sig = p_value_greater < 0.05)
+
+# 3. Long format: observed vs random ---------------------------------------
+
+h1_long <- h1 |>
+  select(model_clean, survey, obs_mean, random_mean, sig) |>
+  pivot_longer(
+    cols = c(obs_mean, random_mean),
+    names_to = "type",
+    values_to = "mean_dri"
+  ) |>
+  mutate(
+    type = dplyr::recode(type,
+                  "obs_mean" = "Observed DRI",
+                  "random_mean" = "Random baseline")
+  )
+
+ggplot(h1_long,
+       aes(x = model_clean,
+           y = mean_dri,
+           group = model_clean)) +
+  
+  # grey connector between random and observed
+  geom_line(color = "grey70", linewidth = 0.6) +
+  
+  # RANDOM baseline → solid purple
+  geom_point(
+    data = subset(h1_long, type == "Random baseline"),
+    color = "#7570b3",
+    size = 3
+  ) +
+  
+  # OBSERVED not significant → empty green circle
+  geom_point(
+    data = subset(h1_long, type == "Observed DRI" & sig == FALSE),
+    shape = 21,
+    fill  = "white",
+    color = "#1b9e77",
+    stroke = 1.2,
+    size = 3
+  ) +
+  
+  # OBSERVED significant → filled green circle
+  geom_point(
+    data = subset(h1_long, type == "Observed DRI" & sig == TRUE),
+    shape = 21,
+    fill  = "#1b9e77",
+    color = "#1b9e77",
+    size = 3
+  ) +
+  
+  facet_wrap(~ survey, nrow = 1) +
+  
+  # scale_shape_manual(
+  #   name = "Observed > random (p < .05)",
+  #   values = c(`TRUE` = 16, `FALSE` = 1),  # TRUE = filled, FALSE = hollow
+  #   labels = c("No", "Yes")
+  # ) + # FIXME
+  
+  labs(
+    title    = "H1: Within-model coherence in DRI",
+    subtitle = "Observed DRI relative to random baseline",
+    x = "Model",
+    y = "Mean DRI"
+  ) +
+  
+  theme_minimal(base_size = 12) +
+  
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid.major.x = element_blank(),
+    legend.position = "bottom"
+  )
+
+
+```
+
+## H1b: one-sample Wilcoxon signed rank test
+
+```{r}
+
+wilcox_res <- list()
+mu <- 0
+
+# select model/surveys
+wilcox_data <- res %>%
+  select(model, survey) %>%
+  unique()
+
+# test each model/survey
+for (i in 1:nrow(wilcox_data)) {
+  model <- wilcox_data[i,]$model
+  survey <- wilcox_data[i,]$survey
+  
+  # get subset of data to test
+  test_data <- res %>%
+    filter(model == !!model, 
+           survey == !!survey,
+           role != "all")
+
+  # compare model/survey DRI across roles
+  test_result_ts <- wilcox.test(test_data$dri, mu = mu)
+  test_result_gt <- wilcox.test(test_data$dri, mu = mu, alternative = "greater")
+  
+  # save response
+  wilcox_res[[length(wilcox_res)+1]] <- tibble(
+    model,
+    survey,
+    obs_mean = mean(test_data$dri),
+    N = nrow(test_data),
+    mu,
+    p_value_two.sided = test_result_ts$p.value,
+    sig_two.sided = case_when(
+      test_result_ts$p.value < 0.05 ~ "*",
+      .default = "n.s."
+    ),
+    p_value_greater = test_result_gt$p.value,
+    sig_greater = case_when(
+      test_result_gt$p.value < 0.05 ~ "*",
+      .default = "n.s."
+    ),
+  )
+  
+}
+
+wilcox_res <- bind_rows(wilcox_res) 
+
+wilcox_res %>%
+  left_join(models %>% select(model, name), join_by(model)) %>%
+  mutate(model = name) %>%
+  select(-name) %>%
+  knitr::kable(title = "one-sample Wilcoxon signed rank test results")
+
+write_csv(wilcox_res, "H1b_wilcox_results.csv")
+
+```
+
+## H2
+```{r}
+df <- dri_alpha_data %>%
+  # use model name instead of model for plots
+  left_join(models %>% select(model, name), join_by(model)) %>% 
+  mutate(model = name) %>% 
+  select(-name)
+
+df <- df[df$role != "all", ]
+
+# Option A: random intercepts for role and scenario
+m1 <- lmer(dri ~ model + (1 | role) + (1 | survey), data = df)
+summary(m1)
+m1 <- lmer(dri ~ model + (1 | survey/role), data = df)
+summary(m1)
+
+# Compare to model without model effect
+m0 <- lmer(dri ~ 1 + (1 | survey/role) , data = df)
+
+anova(m0, m1)  # LRT on model effect
+
+emm <- emmeans(m1, "model")
+emm_table <- summary(emm) %>%
+  arrange(desc(emmean))
+
+emm_table
+
+# Compute estimated means
+emm <- emmeans(m1, "model")
+emm_df <- as.data.frame(emm)
+
+# Compute grand mean for reference line
+grand_mean <- mean(df$dri, na.rm = TRUE)
+
+# Reorder for plotting
+emm_df$model <- reorder(emm_df$model, emm_df$emmean)
+
+ggplot(emm_df, aes(x = emmean, y = model)) +
+  geom_point(size = 3, color = "black") +
+  geom_errorbarh(aes(xmin = lower.CL, xmax = upper.CL), height = 0.2) +
+  geom_vline(xintercept = grand_mean, linetype = "dashed", color = "red", linewidth = 0.8) +
+  theme_minimal(base_size = 14) +
+  labs(
+    x = "Estimated DRI (adjusted for role & survey)",
+    y = "Model",
+    title = "Cross-Model Differences in Deliberative Reason Index",
+    subtitle = "Red dashed line = Overall mean DRI across all models"
+  )
+grand_mean <- mean(df$dri, na.rm = TRUE)
+
+ggplot(df, aes(x = model, y = dri, fill = model)) +
+  geom_violin(alpha = 0.3, color = "black") +
+  geom_jitter(width = 0.1, alpha = 0.4, size = 1) +
+  geom_hline(yintercept = grand_mean, linetype = "dashed", color = "red", linewidth = 0.8) +
+  theme_minimal(base_size = 14) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  ) +
+  labs(
+    y = "Raw DRI",
+    x = "",
+    title = "Distribution of DRI by Model",
+    subtitle = "Red dashed line = Overall mean DRI"
+  )
+
+# overall mean as reference
+grand_mean <- mean(df$dri, na.rm = TRUE)
+
+# reorder models by estimated mean
+emm_df$model <- reorder(emm_df$model, emm_df$emmean)
+
+ggplot(emm_df, aes(x = emmean, y = model)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = lower.CL, xmax = upper.CL), height = 0.2) +
+  geom_vline(xintercept = grand_mean, linetype = "dashed", color = "red") +
+  theme_minimal(base_size = 14) +
+  labs(
+    x = "Estimated DRI (adjusted for role & survey)",
+    y = "LLM model",
+    title = "Cross-model differences in DRI",
+    subtitle = "Points = adjusted means; bars = 95% CIs; red line = overall mean"
+  )
+
+
+role_summary <- df %>%
+  group_by(role) %>%
+  summarise(
+    mean_dri = mean(dri, na.rm = TRUE),
+    sd_dri = sd(dri, na.rm = TRUE),               # overall noise
+    .groups = "drop"
+  )
+role_summary
+
+
+role_noise <- df %>%
+  group_by(role, model) %>%
+  summarise(
+    mean_dri = mean(dri, na.rm = TRUE),
+    sd_rep = sd(dri, na.rm = TRUE),   # noise across 5 repetitions
+    .groups = "drop"
+  ) %>%
+  group_by(role) %>%
+  summarise(
+    mean_role_noise = mean(sd_rep, na.rm = TRUE),
+    max_role_noise  = max(sd_rep, na.rm = TRUE),
+    min_role_noise  = min(sd_rep, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+role_noise
+
+role_model_noise <- df %>%
+  group_by(role, model) %>%
+  summarise(
+    mean_dri = mean(dri, na.rm = TRUE),
+    sd_rep   = sd(dri, na.rm = TRUE),   # noise across 5 repetitions
+    .groups  = "drop"
+  )
+
+fligner.test(sd_rep ~ role, data = role_model_noise)
+leveneTest(sd_rep ~ model, data = role_model_noise, center = median)
+leveneTest(sd_rep ~ model, data = role_model_noise, center = median)
+
+role_model_heat <- df %>%
+  group_by(role, model) %>%
+  summarise(sd_rep = sd(dri), .groups = "drop")
+
+```
+
+
+```{r}
+ggplot(role_model_heat, aes(x = model, y = role, fill = sd_rep)) +
+  geom_tile() +
+  scale_fill_distiller(
+    palette = "RdYlGn",
+    direction = -1,
+    name = "Noise (SD)"
+  ) +
+  theme_minimal(base_size = 10) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  ) +
+  labs(
+    x = "Model",
+    y = "Role",
+    title = "Consistency of DRI across Models and Roles",
+    subtitle = "Green = stable; Red = noisy"
+  )
+# ggplot(role_model_heat, aes(x = model, y = role)) +
+#   geom_point(aes(size = sd_rep, color = sd_rep)) +
+#   scale_color_distiller(palette = "RdYlGn", direction = -1) +
+#   scale_size(range = c(3, 14)) +
+#   theme_minimal()
+# ggplot(role_model_heat, aes(model, sd_rep, fill = sd_rep)) +
+#   geom_col() +
+#   facet_wrap(~ role, ncol = 3) +
+#   scale_fill_distiller(palette = "RdYlGn", direction = -1)
+# ggplot(role_model_heat, aes(model, role, fill = sd_rep)) +
+#   geom_tile() +
+#   geom_contour(aes(z = sd_rep), color = "black", alpha = 0.3)
+# 
+# 
+# ggplot(role_summary, aes(x = mean_dri, y = reorder(role, mean_dri))) +
+#   geom_point(size = 3) +
+#   geom_vline(xintercept = mean(df$dri), linetype = "dashed", color = "red") +
+#   theme_minimal(base_size = 14) +
+#   labs(
+#     x = "Mean DRI",
+#     y = "Role",
+#     title = "Which Roles Produce Higher or Lower DRI?",
+#     subtitle = "Red dashed line = overall DRI mean"
+#   )
+
+```
+
+## Detailed exploration
+```{r}
+
+model1 <- "claude-3-7-sonnet-20250219"
+model2 <- "gpt-3.5-turbo"
+
+survey <- "ccps"
+sds <- list()
+for (prompt_uid in cc_roles$uid) {
+  
+  data <- cc_llm_data %>%
+    filter(survey == !!survey, prompt_uid == !!prompt_uid)
+  
+  m1_data <- data %>%
+    filter(model == model1)
+  
+  m2_data <- data %>%
+    filter(model == model2)
+  
+  sds[[length(sds)+1]] <- tibble(
+    model = model1,
+    survey,
+    prompt_uid,
+    m1_data %>%
+      summarise(across(C1:P10, ~ sd(.x, na.rm = TRUE)))
+  )
+  
+  sds[[length(sds)+1]] <- tibble(
+    model = model2,
+    survey,
+    prompt_uid,
+    m2_data %>%
+      summarise(across(C1:P10, ~ sd(.x, na.rm = TRUE)))
+  )
+  
+}
+
+sds <- bind_rows(sds)
+
+write_csv(sds, "detailed_analysis.csv")
+
+# use model name instead of model for plots
+sds <- sds %>%
+  left_join(models %>% select(model, name), join_by(model)) %>% 
+  mutate(model = name) %>% 
+  select(-name)
+
+# # use role name for plots
+# sds <- sds %>%
+#   rename("uid" = "prompt_uid") %>%
+#   left_join(cc_roles %>% select(uid, role), join_by(uid)) %>%
+#   select(-uid)
+
+# Function to create heatmap
+create_heatmap <- function(data, cols, title, order = 1) {
+  # Sort data by model and then role
+  data_sorted <- if (order == 1) data %>%
+    arrange(prompt_uid, model) %>%
+    mutate(row_label = paste0(model, " / ", prompt_uid)) else data %>%
+    arrange(model, prompt_uid) %>%
+    mutate(row_label = paste0(model, " / ", prompt_uid))
+  
+  # Select relevant columns and add row identifier
+  plot_data <- data_sorted %>%
+    select(all_of(cols), row_label) %>%
+    melt(id.vars = "row_label", variable.name = "column", value.name = "value")
+  
+  # Create factor with correct order
+  plot_data$row_label <- factor(plot_data$row_label, 
+                                 levels = unique(data_sorted$row_label))
+  
+  # Create heatmap
+  ggplot(plot_data, aes(x = column, y = row_label, fill = value)) +
+    geom_tile(color = "white", linewidth = 0.5) +
+    scale_fill_gradient2(low = "darkred", mid = "lightyellow", high = "darkgreen",
+                         midpoint = median(plot_data$value, na.rm = TRUE),
+                         na.value = "grey50") +
+    labs(title = title, x = "Column", y = "Model/Role", fill = "Value") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
+          axis.text.y = element_text(size = 8),
+          panel.grid = element_blank(),
+          plot.title = element_text(hjust = 0.5, face = "bold"))
+}
+
+# Create heatmap for C columns
+c_cols <- paste0("C", 1:33)
+p1 <- create_heatmap(sds, c_cols, "Heatmap for C1:C33", order = 2)
+print(p1)
+
+p_cols <- paste0("P", 1:7)
+p2 <- create_heatmap(sds, p_cols, "Heatmap for P1:P7", order = 2)
+print(p2)
+
+ggsave("plots/heatmap_C_columns.png", p1, width = 12, height = 8, dpi = 300)
+ggsave("plots/heatmap_P_columns.png", p2, width = 8, height = 8, dpi = 300)
+
+```
+
+
+# Findings
+
+## Consistency
+
+We compared the compared top with bottom models in terms of consistency of DRI and Cronbach's Alpha (see top models in Figure \@ref(fig:top) and bottom models in Figure \@ref(fig:bottom)).
+
+### Top models
+
+```{r top, fig.cap="Top models", fig.width=14, fig.height=4}
+
+cplots <- list()
+
+# res %>%
+#   arrange(model, survey, role) %>%
+#   head(5) %>%
+#   knitr::kable(caption = "Head (5) of DRI consistency cross climate roles", digits = 3)
+
+res_top <- res %>%
+  filter(model %in% models_top$model)
+
+role_dri <- res_top %>%
+  group_by(role) %>%
+  get_summary_stats(type = "common") %>%
+  filter(variable == "dri") %>%
+  arrange(median)
+  
+order <- role_dri$role
+
+res_top %>%
+  ggboxplot(x = "role", y = "dri", title = "Distribution of DRI across climate roles", order = order, caption = "Each role has 12 data points: 4 top models x 3 surveys", xlab = "Role", ylab = "DRI") + geom_hline(yintercept = 0, linetype = 2, color = "red") -> plot
+
+cplots[[length(cplots)+1]] <- plot
+
+
+role_alpha_p <- res_top %>%
+  group_by(role) %>%
+  get_summary_stats(type = "common") %>%
+  filter(variable == "alpha_p") %>%
+  arrange(median)
+  
+order <- role_alpha_p$role
+
+res_top %>%
+  ggboxplot(x = "role", y = "alpha_p", title = "Distribution of Cronbach's alpha (policies) across climate roles", order = order, caption = "Each role has 12 data points: 4 top models x 3 surveys", xlab = "Role", ylab = "Cronbach's Alpha (policies)") -> plot
+
+cplots[[length(cplots)+1]] <- plot
+
+
+# res_top %>%
+#   group_by(role) %>%
+#   get_summary_stats(type = "common") %>%
+#   filter(variable != "n") %>%
+#   arrange(variable, -mean) %>%
+#   knitr::kable(caption = "Consistency data (DRI and Cronbach's alpha)", digits = 3, row.names = TRUE)
+
+grid.arrange(grobs = cplots, nrow = 1, ncol = 2)
+
+
+```
+
+We found that *top* LLMs are consistent across roles both in terms of DRI and Cronbach's Alpha (policies). The high DRI across roles (median = `r role_dri[role_dri$role == "all",]$median`; IQR = `r role_dri[role_dri$role == "all",]$iqr`) suggests that LLMs tend to consistenly align their considerations and policy preferences. The high Cronbach's alpha for their policy preferences (median = `r role_alpha_p[role_alpha_p$role == "all",]$median`; IQR = `r role_alpha_p[role_alpha_p$role == "all",]$iqr`) suggests that LLMs tend to agree on the ranking of their policy preferences.
+
+### Bottom models
+
+```{r bottom, fig.cap="Bottom models", fig.width=14, fig.height=4}
+
+cplots <- list()
+
+res_bottom <- res %>%
+  filter(model %in% models_bottom$model)
+
+role_dri <- res_bottom %>%
+  group_by(role) %>%
+  get_summary_stats(type = "common") %>%
+  filter(variable == "dri") %>%
+  arrange(median)
+  
+order <- role_dri$role
+
+res_bottom %>%
+  ggboxplot(x = "role", y = "dri", title = "Distribution of DRI across climate roles", order = order, caption = "Each role has 12 data points: 4 bottom models x 3 surveys", xlab = "Role", ylab = "DRI") + geom_hline(yintercept = 0, linetype = 2, color = "red") -> plot
+
+cplots[[length(cplots)+1]] <- plot
+
+role_alpha_p <- res_bottom %>%
+  group_by(role) %>%
+  get_summary_stats(type = "common") %>%
+  filter(variable == "alpha_p") %>%
+  arrange(median)
+  
+order <- role_alpha_p$role
+
+res_bottom %>%
+  ggboxplot(x = "role", y = "alpha_p", title = "Distribution of Cronbach's alpha (policies) across climate roles", order = order, caption = "Each role has 12 data points: 4 bottom models x 3 surveys", xlab = "Role", ylab = "Cronbach's Alpha (policies)") -> plot
+
+cplots[[length(cplots)+1]] <- plot
+
+
+# res_bottom %>%
+#   group_by(role) %>%
+#   get_summary_stats(type = "common") %>%
+#   filter(variable != "n") %>%
+#   arrange(variable, -mean) %>%
+#   knitr::kable(caption = "Consistency data (DRI and Cronbach's alpha)", digits = 3, row.names = TRUE)
+
+grid.arrange(grobs = cplots, nrow = 1, ncol = 2)
+
+```
+
+We also found that *bottom* LLMs are not consistent across roles in terms of DRI and less consistent than top models in terms of Cronbach's Alpha (policies). The low DRI across roles (median = `r role_dri[role_dri$role == "all",]$median`; IQR = `r role_dri[role_dri$role == "all",]$iqr`) suggests that LLMs tend to consistenly misalign their considerations and policy preferences. The Cronbach's alpha (lower than top models) for their policy preferences (median = `r role_alpha_p[role_alpha_p$role == "all",]$median`; IQR = `r role_alpha_p[role_alpha_p$role == "all",]$iqr`) suggests that LLMs tend to agree less on the ranking of their policy preferences than top models.
+
+### Summary for each model
+
+#### DRI
+```{r dri-summary}
+model_role_summary <- res %>%
+  group_by(model, role) %>%
+  summarise(mean_dri = mean(dri), .groups = "drop") %>%
+  pivot_wider(names_from = model, values_from = mean_dri)
+
+
+# find best model for each row
+model_role_summary$best_model <- 
+  colnames(model_role_summary)[max.col(model_role_summary[, -1],
+                                       ties.method = "first") + 1]
+
+model_role_summary %>%
+  knitr::kable(caption = "Mean DRI across models and roles", digits = 3, row.names = TRUE)
+
+
+```
+
+#### Cronbach's Alpha (Policies)
+
+```{r}
+model_role_summary <- res %>%
+  group_by(model, role) %>%
+  summarise(mean_alpha_p = mean(alpha_p), .groups = "drop") %>%
+  pivot_wider(names_from = model, values_from = mean_alpha_p)
+
+
+# find best model for each row
+model_role_summary$best_model <- 
+  colnames(model_role_summary)[max.col(model_role_summary[, -1],
+                                       ties.method = "first") + 1]
+
+model_role_summary %>%
+  knitr::kable(caption = "Mean alpha (policies) across models and roles", digits = 3, row.names = TRUE)
+
+
+```
+
+#### Cronbach's Alpha (Consideration)
+
+```{r}
+model_role_summary <- res %>%
+  group_by(model, role) %>%
+  summarise(mean_alpha_c = mean(alpha_c), .groups = "drop") %>%
+  pivot_wider(names_from = model, values_from = mean_alpha_c)
+
+
+# find best model for each row
+model_role_summary$best_model <- 
+  colnames(model_role_summary)[max.col(model_role_summary[, -1],
+                                       ties.method = "first") + 1]
+
+model_role_summary %>%
+  knitr::kable(caption = "Mean alpha (considerations) across models and roles", digits = 3, row.names = TRUE)
+
+
+```
+
+## Model/Survey DRI Plots
+
+These plots show a simulated deliberation across all 12 roles for each surveys and model.
+Each simulated deliberation has 60 participants (12 roles with 5 participants each).
+
+Note that bottom models are visually inconsistent.
+
+```{r driplots, fig.cap="DRI Plots", fig.width=15, fig.height=40}
+
+# Arrange in 4 rows x 5 columns
+grid.arrange(grobs = plots,
+             nrow = 8,
+             ncol = 3,
+             widths = rep(1, 3),
+             heights = rep(1, 8)) -> plot
+
+ggsave(
+  paste("plots", "all_plots.png", sep="/"),
+  plot,
+  width = 15,
+  height = 40
+)
+
+```
+
+## Survey/Role DRI Plots
+
+These plots show a simulated deliberation across all models in the same class
+(i.e., top, bottom) for each role and survey. Each simulated deliberation has
+20 participants (4 models with 5 participants each).
+
+Note that top models are visually more consistent than bottom models.
+
+### Top models
+
+```{r, include=FALSE}
+
+res <- list()
+plots <- list()
+
+for (role in cc_roles$uid) {
+
+  for (survey in cc_surveys) {
+    
+    data <- llm_data %>%
+      filter(survey == !!survey, prompt_uid == role, model %in% models_top$model) %>%
+      mutate(pnum = row_number()) # treat each response as a participant
+    ic <- get_dri_ic(data)
+    dri <- get_dri(ic)
+    alpha <- get_dri_alpha(data)
+    
+    title <- paste(role, survey, sep = "/")
+    plot <- plot_dri_ic(ic, title, dri = dri)
+    
+    file_name <- paste0(role, "-", survey, ".png")
+    
+
+    plots[[length(plots)+1]] <- plot
+    
+    res[[length(res)+1]] <- tibble(
+      role,
+      survey,
+      dri,
+      alpha,
+      n = nrow(data),
+    )
+    
+  }
+  
+}
+
+res <- bind_rows(res)
+
+
+```
+
+```{r, fig.width=15, fig.height=60}
+
+# Arrange in 4 rows x 5 columns
+grid.arrange(grobs = plots,
+             nrow = 12,
+             ncol = 3,
+             widths = rep(1, 3),
+             heights = rep(1, 12))
+
+# ggsave(
+#   paste("plots", "all_role_plots.png", sep="/"),
+#   plot,
+#   width = 5,
+#   height = 12
+# )
+
+```
+
+### Bottom models
+
+```{r, include=FALSE}
+
+res <- list()
+plots <- list()
+
+for (role in cc_roles$uid) {
+
+  for (survey in cc_surveys) {
+    
+    data <- llm_data %>%
+      filter(survey == !!survey, prompt_uid == role, model %in% models_bottom$model) %>%
+      mutate(pnum = row_number()) # treat each response as a participant
+    ic <- get_dri_ic(data)
+    dri <- get_dri(ic)
+    alpha <- get_dri_alpha(data)
+    
+    title <- paste(role, survey, sep = "/")
+    plot <- plot_dri_ic(ic, title, dri = dri)
+    
+    file_name <- paste0(role, "-", survey, ".png")
+    
+
+    plots[[length(plots)+1]] <- plot
+    
+    res[[length(res)+1]] <- tibble(
+      role,
+      survey,
+      dri,
+      alpha,
+      n = nrow(data),
+    )
+    
+  }
+  
+}
+
+res <- bind_rows(res)
+
+
+```
+
+```{r, fig.width=15, fig.height=60}
+
+# Arrange in 4 rows x 5 columns
+grid.arrange(grobs = plots,
+             nrow = 12,
+             ncol = 3,
+             widths = rep(1, 3),
+             heights = rep(1, 12))
+
+# ggsave(
+#   paste("plots", "all_role_plots.png", sep="/"),
+#   plot,
+#   width = 5,
+#   height = 12
+# )
+
+```
+
+## Permutation tests
+
+NOTE: This section is skipped by default. Remove the R code `eval = FALSE` to run the following chunks.
+
+```{r}
+
+ITERATIONS = 10000
+
+```
+
+We conducted permutation tests with `r ITERATIONS` iterations to check which models are consistently 
+consistent and which roles are consistently consistent.
+
+### Models and Surveys: Which models are truly consistent across roles?
+
+In this permutation test, we explore the likelihood that the consistency, measured by DRI, is due to chance across surveys and roles.
+
+```{r, eval = FALSE, fig.cap="Survey/Model Permutation Test", fig.width=12, fig.height=10, warning=FALSE}
+
+start_time <- Sys.time()
+
+perms <- list()
+summs <- list()
+for (survey in cc_surveys) {
+  
+  for (model in models$model) {
+    
+    # get data (for climate roles only)
+    data <- llm_data %>% filter(model == !!model, survey == !!survey, prompt_uid %in% cc_roles$uid) %>%
+        mutate(pnum = row_number()) # treat each response as a participant
+    
+    # get raw permutation data for plotting
+    perm <- permute_dri(data, iterations = ITERATIONS, summary = FALSE)
+    perm$survey <- survey
+    perm$model <- model
+    
+    perms[[length(perms)+1]] <- perm
+    
+    # get summary for table
+    summ <- summarize_perm_dri(perm)
+    summ$survey <- survey
+    summ$model <- model
+    
+    summs[[length(summs)+1]] <- summ
+
+  }
+  
+}
+
+perms <- bind_rows(perms)
+summs <- bind_rows(summs)
+
+
+perms %>%
+  gghistogram(
+    x = "dri",
+    facet.by = c("model", "survey"),
+    fill = "source",
+    add = "mean",
+    rug = TRUE,
+    title = "Survey/Model Permutation Test",
+    caption = paste(ITERATIONS, "permutations"),
+  ) -> plot
+
+
+plot
+
+summs %>%
+  arrange(p) %>%
+  knitr::kable(caption = "Survey/Model Permutation Summary", digits = 3)
+
+end_time <- Sys.time()
+
+elapsed_time <- difftime(end_time, start_time, units = "mins")
+
+```
+
+Most models seem to be consistent across roles. Few of the 10,000 permutations led to a higher DRI than the *observed* DRI, suggesting that the observed value is likely not due to chance.
+
+### Surveys and Roles: Are models trully consistent across roles?
+
+In this permutation test, we explore the likelihood that the consistency, measured by DRI, is due to chance across surveys and roles.
+
+```{r, eval = FALSE, fig.cap="Survey/Role Permutation Test", fig.width=8, fig.height=12, warning=FALSE}
+perms <- list()
+summs <- list()
+
+start_time <- Sys.time()
+
+for (survey in cc_surveys) {
+  
+  for (role in cc_roles$uid) {
+    
+    # get data
+    data <- llm_data %>% filter(survey == !!survey, prompt_uid == role) %>%
+        mutate(pnum = row_number()) # treat each response as a participant
+    
+    # get raw permutation data for plotting
+    perm <- permute_dri(data, iterations = ITERATIONS, summary = FALSE)
+    perm$survey <- survey
+    perm$role <- role
+    
+    perms[[length(perms)+1]] <- perm
+    
+    # get summary for table
+    summ <- summarize_perm_dri(perm)
+    summ$survey <- survey
+    summ$role <- role
+    
+    summs[[length(summs)+1]] <- summ
+
+  }
+  
+}
+
+perms <- bind_rows(perms)
+summs <- bind_rows(summs)
+
+
+perms %>%
+  gghistogram(
+    x = "dri",
+    facet.by = c("role", "survey"),
+    fill = "source",
+    add = "mean",
+    rug = TRUE,
+    title = "Survey/Role Permutation Test",
+    caption = paste(ITERATIONS, "permutations"),
+  ) -> plot
+
+plot
+
+# summs %>%
+#   group_by(role) %>%
+#   summarise(sig = sum(p < 0.05)) %>%
+#   arrange(sig) %>%
+#   knitr::kable(caption = "Number of significant (p < 0.05) roles across the 3 surveys.", digits = 3)
+
+# summs %>%
+#   group_by(survey) %>%
+#   summarise(sig = sum(p < 0.05)) %>%
+#   arrange(sig) %>%
+#   knitr::kable(caption = "Number of significant (p < 0.05) surveys across the 12 roles", digits = 3)
+# 
+
+summs %>%
+  arrange(p) %>%
+  knitr::kable(caption = "Survey/Role Permutation Summary", digits = 3)
+
+end_time <- Sys.time()
+
+elapsed_time <- difftime(end_time, start_time, units = "mins")
+  
+```

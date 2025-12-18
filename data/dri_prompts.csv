@@ -1,0 +1,35 @@
+﻿type,prompt
+considerations,"## Instructions:
+- Rate each of the %d [Considerations] below from 1 to %d, where 1 is strongly disagree and %d is strongly agree.%s
+- In your response, return an ordered list of %d ratings as integers, one rating per line following the format in the [Example output].
+- Your response must have exactly %d lines in total.
+- Do NOT include any additional text in your response.
+
+## [Example output]:
+1. 1
+2. 4
+3. 6
+4. 3
+
+## [Considerations]:
+"
+policies,"## Instructions:
+- Based on your previous ratings, rank the %d [Policies] listed below from 1 to %d, where 1 represents the option you support the most and %d the option you support the least.
+- In your response, return an ordered list of %d ranks as integers, one rank per line following the format in the [Example output].
+- Your response must have exactly %d lines in total.
+- Do NOT include any additional text in your response.
+
+## [Example output]:
+1. 4
+2. 1
+3. 3
+4. 2
+
+## [Policies]:
+"
+reason,"## Instructions:
+- In a single line, explain your ratings above within 100 characters or less.
+- Do not include any additional formatting, such as bullets or special characters.
+- Do not include more than one space in a row."
+q_method,"- Using the Q Methodology, rate the statements following a Fixed Quasi-Normal Distribution between 1 and %d."
+system,"Answer the following prompts as %s %s, who %s."

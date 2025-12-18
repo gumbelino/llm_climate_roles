@@ -1,0 +1,106 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+b04727d2-6fe1-4851-a360-f35dfeddd5f1,2025-08-15 14:41:56.418848+00:00,xai,grok-3-beta,0,4604,272,con,Prioritized community protection and economic stability over pure ecological restoration.
+a3e5c58f-0c81-487d-b66b-ecac94785e29,2025-08-15 14:42:04.521618+00:00,xai,grok-3-beta,0,4604,275,con,Prioritized local needs and fuel reduction over pure ecological or no-management approaches.
+7b267a45-b0a9-4ad0-9726-e45c38c32c93,2025-08-15 14:42:11.587196+00:00,xai,grok-3-beta,0,4604,274,con,Prioritize fuel reduction and local needs over pure ecological or economic focus.
+8617fe26-fc93-4fe0-ba9a-728308510097,2025-08-15 14:42:24.376988+00:00,xai,grok-3-beta,0,4604,273,con,Prioritize fuel reduction and local economic benefits over pure ecological restoration.
+90b991df-0f98-4c33-9ac6-f9fcf2fed2d6,2025-08-15 14:42:37.878606+00:00,xai,grok-3-beta,0,4604,273,con,Prioritized local harvesting and fuel reduction for community and economic stability.
+5798c7fa-8e65-4b10-affa-977cd468119f,2025-08-15 14:48:17.180087+00:00,xai,grok-3-beta,0,4595,270,ana,Prioritize community and ecology over profit or inaction.
+f22b2134-724c-4656-bfb0-c31f63189ccc,2025-08-15 14:48:23.596017+00:00,xai,grok-3-beta,0,4595,275,ana,Prioritized local needs and community values over economic gain or rigid ecological restoration.
+834b84a6-94f7-4032-841b-6b6a319998db,2025-08-15 14:48:34.965073+00:00,xai,grok-3-beta,0,4595,273,ana,Prioritized community and ecological balance over economic or no-action approaches.
+10704f03-2f06-4555-9f45-9a1881e5925d,2025-08-15 14:48:51.051507+00:00,xai,grok-3-beta,0,4595,270,ana,Prioritize ecology and community over profit or inaction.
+e6e275b0-4348-4fe2-8cb0-2eebe6c2ba1c,2025-08-15 14:48:58.977608+00:00,xai,grok-3-beta,0,4595,273,ana,Prioritized ecological balance and community needs over economic gain or inaction.
+519e9bfc-53be-41c0-829d-e4acf530b0b4,2025-08-15 14:53:52.487485+00:00,xai,grok-3-beta,0,4601,273,eco,Prioritized ecological balance and social values over economic gain or inaction.
+8f28f7d2-91ae-4edd-b6a5-e7b1b9e771f9,2025-08-15 14:54:02.704199+00:00,xai,grok-3-beta,0,4601,273,eco,Prioritized ecological balance and community needs over economic gain or inaction.
+78e2b190-1e0c-49c7-9ae5-591cea7e3266,2025-08-15 14:54:10.133921+00:00,xai,grok-3-beta,0,4601,273,eco,Prioritized ecological balance and social values over economic gain or inaction.
+dfce2035-ad01-4a85-8918-e4fbda9f10a8,2025-08-15 14:54:20.270886+00:00,xai,grok-3-beta,0,4601,273,eco,Prioritized ecological balance and social values over economic gain or inaction.
+7c443fa3-32c1-4c3e-b603-6dbf892d988d,2025-08-15 14:54:28.557508+00:00,xai,grok-3-beta,0,4601,274,eco,Prioritized ecological balance and social values over economic or no-action approaches.
+ce425202-f97e-40b8-9253-d08404a7f8aa,2025-08-15 15:02:06.613493+00:00,xai,grok-3-beta,0,4598,273,fas,Prioritize national strength and economic gain over ecological or social concerns.
+7e3538c2-142e-42e3-886e-25c0ed3114f4,2025-08-15 15:02:15.506358+00:00,xai,grok-3-beta,0,4598,273,fas,Prioritized national strength and economic gain over ecological or social values.
+f5aa5c8d-b99e-49b8-9525-904efb6f43ee,2025-08-15 15:02:21.860475+00:00,xai,grok-3-beta,0,4598,273,fas,Prioritize fuel reduction and economic gain over ecological or passive approaches.
+daf0c7bc-4375-482c-9d9f-cf7edf1bea79,2025-08-15 15:02:29.940997+00:00,xai,grok-3-beta,0,4598,273,fas,Prioritize economic gain and fuel reduction over ecological or passive approaches.
+33820435-a509-4d27-857b-b81d80b46ae5,2025-08-15 15:02:40.390313+00:00,xai,grok-3-beta,0,4598,274,fas,Prioritized aggressive fuel reduction and economic gain for national strength and stability.
+3dafe390-8194-42e2-b9a7-c457c85a15ef,2025-08-15 15:08:30.135564+00:00,xai,grok-3-beta,0,4592,272,fem,Prioritized social and ecological balance over economic gain or inaction.
+fdadd9e5-e95f-49e2-8bae-2b0819e155ad,2025-08-15 15:08:36.304623+00:00,xai,grok-3-beta,0,4592,277,fem,"Prioritized community, ecology, and balanced management over pure economic or no-action approaches."
+b4e80fd3-ab04-4e1d-9cf7-506115f49d00,2025-08-15 15:08:42.506576+00:00,xai,grok-3-beta,0,4592,277,fem,"Prioritized ecological balance, social values, and community protection over economic gain or inaction."
+2151981c-5b33-4487-af84-22834bfa7d8b,2025-08-15 15:08:50.699187+00:00,xai,grok-3-beta,0,4592,273,fem,Prioritized ecological balance and social values over economic gain or inaction.
+44ebfe78-1283-4d81-bc11-11bd139371ab,2025-08-15 15:08:56.637737+00:00,xai,grok-3-beta,0,4592,273,fem,Prioritized ecological and social balance over economic or no-action approaches.
+a10b9c9f-986d-475a-9816-edb06d663a30,2025-08-15 15:15:30.993603+00:00,xai,grok-3-beta,0,4604,275,fun,"Ratings reflect priority on restoration, stewardship, and community over economics or inaction."
+ff87a0b3-3ff4-4b33-8ca2-b195e4c41a45,2025-08-15 15:15:41.728788+00:00,xai,grok-3-beta,0,4604,274,fun,Prioritized local harvesting and community values over pure ecological or no management.
+ae03798f-d880-4121-83d0-24ea4b8d8e12,2025-08-15 15:15:55.285827+00:00,xai,grok-3-beta,0,4604,273,fun,Prioritized community protection and stewardship over economic or untouched natural states.
+b2670410-3d72-40c2-a0f2-512736950b36,2025-08-15 15:16:01.804178+00:00,xai,grok-3-beta,0,4604,273,fun,Prioritized fuel reduction and local needs over ecological or no management.
+5369b437-4bc6-4283-a886-8c9f5af70590,2025-08-15 15:16:11.329477+00:00,xai,grok-3-beta,0,4604,277,fun,"Prioritized balance of ecology, community, and stewardship over inaction or pure economic gain."
+75d73937-43b3-43df-ab20-6935cef40325,2025-08-15 15:22:13.949591+00:00,xai,grok-3-beta,0,4604,274,lib,Prioritized local economic benefits and balanced ecological-social values over rigid restoration.
+bc47cd84-857f-4dbd-914f-c43f59dc336c,2025-08-15 15:22:25.225932+00:00,xai,grok-3-beta,0,4604,273,lib,Prioritized local harvesting and fuel reduction for economic and community benefits.
+0ba1b337-d2fe-4e7a-8995-e2c39576b484,2025-08-15 15:22:38.813435+00:00,xai,grok-3-beta,0,4604,273,lib,"Prioritized balance of ecology, community needs, and sustainable management."
+540f305e-71b2-4eec-b1d5-44e65e78dcfb,2025-08-15 15:22:50.220159+00:00,xai,grok-3-beta,0,4604,278,lib,"Prioritized balance of ecology, community, and sustainable use over pure economic or no management."
+194af813-78a7-49c3-82c0-aca3a5d72d1d,2025-08-15 15:23:07.590988+00:00,xai,grok-3-beta,0,4604,273,lib,Prioritized local harvesting and fuel reduction for liberty and economic benefit.
+dea7c48c-866e-4d05-837e-74dec9f80f1c,2025-08-15 15:29:24.751246+00:00,xai,grok-3-beta,0,4601,274,nat,Prioritized local benefits and economic gains over pure ecological or no management.
+42454fa6-1da9-4b24-be23-c1071f275b04,2025-08-15 15:29:35.814781+00:00,xai,grok-3-beta,0,4601,272,nat,Prioritized local needs and economic benefits over pure ecological restoration.
+ddb4c02a-b7e2-41a3-8b01-5aaffbd169bd,2025-08-15 15:29:44.190376+00:00,xai,grok-3-beta,0,4601,273,nat,Prioritized national safety and local economic benefits over pure ecological restoration.
+cf2889e5-c04a-4abb-8d8b-8e7d5542b731,2025-08-15 15:29:50.435526+00:00,xai,grok-3-beta,0,4601,273,nat,Prioritized national economic gain and local needs over pure ecological focus.
+990d1b68-63a6-44ab-82b6-c4ee58cab2a6,2025-08-15 15:30:09.353608+00:00,xai,grok-3-beta,0,4601,271,nat,Prioritized local needs and fuel reduction for national strength.
+59d08dc9-a76c-4801-a559-1f152c0a14c9,2025-08-15 15:35:10.969351+00:00,xai,grok-3-beta,0,4607,275,pop,I prioritize local needs and community protection over elite-driven or hands-off policies.
+8408d259-99e7-42c5-aaf3-75951af1719d,2025-08-15 15:35:19.079121+00:00,xai,grok-3-beta,0,4607,275,pop,I prioritize local needs and fuel reduction over elite-driven or hands-off policies.
+2a7c56ce-443c-4db3-9203-385114c729d8,2025-08-15 15:35:24.973402+00:00,xai,grok-3-beta,0,4607,275,pop,I prioritize fuel reduction and local needs over elite-driven or hands-off policies.
+71165069-f142-48a8-9f5e-fb5b7e585aba,2025-08-15 15:35:36.253272+00:00,xai,grok-3-beta,0,4607,275,pop,I prioritize local jobs and fuel reduction over elite-driven or hands-off policies.
+6bef2684-231c-4d66-8387-99626cd38a17,2025-08-15 15:35:45.757165+00:00,xai,grok-3-beta,0,4607,275,pop,I prioritize local jobs and fuel reduction over elite-driven wildlife or preservation agendas.
+8ef06d3d-2f05-40cb-9d81-3b578e140606,2025-08-15 15:41:06.903979+00:00,xai,grok-3-beta,0,4598,274,soc,Prioritized social and ecological balance over pure economic or no-management approaches.
+bb511af7-a3f0-429c-aea0-ad1ce8585354,2025-08-15 15:41:17.737259+00:00,xai,grok-3-beta,0,4598,276,soc,Prioritized local needs and social-ecological balance over pure economic or historical focus.
+4d10e8f6-12d8-4400-a3fd-d57abbe6670f,2025-08-15 15:41:25.272054+00:00,xai,grok-3-beta,0,4598,272,soc,"Prioritized social, ecological balance over economic gain or inaction."
+076eb19b-b352-405f-bd0d-e5c0777f7621,2025-08-15 15:41:33.371412+00:00,xai,grok-3-beta,0,4598,272,soc,"Prioritized social, ecological balance over economic gain or inaction."
+e8afa307-0160-44fe-93e8-6863e7967785,2025-08-15 15:41:40.676970+00:00,xai,grok-3-beta,0,4598,273,soc,Prioritized social and ecological balance over economic or no-action approaches.
+547f5761-2f1c-48b5-909b-882eeccf5650,2025-08-15 15:47:28.339590+00:00,xai,grok-3-beta,0,4628,273,coa,Prioritized community protection and ecology over economic gain or no action.
+9848300d-2d40-42be-9ec6-d608bbeb0a03,2025-08-15 15:47:44.799250+00:00,xai,grok-3-beta,0,4628,274,coa,Prioritized community protection and ecological balance over economic gain or no action.
+d32950c5-7b41-4572-ac10-80b52a26b4c2,2025-08-15 15:48:15.853410+00:00,xai,grok-3-beta,0,4628,273,coa,"Prior, I prioritized wildlife and balanced management due to environmental impact."
+713b09bb-b678-4de6-97ba-091e2cfd8667,2025-08-15 15:48:22.476336+00:00,xai,grok-3-beta,0,4628,273,coa,Prioritized ecological balance and community needs over economic gain or inaction.
+5dfd89ae-e91d-459b-a42b-2e1f7abc8f11,2025-08-15 15:48:36.316626+00:00,xai,grok-3-beta,0,4628,273,coa,Prioritized community protection and ecological balance over economic gain or inaction.
+b408da7b-8893-4543-8467-44e56ffbee5c,2025-08-15 15:53:49.687163+00:00,xai,grok-3-beta,0,4619,274,ctr,Prioritized community protection and local needs over pure economic or ecological goals.
+7b60833a-b64a-4dd8-a205-1cff9543b2ce,2025-08-15 15:53:58.483938+00:00,xai,grok-3-beta,0,4619,273,ctr,Prioritize local needs and safety over pure ecological or economic gain.
+7a47232e-2d9d-49a4-9e09-59e1d4a30210,2025-08-15 15:54:12.094875+00:00,xai,grok-3-beta,0,4619,273,ctr,Prioritize safety and jobs over untouched forests or strict historical restoration.
+f97a812a-1faa-4f5f-aae1-e144aee22d40,2025-08-15 15:54:19.390219+00:00,xai,grok-3-beta,0,4619,275,ctr,Prioritized fuel reduction and local needs due to heat stress and job concerns.
+b7f1af41-2acc-4a9c-a904-3eaaeb769c14,2025-08-15 15:54:28.476317+00:00,xai,grok-3-beta,0,4619,275,ctr,Prioritized community protection and local needs over pure economic or no-action approaches.
+679c7493-7816-4753-94ea-dbd15b54e717,2025-08-15 15:59:59.621016+00:00,xai,grok-3-beta,0,4628,273,dis,Prioritized ecological and social values over economic gain or no management.
+f20f5a07-3711-4906-a4f8-8f545bef87e9,2025-08-15 16:00:37.425515+00:00,xai,grok-3-beta,0,4628,275,dis,Prioritized community protection and ecological balance over pure economic or no-action approaches.
+e98c75d2-6dfe-43cc-8bbe-abd29d02761d,2025-08-15 16:00:52.786606+00:00,xai,grok-3-beta,0,4628,277,dis,"Prioritized wildlife, social values, and fuel reduction over economic gain or no management."
+c1481392-520e-4d07-bce4-e8c293dd7dec,2025-08-15 16:01:01.079692+00:00,xai,grok-3-beta,0,4628,273,dis,Prioritized ecological balance and community needs over economic gain or inaction.
+3ee6b4ed-2247-46e7-b1a7-1efd3e00be84,2025-08-15 16:01:11.731136+00:00,xai,grok-3-beta,0,4628,273,dis,Prioritized wildlife and community protection over economic or no-action approaches.
+4f08290b-c668-41aa-9af8-cec8b00457d4,2025-08-15 16:08:24.022164+00:00,xai,grok-3-beta,0,4622,274,eld,Prioritized community protection and local needs over pure economic or ecological goals.
+0e995db5-514c-4b4b-bdbb-a0fe50ddcbbb,2025-08-15 16:08:38.180459+00:00,xai,grok-3-beta,0,4622,274,eld,Prioritized community protection and local needs over pure economic or ecological goals.
+72753c9d-554d-41ed-a86e-b6ba9ffd4005,2025-08-15 16:08:46.215185+00:00,xai,grok-3-beta,0,4622,274,eld,Prioritized community protection and ecological balance over economic gain or no action.
+de0fbfa1-7fc8-4e3e-b518-e2a74cfe01f2,2025-08-15 16:08:55.557153+00:00,xai,grok-3-beta,0,4622,273,eld,I prioritize community safety and ecological balance over economic gain or inaction.
+b7168874-52e4-4300-bde3-ab8286f43df8,2025-08-15 16:09:01.830568+00:00,xai,grok-3-beta,0,4622,273,eld,Prioritize safety and ecology over economy due to heatwave risks.
+37ac849b-43e7-4181-ac23-eea3bc6b44f4,2025-08-15 16:14:25.020275+00:00,xai,grok-3-beta,0,4622,273,far,Prioritized community protection and ecology over economic gain or no action.
+d01c97c3-c2f2-4437-9ebf-388b3592a1a9,2025-08-15 16:14:34.397475+00:00,xai,grok-3-beta,0,4622,272,far,Prioritized community protection and fuel reduction due to wildfire devastation.
+184f75a5-4b52-44f5-93c8-c3848b8720bc,2025-08-15 16:14:42.333561+00:00,xai,grok-3-beta,0,4622,273,far,Prioritized community safety and ecological balance over economic gain or inaction.
+9a31f854-3e16-4c69-95ed-2dd88d0535ad,2025-08-15 16:14:51.361913+00:00,xai,grok-3-beta,0,4622,272,far,Prioritized community protection and fuel reduction due to wildfire devastation.
+6a114761-17fd-4fdf-ad84-234e853d6aec,2025-08-15 16:14:59.580135+00:00,xai,grok-3-beta,0,4622,272,far,Prioritized fuel reduction and wildlife protection due to wildfire devastation.
+02f9caa4-db8c-4264-8ab9-2ae807ef2f21,2025-08-15 16:20:40.710879+00:00,xai,grok-3-beta,0,4625,274,fis,Prioritized ecological and social values over pure economic or no-management approaches.
+98bdb20f-2731-4ecf-889f-d81b2884240a,2025-08-15 16:20:52.633522+00:00,xai,grok-3-beta,0,4625,274,fis,Prioritize local needs and balanced management over pure economic or untouched approaches.
+2e92a925-7f73-415f-8d56-6d6494800138,2025-08-15 16:21:08.741718+00:00,xai,grok-3-beta,0,4625,273,fis,"Prioritized balance of ecology, community needs, and sustainable management."
+d2ac2fb4-1661-4303-9807-368ea647701e,2025-08-15 16:21:14.966913+00:00,xai,grok-3-beta,0,4625,275,fis,"Prioritize balance of ecology, community needs over pure economic or no management."
+bc061a52-32db-4c89-96be-192eff62bae3,2025-08-15 16:21:21.932308+00:00,xai,grok-3-beta,0,4625,272,fis,"Prioritize community protection and wildlife, least support no management."
+a839d757-5c25-42c6-a745-eb46ad7fb34d,2025-08-15 16:29:31.127007+00:00,xai,grok-3-beta,0,4628,274,lan,Prioritized community and ecological balance over pure economic or untouched forest policies.
+ea89bcad-ecd2-499a-81e9-8078b3000cc7,2025-08-15 16:29:51.103442+00:00,xai,grok-3-beta,0,4628,277,lan,Prioritized local needs and balanced ecological-social values over pure economic or presettlement focus.
+3e85c68a-6b8d-4c61-b906-92363b62e5a7,2025-08-15 16:30:10.197950+00:00,xai,grok-3-beta,0,4628,274,lan,Prioritized fuel reduction and community protection due to drought and fire risks.
+75c33cb6-e0dc-49d8-96c6-92c3426db5eb,2025-08-15 16:30:23.238118+00:00,xai,grok-3-beta,0,4628,274,lan,I prioritize community protection and local needs over pure economic or ecological goals.
+34dc386b-ea14-4b2f-931d-06200106279d,2025-08-15 16:30:33.700079+00:00,xai,grok-3-beta,0,4628,274,lan,Prioritized local needs and fuel reduction over no action or economic gain.
+3da3d064-d5d4-44d0-b870-baa9e58e7986,2025-08-15 16:36:45.226833+00:00,xai,grok-3-beta,0,4634,274,par,Prioritized community and ecological balance over pure economic or no-action approaches.
+fb5da6b2-8a4e-4d67-92cc-ee71fdbe913f,2025-08-15 16:36:54.036837+00:00,xai,grok-3-beta,0,4634,274,par,Prioritized community protection and local needs over pure economic or historical focus.
+582728c2-492f-45ea-ac27-8bf7275038bf,2025-08-15 16:37:03.331589+00:00,xai,grok-3-beta,0,4634,273,par,Prioritized community protection and ecological balance over economic gain or inaction.
+0856f1aa-9b1d-4d3d-91ee-b68a70a4766d,2025-08-15 16:37:21.397632+00:00,xai,grok-3-beta,0,4634,278,par,"Prioritized community protection, wildlife, and sustainable local use over economic gain or no action."
+932108be-b92e-4107-b345-822a40d69580,2025-08-15 16:37:29.647290+00:00,xai,grok-3-beta,0,4634,274,par,Prioritized community protection and ecological balance over economic or no-action approaches.
+2066561a-1fd3-4af9-ac84-46f54332311b,2025-08-15 16:42:05.578607+00:00,xai,grok-3-beta,0,4622,273,sub,Prioritize community and ecology over pure economic or aggressive fuel reduction.
+7d09c795-fa2f-48ba-87ba-2b4edc4f5505,2025-08-15 16:42:16.003694+00:00,xai,grok-3-beta,0,4622,275,sub,I prioritize local needs and balanced management over pure economic or presettlement focus.
+d325ac54-966d-4c98-b8e2-00968fb07aed,2025-08-15 16:42:27.471958+00:00,xai,grok-3-beta,0,4622,274,sub,I prioritize community protection and ecological balance over economic gain or no action.
+4b27b132-beda-46e5-850a-a7ed4a27c1c5,2025-08-15 16:42:38.389849+00:00,xai,grok-3-beta,0,4622,275,sub,"I prioritize community, ecology, and sustainable local use over profit or inaction."
+a93f72a0-6ad5-4e6c-8e99-008838ccab58,2025-08-15 16:42:46.891424+00:00,xai,grok-3-beta,0,4622,274,sub,Prioritize community protection and ecological balance over economic gain or no action.
+3da60beb-2334-40ef-a83a-0200a03a2975,2025-08-15 16:47:52.243911+00:00,xai,grok-3-beta,0,4628,274,vil,Prioritized community and ecological balance over pure economic or no-action approaches.
+9a183881-0f39-4988-bdbe-63e46972c255,2025-08-15 16:47:58.682689+00:00,xai,grok-3-beta,0,4628,276,vil,Prioritized community needs and balanced ecological-social values over pure economic or historical focus.
+92b3de95-e2ef-404b-b05d-accc5af8cea1,2025-08-15 16:48:06.392236+00:00,xai,grok-3-beta,0,4628,274,vil,Prioritized community protection and ecological balance over economic or no-action approaches.
+f25f644e-25ae-457e-b2a4-01775d56c83c,2025-08-15 16:48:14.640506+00:00,xai,grok-3-beta,0,4628,273,vil,Prioritized community needs and ecological balance over economic gain or inaction.
+c29347c1-a1ad-4b62-bca3-55688b164bd4,2025-08-15 16:48:25.134090+00:00,xai,grok-3-beta,0,4628,274,vil,Prioritized community protection and ecological balance over economic or no-action approaches.
+1f742041-a7b9-4899-8e4c-03123808ab9c,2025-08-15 16:53:56.755359+00:00,xai,grok-3-beta,0,4628,275,csk,Economic gain and fuel reduction are top priorities over ecological or presettlement focus.
+c7c96cd9-5bf1-4890-b315-9603100e3cba,2025-08-15 16:54:11.583220+00:00,xai,grok-3-beta,0,4628,273,csk,Prioritize economic benefits and local needs over ecological or historical restoration.
+ea33c503-e95f-4943-a6d0-dd5ca880b5f9,2025-08-15 16:54:17.828811+00:00,xai,grok-3-beta,0,4628,273,csk,Prioritize economic gain and fuel reduction over ecological or preservation goals.
+19b06f06-f7f8-42c6-9965-dd581439111c,2025-08-15 16:54:26.225777+00:00,xai,grok-3-beta,0,4628,271,csk,Economic gain and local needs over ecological or no management.
+9b779c89-a37f-4537-b6e7-9a5ebaadebd0,2025-08-15 16:54:32.780487+00:00,xai,grok-3-beta,0,4628,273,csk,Prioritize economic gain and local needs over ecological or social values.

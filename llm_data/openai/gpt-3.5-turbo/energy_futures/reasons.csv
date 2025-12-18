@@ -1,0 +1,128 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+3e3109da-33e4-4737-87d4-842c2ea6ee02,2025-09-16 13:32:24.868985+00:00,openai,gpt-3.5-turbo,0,4677,280,ana,I prioritize renewable energy sources over fossil fuels and nuclear options.
+ce38a580-1e08-4abf-8486-5bf925df78df,2025-09-16 13:32:34.252043+00:00,openai,gpt-3.5-turbo,0,4677,288,ana,"I prioritize decentralized, sustainable, and renewable energy sources over centralized, polluting, and finite ones."
+6220de34-75c8-4dfe-afc8-5bdff9ab65e8,2025-09-16 13:32:40.737454+00:00,openai,gpt-3.5-turbo,0,4677,281,ana,My ratings prioritize renewable energy sources over fossil fuels and nuclear energy.
+d84c3004-c6a6-48e5-829c-1eb83514ff7d,2025-09-16 13:32:45.988619+00:00,openai,gpt-3.5-turbo,0,4677,284,ana,"9 is most harmful, 1 is most sustainable, based on ecological impact."
+f22785cd-1fd6-4825-b490-94b6118675a2,2025-09-16 13:32:51.458353+00:00,openai,gpt-3.5-turbo,0,4677,305,ana,"9 is least sustainable, 8 is marginally better, 6-5 are acceptable, 4-3 are preferable, 2 is better, 1 is most sustainable."
+f4292a49-be92-4f94-b5e9-022f3f7e63d7,2025-09-16 13:37:39.235721+00:00,openai,gpt-3.5-turbo,0,4683,280,con,"I prioritize traditional energy sources over newer, less proven alternatives."
+acce990d-160b-41e7-a16f-6ec039abf0c4,2025-09-16 13:37:46.294879+00:00,openai,gpt-3.5-turbo,0,4683,280,con,"I prioritize traditional energy sources over newer, less proven alternatives."
+f9fcda2d-0bef-4a2a-952e-09ec2567a5e5,2025-09-16 13:37:57.764941+00:00,openai,gpt-3.5-turbo,0,4683,283,con,"My ratings prioritize traditional and reliable energy sources over newer, less proven technologies."
+cd1cff6b-fd96-4a9b-b968-c81f6751db62,2025-09-16 13:38:03.589988+00:00,openai,gpt-3.5-turbo,0,4683,280,con,I prioritize nuclear and natural gas over renewables for energy stability.
+2f36adb2-f72a-4296-b018-7961b9242cc2,2025-09-16 13:38:09.894558+00:00,openai,gpt-3.5-turbo,0,4683,283,con,I prioritize traditional energy sources like coal and natural gas for stability and reliability.
+1d7b7a04-59e7-4fd3-a71c-29e65384f870,2025-09-16 13:42:50.598091+00:00,openai,gpt-3.5-turbo,0,4677,284,eco,"Geothermal and solar preferred for sustainability, coal and CO2 burial least favored."
+73b6c2ef-e8cf-4971-9cbb-87f722a65f1c,2025-09-16 13:43:00.680710+00:00,openai,gpt-3.5-turbo,0,4677,282,eco,My ratings prioritize renewable and low-emission energy sources over fossil fuels.
+1d636513-52d6-4d55-9a60-36f8e458093d,2025-09-16 13:43:06.906293+00:00,openai,gpt-3.5-turbo,0,4677,281,eco,My ratings prioritize renewable energy over fossil fuels and nuclear for sustainability.
+8851bc60-5f43-46c1-8ecc-718f646d42f6,2025-09-16 13:43:12.606064+00:00,openai,gpt-3.5-turbo,0,4677,283,eco,My ratings prioritize renewable energy over fossil fuels based on sustainability and environmental impact.
+2362f2a8-6f8c-48da-b8b6-e49d36e93673,2025-09-16 13:43:21.017424+00:00,openai,gpt-3.5-turbo,0,4677,282,eco,My ratings prioritize renewable and sustainable energy sources over fossil fuels and nuclear.
+a9b662e4-8e30-43b7-90e9-096d8584207f,2025-09-16 13:48:03.751727+00:00,openai,gpt-3.5-turbo,0,4674,278,fas,My ratings prioritize traditional energy sources over renewable options.
+d860dbc3-748a-4a6b-aa1b-7b000987742d,2025-09-16 13:48:11.103576+00:00,openai,gpt-3.5-turbo,0,4674,284,fas,I support coal with CO2 burial for energy due to its reliability and efficiency.
+0ccfaf8c-a406-481f-91eb-1b2a5fa8ea06,2025-09-16 13:48:17.544522+00:00,openai,gpt-3.5-turbo,0,4674,280,fas,9 is prioritized for its reliability and cost-effectiveness.
+b5fa6974-4a05-4cc1-ae3e-85295383a356,2025-09-16 13:48:23.337172+00:00,openai,gpt-3.5-turbo,0,4674,283,fas,"My ratings prioritize traditional and reliable energy sources over newer, less proven technologies."
+60e12b6a-b7c9-4b2a-a305-43a3e284d94e,2025-09-16 13:48:28.236507+00:00,openai,gpt-3.5-turbo,0,4674,283,fas,"My ratings prioritize coal, natural gas, and nuclear over renewable energy sources."
+fc9f8ccb-69e9-4b6a-95c5-5310244fcc56,2025-09-16 13:53:18.526558+00:00,openai,gpt-3.5-turbo,0,4671,282,fem,I prioritize renewable energy sources over fossil fuels for sustainability and environmental protection.
+d6d0a710-a154-4c18-ac37-edb3c70ac0d1,2025-09-16 13:53:23.991766+00:00,openai,gpt-3.5-turbo,0,4671,279,fem,I prioritize renewable and sustainable energy sources over fossil fuels.
+f6fc675f-060b-4622-ab2e-e383e183bed3,2025-09-16 13:53:32.209034+00:00,openai,gpt-3.5-turbo,0,4671,281,fem,My ratings prioritize renewable energy sources over fossil fuels and nuclear energy.
+cdc7bb72-bf62-482f-a74e-3b0169317ccb,2025-09-16 13:53:38.095754+00:00,openai,gpt-3.5-turbo,0,4671,280,fem,I prioritize renewable energy sources over fossil fuels and nuclear energy.
+93a9ec3f-147f-4293-bcbc-f49bd9f68a14,2025-09-16 13:53:45.055044+00:00,openai,gpt-3.5-turbo,0,4671,283,fem,My ratings prioritize renewable and sustainable energy sources over fossil fuels and nuclear power.
+d66bdeb4-fd39-4ed6-a43c-e9369b1955b6,2025-09-16 13:58:52.197036+00:00,openai,gpt-3.5-turbo,0,4686,284,fun,I support nuclear energy for its proven technology and oppose coal with CO2 burial.
+6da06559-a376-4ead-8550-9053f1deaf64,2025-09-16 13:58:57.220261+00:00,openai,gpt-3.5-turbo,0,4686,287,fun,"I support coal as the most reliable energy source, followed by natural gas and geothermal options."
+fdab1736-50bd-451b-af07-6d7b8d1071ab,2025-09-16 13:59:08.122855+00:00,openai,gpt-3.5-turbo,0,4686,286,fun,I support nuclear energy for its reliability and oppose natural gas due to its unreliability.
+e15fed86-cbf6-4e29-9196-4cee68b11ba6,2025-09-16 13:59:15.322161+00:00,openai,gpt-3.5-turbo,0,4686,281,fun,I support policies based on traditional energy sources over newer renewable options.
+72550ade-f029-4de9-97a1-1b03cdd1af17,2025-09-16 14:04:04.245053+00:00,openai,gpt-3.5-turbo,0,4680,279,lib,I prioritize renewable and cleaner energy sources over fossil fuels.
+d381cb5c-44d4-4fc8-827b-a6e28ef77ad8,2025-09-16 14:04:11.873037+00:00,openai,gpt-3.5-turbo,0,4680,282,lib,I support renewable energy sources over fossil fuels for sustainability and environmental reasons.
+42a926dd-cf2f-409c-8dc5-400ab416cd89,2025-09-16 14:04:26.542613+00:00,openai,gpt-3.5-turbo,0,4680,285,lib,"I prioritize individual autonomy and free markets, favoring geothermal energy over other options."
+2c1f6648-39e8-4b52-8edd-f987ece6174e,2025-09-16 14:04:34.183142+00:00,openai,gpt-3.5-turbo,0,4680,282,lib,"I support policies based on efficiency, sustainability, and minimal government intervention."
+79fac305-7186-4f15-8d09-decded731023,2025-09-16 14:25:58.819249+00:00,openai,gpt-3.5-turbo,0,4686,280,fun,I support energy sources based on their alignment with core beliefs.
+0e1be8e6-3d8c-4588-b536-89331ccaa2db,2025-09-16 14:26:05.756003+00:00,openai,gpt-3.5-turbo,0,4686,284,fun,"I support policies based on core beliefs, favoring coal and nuclear over renewables."
+02163a9f-af22-45aa-802c-511b662eed87,2025-09-16 14:26:20.486878+00:00,openai,gpt-3.5-turbo,0,4686,292,fun,"I support nuclear energy as the top choice due to its reliability and efficiency, while favoring geothermal energy the least."
+b6597656-c316-425c-942d-607934b155bc,2025-09-16 14:26:26.972712+00:00,openai,gpt-3.5-turbo,0,4686,285,fun,"I support policies based on traditional and reliable energy sources over newer, less proven alternatives."
+1ddb8b1e-bab8-4521-81af-4d68aa79f578,2025-09-16 14:26:48.087303+00:00,openai,gpt-3.5-turbo,0,4680,282,lib,I support renewable energy sources like geothermal and solar over fossil fuels.
+fc33c674-a12d-46f7-90e3-3cd50b19de0b,2025-09-16 14:26:54.256665+00:00,openai,gpt-3.5-turbo,0,4680,282,lib,I support renewable energy sources over fossil fuels for sustainability and environmental reasons.
+ed8525ed-80b3-402b-9d41-96a4f0398afc,2025-09-16 14:27:00.702193+00:00,openai,gpt-3.5-turbo,0,4680,281,lib,My ratings prioritize renewable and cleaner energy sources over traditional fossil fuels.
+825aaac0-3923-49f8-9370-eb99a0e6a8c8,2025-09-16 14:27:07.202163+00:00,openai,gpt-3.5-turbo,0,4680,283,lib,"I prioritize individual autonomy and free markets, supporting nuclear energy over other options."
+e6888231-1fd8-4bce-a5bf-ab24417bf119,2025-09-16 14:27:13.082231+00:00,openai,gpt-3.5-turbo,0,4680,282,lib,I support natural gas and biomass over coal and solar for energy policies.
+926845b9-5da2-47f3-a3e9-eddb701ac2e4,2025-09-16 14:33:34.995047+00:00,openai,gpt-3.5-turbo,0,4680,282,nat,"I prioritize nuclear, natural gas, and hydro over coal and renewables."
+86b47145-c70e-499a-8ecc-f59e015bef3e,2025-09-16 14:33:42.482607+00:00,openai,gpt-3.5-turbo,0,4680,282,nat,"9 is prioritized for national interest, 1 for least preferred."
+769c8440-bf67-4f6d-a6eb-83e14d232138,2025-09-16 14:33:50.103242+00:00,openai,gpt-3.5-turbo,0,4680,279,nat,I prioritize nuclear and geothermal energy for national interests.
+af7e732e-b6a0-49af-9e0d-c6c11a815f19,2025-09-16 14:33:56.003326+00:00,openai,gpt-3.5-turbo,0,4680,282,nat,I prioritize coal and biomass for energy due to reliability and national interest.
+79d57a1f-cc9b-42fd-b70b-2c4d8c264bda,2025-09-16 14:34:03.060447+00:00,openai,gpt-3.5-turbo,0,4680,329,nat,"7 supports national energy independence, 2 promotes rural industry, 3 balances cost and benefit, 4 aligns with environmental concerns, 8 utilizes natural resources, 6 maintains energy stability, 1 bridges current and future energy needs, 9 offers sustainable energy, 5 provides renewable energy options."
+cf470ad9-bf21-4fdc-9960-8a81d215414f,2025-09-16 14:39:22.574382+00:00,openai,gpt-3.5-turbo,0,4683,280,pop,My ratings prioritize renewable and geothermal energy over fossil fuels.
+09f07f09-8deb-4aed-84a3-58a18839fbee,2025-09-16 14:39:29.629916+00:00,openai,gpt-3.5-turbo,0,4683,283,pop,I support policies that prioritize renewable and sustainable energy sources over traditional fossil fuels.
+4888626a-4327-4a5b-835d-c6a50e38893f,2025-09-16 14:39:35.136557+00:00,openai,gpt-3.5-turbo,0,4683,282,pop,I support nuclear energy over other options due to its efficiency and reliability.
+796127be-b744-4668-ac58-2fd9eb9ae8d9,2025-09-16 14:39:41.529341+00:00,openai,gpt-3.5-turbo,0,4683,295,pop,"I support geothermal energy the most as it is reliable and sustainable, while I oppose natural gas the least due to its environmental impact."
+82e9d32c-b0d3-4e92-834d-d45b8e89518d,2025-09-16 14:39:47.000592+00:00,openai,gpt-3.5-turbo,0,4683,279,pop,I support policies based on populist appeal against corrupt elite.
+a4489eed-8524-4e02-8a68-b09f83c35885,2025-09-16 14:45:11.956063+00:00,openai,gpt-3.5-turbo,0,4674,284,soc,I prioritize renewable energy sources over fossil fuels and nuclear for sustainability and environmental reasons.
+02b80bbc-b3b3-4136-abda-c5b8bc4b8c84,2025-09-16 14:45:19.509994+00:00,openai,gpt-3.5-turbo,0,4674,284,soc,I prioritize renewable energy sources over fossil fuels and nuclear for sustainability and environmental reasons.
+1e5bb7a6-c8e6-4613-a9e5-931e43bac0f5,2025-09-16 14:45:27.195508+00:00,openai,gpt-3.5-turbo,0,4674,280,soc,My ratings prioritize renewable and sustainable energy sources over fossil fuels.
+9d28dcc9-e4eb-496e-b083-0af752e30399,2025-09-16 14:45:34.272281+00:00,openai,gpt-3.5-turbo,0,4674,282,soc,I prioritize renewable energy sources over fossil fuels for sustainability and environmental welfare.
+23014448-400b-40d5-8b4b-ad31099c6121,2025-09-16 14:45:40.431700+00:00,openai,gpt-3.5-turbo,0,4674,283,soc,My ratings prioritize renewable and sustainable energy sources over fossil fuels and nuclear options.
+9afd19e9-c683-41d2-ab4a-ccd12d3e4ebc,2025-09-16 15:54:22.728708+00:00,openai,gpt-3.5-turbo,0,4710,329,coa,"2nd most: Solar, 6th: Wind, 3rd: Nuclear, 5th: Hydro, 8th: Biomass, 1st: Geothermal, 7th: Coal, 4th: Natural Gas, 9th: Coal with CO2 Burial"
+6339f6a6-6a95-4872-b1ee-30eda9193182,2025-09-16 15:54:32.382411+00:00,openai,gpt-3.5-turbo,0,4710,284,coa,"9 is the most sustainable, 1 is the least due to environmental impact."
+bb68bced-7441-41f3-87dd-90375e3aa2b0,2025-09-16 15:54:39.935321+00:00,openai,gpt-3.5-turbo,0,4710,281,coa,My ratings prioritize renewable energy sources over fossil fuels and nuclear options.
+ca411d5d-cdac-4095-a8bc-5056c24bbe44,2025-09-16 15:54:46.414138+00:00,openai,gpt-3.5-turbo,0,4710,282,coa,"9 is most reliable, 1 is least due to environmental impact."
+68cefb4c-c289-4044-a74f-2adc2a1b3fda,2025-09-16 15:54:51.881714+00:00,openai,gpt-3.5-turbo,0,4710,283,coa,"9 is most harmful, 1 is most sustainable for future energy needs."
+6560e338-9518-4de3-bee8-8fca1e420dde,2025-09-16 16:08:57.491532+00:00,openai,gpt-3.5-turbo,0,4698,288,ctr,Geothermal and solar preferred for sustainability; coal with CO2 burial least favored due to environmental impact.
+478f8025-26e5-46a2-8ac5-fd855112d5c6,2025-09-16 16:09:03.591615+00:00,openai,gpt-3.5-turbo,0,4698,288,ctr,I prioritize coal as the least due to health risks and support wind as it's cleaner and safer.
+c321cccc-8e18-4d4a-bd41-064ceff32bc1,2025-09-16 16:09:09.977603+00:00,openai,gpt-3.5-turbo,0,4698,288,ctr,"Solar and wind are top choices due to sustainability and safety, while coal ranks lowest for environmental impact."
+342354ca-0377-4dd4-8b4e-0ca09d81e95b,2025-09-16 16:09:15.401788+00:00,openai,gpt-3.5-turbo,0,4698,290,ctr,I support geothermal energy the most due to its reliability and natural gas the least due to its environmental impact.
+f8a5e8f3-ca7c-4eab-8b5c-ceb5e1a6982a,2025-09-16 16:09:20.836898+00:00,openai,gpt-3.5-turbo,0,4698,282,ctr,"9 is most harmful, 1 is most sustainable for outdoor labor."
+1746056d-3f26-45fd-9d08-958678527237,2025-09-16 16:14:28.083172+00:00,openai,gpt-3.5-turbo,0,4719,281,dis,I prioritize renewable and low-emission energy sources over fossil fuels.
+67b07aa5-312a-4123-b191-b96a6ccd57cb,2025-09-16 16:14:34.379711+00:00,openai,gpt-3.5-turbo,0,4719,292,dis,"Wind and solar preferred for clean energy, coal and natural gas ranked lower due to emissions, biomass and geothermal moderate."
+b9b1d97e-080d-4a5a-9bbd-2029f5d40cd8,2025-09-16 16:14:39.634649+00:00,openai,gpt-3.5-turbo,0,4719,288,dis,"Solar energy is favored for its sustainability, while coal is least preferred due to environmental impact and emissions."
+8da74bc5-b3a6-4e84-ba0e-b91881f1c06d,2025-09-16 16:14:45.853877+00:00,openai,gpt-3.5-turbo,0,4719,317,dis,"2 is preferred for its sustainability, 7 for local benefits, 6 for rural potential, 9 for reliability, 8 for transition, 4 for potential, 3 for reliability, 5 for transition, 1 for competitiveness."
+9ff4cfe6-24fc-46b8-a42d-557eff5b0adc,2025-09-16 16:14:52.103522+00:00,openai,gpt-3.5-turbo,0,4719,316,dis,"4 is preferred for its reliability, 2 for rural benefits, 3 for emissions, 5 for potential, 9 for sustainability, 6 for cost, 7 for advancement, 8 for potential, 1 for transition."
+2c2802fc-6406-41cb-99f6-86d093091c4b,2025-09-16 16:20:06.872783+00:00,openai,gpt-3.5-turbo,0,4701,279,eld,I prioritize renewable and cleaner energy sources over fossil fuels.
+14074c91-7b70-4e95-95f9-834ab7a92302,2025-09-16 16:20:13.633425+00:00,openai,gpt-3.5-turbo,0,4701,295,eld,"Wind and solar preferred for clean energy, coal and natural gas ranked lower due to emissions, biomass and geothermal seen as viable alternatives."
+39ac757d-d023-49d4-b8a2-e3ce3d3088c9,2025-09-16 16:20:21.112363+00:00,openai,gpt-3.5-turbo,0,4701,288,eld,"Solar and wind are top choices due to sustainability and safety, while coal ranks lowest for environmental impact."
+e286621d-335d-4571-9ca4-3215bb2176d3,2025-09-16 16:20:29.398175+00:00,openai,gpt-3.5-turbo,0,4701,282,eld,"9 is most reliable, 1 is least due to environmental concerns."
+2e93668c-9178-4d3a-9a66-5355a26ac40a,2025-09-16 16:20:36.676771+00:00,openai,gpt-3.5-turbo,0,4701,284,eld,"9 is most harmful, 1 is most sustainable, based on climate impact."
+6e2b2c1e-ef13-4404-afd2-3e9ace0a9882,2025-09-16 16:25:28.062944+00:00,openai,gpt-3.5-turbo,0,4698,281,far,I prioritize renewable and low-emission energy sources over fossil fuels.
+2ed6c91e-2e71-40cc-9f8f-86729f8d5401,2025-09-16 16:25:32.985816+00:00,openai,gpt-3.5-turbo,0,4698,286,far,"I support Hydroelectric and Solar Energy due to sustainability and environmental benefits, ranking Coal lowest."
+7c985426-cffb-4de1-a927-3102a13d2dba,2025-09-16 16:25:39.023484+00:00,openai,gpt-3.5-turbo,0,4698,286,far,"Solar and wind top choices for clean energy, coal and biomass least preferred due to emissions."
+e0c9b828-b503-44a8-9ad7-f2e54152b7e8,2025-09-16 16:25:45.254881+00:00,openai,gpt-3.5-turbo,0,4698,282,far,I support solar and wind energy over fossil fuels due to climate impact.
+dd61e328-f8cf-4298-bfca-6aa7df8ada9e,2025-09-16 16:25:50.597218+00:00,openai,gpt-3.5-turbo,0,4698,286,far,"4 is preferred for its lower emissions, 9 is least favored due to intermittency."
+0b5d188d-520d-4cfd-a4e9-945e0f15ba5d,2025-09-16 16:30:45.715138+00:00,openai,gpt-3.5-turbo,0,4707,314,fis,"6 is reliable, 9 is clean, 3 is risky, 8 is renewable, 5 is established, 2 is variable, 7 is polluting, 1 is untapped, 4 is transitional."
+a3e1ad83-9d1a-4f61-916e-2b8477f2a337,2025-09-16 16:30:52.875130+00:00,openai,gpt-3.5-turbo,0,4707,280,fis,I support solar and wind over coal due to environmental concerns.
+59e790c0-ee46-42b9-9464-a97e61698c49,2025-09-16 16:31:00.257052+00:00,openai,gpt-3.5-turbo,0,4707,283,fis,"Solar and wind top choices for clean energy, coal and nuclear least favored."
+9fd974a1-e2df-4d13-9800-bf68b3e12d84,2025-09-16 16:31:09.264411+00:00,openai,gpt-3.5-turbo,0,4707,284,fis,"4 is preferred for its reliability, 9 least favored due to environmental impact."
+e9b7f637-62f2-4a45-b70d-b09c6af6dfc5,2025-09-16 16:31:17.129725+00:00,openai,gpt-3.5-turbo,0,4707,285,fis,"I prioritize solar energy over wind, geothermal, and coal with CO2 burial."
+ce8a44a9-bdd8-47d6-89b9-a96a8dd60aae,2025-09-16 16:36:23.792800+00:00,openai,gpt-3.5-turbo,0,4710,315,lan,"2nd, 6th, 8th: Renewable focus. 3rd, 9th: Potential risks. 5th: Limited impact. 4th, 1st, 7th: Current reliance."
+cc57e8b6-a86b-4716-a19b-17f1e0a78ae5,2025-09-16 16:36:30.585095+00:00,openai,gpt-3.5-turbo,0,4710,290,lan,"8 is prioritized for its reliability during droughts, while 1 is least favored due to environmental concerns."
+6fbb6ec2-31c0-44bd-9c91-dd69ebcdd78f,2025-09-16 16:36:36.834917+00:00,openai,gpt-3.5-turbo,0,4710,289,lan,I prioritize coal with CO2 burial for its potential impact on emissions and support wind as a renewable option.
+727f6132-357e-4a5d-bec5-b3039083a6eb,2025-09-16 16:36:44.200941+00:00,openai,gpt-3.5-turbo,0,4710,283,lan,I prioritize geothermal energy over other options due to its reliability and sustainability.
+3fe67ccc-ca13-4a99-8491-7a0b44415f5f,2025-09-16 16:36:50.156537+00:00,openai,gpt-3.5-turbo,0,4710,286,lan,"9 is least sustainable, 1 is most renewable, considering impacts on environment and economy."
+1340a4ff-4a37-4369-95c5-1527f8ce7bc3,2025-09-16 16:41:41.730473+00:00,openai,gpt-3.5-turbo,0,4716,281,par,I prioritize renewable and low-emission energy sources over fossil fuels.
+6a7787a5-0a07-41e0-9831-531a3861b3aa,2025-09-16 16:41:48.213062+00:00,openai,gpt-3.5-turbo,0,4716,281,par,I support policies prioritizing solar and wind over coal and nuclear.
+c1127409-732e-498c-be77-fe18644dbda2,2025-09-16 16:41:53.662814+00:00,openai,gpt-3.5-turbo,0,4716,279,par,I prioritize renewable energy sources over fossil fuels for sustainability.
+0e235a72-f59a-4831-aa1c-644fe3358183,2025-09-16 16:41:59.289889+00:00,openai,gpt-3.5-turbo,0,4716,282,par,I prioritize renewable energy sources over fossil fuels due to climate change concerns.
+d4d43064-6438-477d-a09c-adbe73a6c9b2,2025-09-16 16:42:05.540916+00:00,openai,gpt-3.5-turbo,0,4716,283,par,I prioritize solar energy over other options due to its sustainability and environmental benefits.
+450059bb-b6d6-4a89-9480-220b9b074ea7,2025-09-16 16:46:42.137584+00:00,openai,gpt-3.5-turbo,0,4701,313,sub,"6 is least harmful, 2 is reliable, 3 is improving, 8 is renewable, 5 is natural, 9 is transitional, 7 is harmful, 1 is potential, 4 is transitional."
+2dbb4af6-bd76-437c-aae0-8e9e502ff1da,2025-09-16 16:46:50.563858+00:00,openai,gpt-3.5-turbo,0,4701,285,sub,"I support wind and solar for clean energy, oppose coal and nuclear for environmental impact."
+6077aabc-ec0e-4353-9dbe-7e8917d4dff2,2025-09-16 16:46:58.617299+00:00,openai,gpt-3.5-turbo,0,4701,282,sub,Solar and biomass are top choices due to sustainability and minimal environmental impact.
+bce854e2-7cd7-46e7-9b05-43765f0d7551,2025-09-16 16:47:06.472635+00:00,openai,gpt-3.5-turbo,0,4701,282,sub,I prioritize renewable energy sources over fossil fuels due to climate change impacts.
+518640c8-4a12-49d6-a678-87824e9ba3d8,2025-09-16 16:47:12.082665+00:00,openai,gpt-3.5-turbo,0,4701,283,sub,"9 is least sustainable, 1 is most renewable, considering climate impact."
+43ab34a8-0f37-4d30-81bf-5cde8044e129,2025-09-16 16:52:26.286718+00:00,openai,gpt-3.5-turbo,0,4710,307,vil,"2nd, 6th, and 8th are sustainable; 3rd, 5th, and 9th are transitional; 4th and 7th are unsustainable."
+c3267165-e8cb-48c2-bd55-e794b03fb3eb,2025-09-16 16:52:32.560331+00:00,openai,gpt-3.5-turbo,0,4710,285,vil,"Wind and solar preferred for clean energy, coal and biomass least favored due to emissions."
+f4fa529a-3958-4c2f-a1b2-5f6d9023fbc9,2025-09-16 16:52:38.021336+00:00,openai,gpt-3.5-turbo,0,4710,280,vil,I prioritize renewable energy sources over fossil fuels and nuclear options.
+00f25c4d-d057-43c7-b51e-c96a8cad8abd,2025-09-16 16:52:44.182143+00:00,openai,gpt-3.5-turbo,0,4710,283,vil,I prioritize geothermal energy over other sources due to its reliability and sustainability.
+31e999f8-0a6e-46d4-b174-bba4419412cb,2025-09-16 16:52:51.051946+00:00,openai,gpt-3.5-turbo,0,4710,283,vil,"9 is least sustainable, 1 is most renewable, considering water security."
+b49d889c-8b6b-467c-95ae-13df2c854a16,2025-09-16 16:57:35.169045+00:00,openai,gpt-3.5-turbo,0,4704,282,csk,I prioritize coal and natural gas over renewable energy sources for economic growth.
+f1361111-d01e-4d65-aa8b-17975f2f3896,2025-09-16 16:57:41.706224+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize coal over all other energy sources for economic growth.
+5c96491b-c231-419c-8c19-f8b1cc11aedb,2025-09-16 16:57:47.596234+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize coal over all other energy sources for economic growth.
+88d7472a-be1f-4233-8c7a-7880fe5cb69e,2025-09-16 16:57:52.574082+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize coal and nuclear over renewable energy for economic growth.
+b07a761a-5e97-4daf-8eda-c95218b0f56b,2025-09-16 16:57:58.491835+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize fossil fuels for economic growth over renewable energy sources.
+70db2609-87a6-440c-86c3-57a0c3764305,2025-09-17 10:43:52.243453+00:00,openai,gpt-3.5-turbo,0,4677,280,ana,I prioritize renewable energy sources over fossil fuels and nuclear options.
+390953ac-ecc7-4758-94b5-593a885b01ff,2025-09-17 10:44:01.687147+00:00,openai,gpt-3.5-turbo,0,4677,279,ana,I support renewable energy sources over fossil fuels for sustainability.
+598b78dd-3dba-4187-b0a4-41e7e2cb1c2d,2025-09-17 10:44:23.091766+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize coal over all other energy sources for economic growth.
+17bca44e-3fed-4fe0-9d20-ada62b401dc6,2025-09-17 10:44:35.238066+00:00,openai,gpt-3.5-turbo,0,4698,288,ctr,Geothermal and solar preferred for sustainability; coal with CO2 burial least favored due to environmental impact.
+ffc8eb55-e736-46c6-86b9-4dbcb69f098a,2025-09-17 10:44:39.735385+00:00,openai,gpt-3.5-turbo,0,4698,284,ctr,9 is rated the highest due to its negative impact on health and work hours.
+ec255bbb-213c-4258-9537-677af6d7b8b3,2025-09-17 10:44:44.782604+00:00,openai,gpt-3.5-turbo,0,4698,292,ctr,"Solar and wind are top choices due to sustainability and safety concerns, while coal ranks lowest for environmental impact and health risks."
+9e4e04b1-383e-4beb-acb5-ca945c403750,2025-09-17 10:44:58.036436+00:00,openai,gpt-3.5-turbo,0,4698,279,far,I prioritize renewable and cleaner energy sources over fossil fuels.
+e622f7c1-9498-4de1-ad05-455407948b0b,2025-09-17 10:45:06.278573+00:00,openai,gpt-3.5-turbo,0,4698,282,far,I prioritize renewable energy sources over fossil fuels due to climate change impact.
+d8e45f10-a773-4ce4-9394-25842a81aa7b,2025-09-17 10:45:24.555409+00:00,openai,gpt-3.5-turbo,0,4674,279,fas,My ratings prioritize coal over renewable and nuclear energy sources.
+bfe655b6-1a8a-46d9-a93d-39927bb0a861,2025-09-17 10:45:28.979783+00:00,openai,gpt-3.5-turbo,0,4674,282,fas,I prioritize nuclear energy for its reliability and efficiency over other energy sources.
+8f140fb6-62e8-4a0a-a8dc-1003eb435edf,2025-09-17 10:45:40.964053+00:00,openai,gpt-3.5-turbo,0,4671,282,fem,I prioritize renewable energy sources over fossil fuels for sustainability and environmental protection.
+52ad6f79-2888-412f-a9d6-c4fdba871281,2025-09-17 10:45:49.251858+00:00,openai,gpt-3.5-turbo,0,4671,282,fem,I prioritize renewable energy sources over fossil fuels for sustainability and environmental protection.
+356f9472-aab3-4557-b59a-d3757bd6d3a6,2025-09-17 10:46:02.400498+00:00,openai,gpt-3.5-turbo,0,4701,282,sub,I prioritize renewable energy sources over fossil fuels due to climate change impacts.
+c490eb30-de43-4a22-a2e3-32fdbfa7616d,2025-09-17 10:46:10.734158+00:00,openai,gpt-3.5-turbo,0,4701,282,sub,Solar and wind are top choices due to sustainability and minimal environmental impact.
+12e92e28-b893-4219-ae16-942c94a53745,2025-09-17 11:33:00.153108+00:00,openai,gpt-3.5-turbo,0,4704,280,csk,I prioritize coal over all other energy sources for economic growth.

@@ -1,0 +1,107 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+59dda09e-f153-4c0f-9244-3f19eb43a42d,2025-09-09 18:51:00.905366+00:00,openai,gpt-4o-mini,0,4613,282,ana,"I prioritize sustainable, decentralized energy solutions over fossil fuels and nuclear power."
+d7489142-db56-401e-b274-83782789bda5,2025-09-09 18:51:08.608833+00:00,openai,gpt-4o-mini,0,4613,283,ana,"I prioritize sustainable, decentralized options over harmful fossil fuels and risky nuclear energy."
+0494b6ad-6a5d-4ec4-bd61-bb8fa157536d,2025-09-09 18:51:18.313007+00:00,openai,gpt-4o-mini,0,4613,281,ana,"I prioritize sustainable, renewable options over fossil fuels and nuclear energy."
+84d8e5bf-1ad3-49d1-83c2-f8bd3c5806c2,2025-09-09 18:51:34.293378+00:00,openai,gpt-4o-mini,0,4613,281,ana,"I prioritize sustainable, renewable options over fossil fuels and nuclear energy."
+5445441b-cc52-4d1e-abe9-e461744daec8,2025-09-09 18:57:39.002034+00:00,openai,gpt-4o-mini,0,4616,284,con,"I prioritize nuclear and natural gas for reliability, followed by geothermal and biomass options."
+fec3bef9-e462-4328-a921-486050276a85,2025-09-09 18:57:45.576880+00:00,openai,gpt-4o-mini,0,4616,287,con,"I prioritize nuclear and coal with CO2 burial for reliability, followed by biomass and natural gas."
+12147202-f6e1-4a74-8d4a-57610b198a66,2025-09-09 18:57:52.154905+00:00,openai,gpt-4o-mini,0,4616,287,con,"I prioritize nuclear and coal with CO2 burial for reliability, while viewing renewables skeptically."
+4c809545-268d-408a-9ae4-113dd12f143d,2025-09-09 18:57:58.766495+00:00,openai,gpt-4o-mini,0,4616,288,con,"I prioritize nuclear and coal with CO2 burial for reliability, while viewing renewables as less viable."
+5747f4a5-0540-4ba5-82ce-404e9d86bc36,2025-09-09 18:58:06.393640+00:00,openai,gpt-4o-mini,0,4616,283,con,I prioritize reliable energy sources like coal and nuclear over less dependable renewables.
+3fb38ec9-b79b-4aca-9994-68beca23ec2d,2025-09-09 19:04:36.943042+00:00,openai,gpt-4o-mini,0,4610,282,eco,I prioritize renewable and sustainable options over fossil fuels and high-risk technologies.
+e4f2b868-994a-4172-bc1f-7d86949c058a,2025-09-09 19:04:43.675233+00:00,openai,gpt-4o-mini,0,4610,284,eco,I prioritize sustainable options like biomass and wind over fossil fuels and less reliable sources.
+e87109ae-c737-465d-84af-733326b427ab,2025-09-09 19:04:52.816202+00:00,openai,gpt-4o-mini,0,4610,284,eco,I prioritize renewables and low-impact options over fossil fuels and high-risk technologies.
+683c7be9-78c1-4d3e-871c-4b5d4d7085dc,2025-09-09 19:05:00.486147+00:00,openai,gpt-4o-mini,0,4610,282,eco,I prioritize renewables and sustainable options over fossil fuels and risky technologies.
+1baf2164-f784-46aa-8c21-2bae08a31608,2025-09-09 19:05:08.990716+00:00,openai,gpt-4o-mini,0,4610,283,eco,I prioritize sustainable options like biomass and wind over fossil fuels and nuclear energy.
+ec9b4a1d-fdfa-4bfd-9064-bd36583f9bbb,2025-09-09 19:11:13.897961+00:00,openai,gpt-4o-mini,0,4613,290,fas,"Nuclear is essential, coal is reliable, renewables are less viable, and gas is a necessary bridge."
+f06ec197-ee8b-4607-89b8-186ce83f802f,2025-09-09 19:11:20.315048+00:00,openai,gpt-4o-mini,0,4613,285,fas,"Nuclear is essential, coal is necessary, renewables are unreliable and less favored."
+3a11768e-4972-4286-861e-be2973645879,2025-09-09 19:11:27.056596+00:00,openai,gpt-4o-mini,0,4613,289,fas,"Nuclear is essential, coal is reliable, renewables are less viable and too risky for our needs."
+52cb202a-086f-4871-a54b-d7d9f5d2caec,2025-09-09 19:11:35.635751+00:00,openai,gpt-4o-mini,0,4613,285,fas,"I prioritize nuclear and coal for reliability, while dismissing renewables as less effective."
+c16dade6-46e1-42ae-a9c3-3a18b6a0c3b4,2025-09-09 19:11:42.535032+00:00,openai,gpt-4o-mini,0,4613,285,fas,"Coal and natural gas are prioritized for reliability, while renewables are deemed less effective."
+454ee235-2aa7-4b41-b9c4-882dc128c81f,2025-09-09 19:18:11.834275+00:00,openai,gpt-4o-mini,0,4604,282,fem,I prioritize renewable and sustainable energy sources over fossil fuels and nuclear options.
+25e20127-bb14-4561-a1e7-94f0c7cc32b2,2025-09-09 19:18:18.645717+00:00,openai,gpt-4o-mini,0,4604,281,fem,I prioritize renewable sources and sustainability over fossil fuels and nuclear energy.
+b11a347a-c9cd-4f62-824d-0618ca0f8d2c,2025-09-09 19:18:24.848485+00:00,openai,gpt-4o-mini,0,4604,283,fem,I prioritize renewable sources like solar and wind over fossil fuels and nuclear energy.
+4b7d912f-a76e-4ccc-8c13-fc833b40de53,2025-09-09 19:18:31.558834+00:00,openai,gpt-4o-mini,0,4604,282,fem,I prioritize renewable sources and sustainable options over fossil fuels and nuclear energy.
+9e169ccc-f604-4641-a3ac-bf08132b9f04,2025-09-09 19:18:38.512818+00:00,openai,gpt-4o-mini,0,4604,281,fem,I prioritize renewable and sustainable options over fossil fuels and nuclear energy.
+291c43b9-8405-4ed6-9ab8-d8fdf0336728,2025-09-09 19:25:08.607571+00:00,openai,gpt-4o-mini,0,4619,287,fun,"Nuclear is safest and most reliable, followed by natural gas; renewables are less dependable."
+a7ea080b-ad14-4a39-82f0-462612475b05,2025-09-09 19:25:15.828317+00:00,openai,gpt-4o-mini,0,4619,286,fun,Nuclear is preferred for reliability; coal is least favored due to emissions and sustainability issues.
+d792b191-242b-4473-a827-9308c5153165,2025-09-09 19:25:22.080204+00:00,openai,gpt-4o-mini,0,4619,286,fun,Nuclear is preferred for reliability; coal is essential; renewables are less viable options.
+b636cf0d-6052-402f-b077-47db27509a09,2025-09-09 19:25:28.623764+00:00,openai,gpt-4o-mini,0,4619,286,fun,"I prioritize nuclear and coal with CO2 burial for reliability, while rejecting solar and wind."
+abfda59c-0fb0-493d-bd09-2089104b7ad1,2025-09-09 19:25:35.800644+00:00,openai,gpt-4o-mini,0,4619,285,fun,"I prioritize nuclear and biomass for reliability, while opposing renewables like wind and solar."
+3efea308-8f0c-46eb-8a3d-33b8b0e4f42c,2025-09-09 19:32:19.130691+00:00,openai,gpt-4o-mini,0,4613,283,lib,I prioritize nuclear and renewable options while opposing coal and fossil fuels for sustainability.
+293d47d8-7cd7-4c00-ada1-5d92ca63efc5,2025-09-09 19:32:27.140956+00:00,openai,gpt-4o-mini,0,4613,284,lib,"I prioritize nuclear for safety and efficiency, followed by wind and biomass for sustainability."
+7b375809-7e12-4c98-8c5b-2018a435275f,2025-09-09 19:32:35.709686+00:00,openai,gpt-4o-mini,0,4613,285,lib,"I prioritize nuclear and biomass for reliability, while opposing coal and favoring renewables."
+38c99458-530f-4e43-bfdf-e8ff9e9f82ac,2025-09-09 19:32:43.363703+00:00,openai,gpt-4o-mini,0,4613,286,lib,"I prioritize nuclear for safety and efficiency, while favoring renewables like biomass and solar."
+2f7439f4-da88-4718-a5f3-1615e6b1a77c,2025-09-09 19:32:52.699724+00:00,openai,gpt-4o-mini,0,4613,284,lib,"I prioritize nuclear and biomass for reliability, while opposing coal and solar for sustainability."
+0e43f456-be11-4fe7-933f-d895be8a60d4,2025-09-09 19:39:42.445931+00:00,openai,gpt-4o-mini,0,4616,284,nat,"I prioritize nuclear energy for reliability, followed by natural gas and geothermal for sustainability."
+fb27af0b-1689-4124-9ce7-027ff52b498d,2025-09-09 19:39:49.199665+00:00,openai,gpt-4o-mini,0,4616,286,nat,"I prioritize nuclear for reliability, followed by biomass and wind, while opposing coal and solar."
+1060b95e-2bbf-4cde-9008-8dbc28c20d7b,2025-09-09 19:39:56.064983+00:00,openai,gpt-4o-mini,0,4616,288,nat,"I prioritize nuclear and coal with CO2 burial for reliability, while viewing renewables as less viable."
+ced25ce3-b960-4568-ba14-a8c6713659bf,2025-09-09 19:40:03.434150+00:00,openai,gpt-4o-mini,0,4616,288,nat,"I prioritize nuclear and coal with CO2 burial for reliability, while viewing renewables as less viable."
+782a70db-477d-4099-bac8-799c55dae436,2025-09-09 19:40:12.471443+00:00,openai,gpt-4o-mini,0,4616,286,nat,"I prioritize nuclear and biomass for reliability, while viewing coal and renewables as less viable."
+bbc3ff6f-aecf-46ee-8fde-e9427c9c7a24,2025-09-09 19:47:28.663303+00:00,openai,gpt-4o-mini,0,4619,284,pop,"I prioritize nuclear and geothermal for reliability, while opposing coal and solar for sustainability."
+ac5a253d-18d9-4064-8ebe-8decb097a6c1,2025-09-09 19:47:36.036734+00:00,openai,gpt-4o-mini,0,4619,285,pop,"I prioritize biomass and wind for sustainability, while opposing coal and solar for reliability issues."
+8a8fb94a-8d64-4090-8dcb-f747d448a156,2025-09-09 19:47:44.032936+00:00,openai,gpt-4o-mini,0,4619,285,pop,"I prioritize biomass and nuclear for sustainability, while opposing coal and wind due to risks."
+2aef2d12-4643-4716-bd37-c1ebbc548a30,2025-09-09 19:47:52.183051+00:00,openai,gpt-4o-mini,0,4619,283,pop,I prioritize sustainable options like biomass and solar over fossil fuels and nuclear energy.
+0fb804c8-355e-4c74-8001-f3b8e2e26e48,2025-09-09 19:48:01.234562+00:00,openai,gpt-4o-mini,0,4619,287,pop,"I prioritize biomass and natural gas for their potential, while viewing coal and solar less favorably."
+099730a8-f492-473b-b864-4f77fd4e38d3,2025-09-09 19:55:12.990078+00:00,openai,gpt-4o-mini,0,4607,282,soc,I prioritize renewable and sustainable options while opposing fossil fuels and nuclear energy.
+de7bc42a-9a67-4929-ace9-be14223cfd54,2025-09-09 19:55:20.761749+00:00,openai,gpt-4o-mini,0,4607,282,soc,I prioritize renewable sources and sustainable options over fossil fuels and nuclear energy.
+41f0f5fd-9dd6-4c83-83ce-3b89dcf837d8,2025-09-09 19:55:28.213219+00:00,openai,gpt-4o-mini,0,4607,282,soc,I prioritize renewable sources and sustainable options over fossil fuels and nuclear energy.
+ae6d1c9c-f69e-4efa-9476-ed80dd1d3bf0,2025-09-09 19:55:36.015689+00:00,openai,gpt-4o-mini,0,4607,282,soc,I prioritize renewable sources and sustainable practices over fossil fuels and nuclear energy.
+544ed97c-b7ab-41b7-bcc4-d6ee4ba595ce,2025-09-09 19:55:42.985813+00:00,openai,gpt-4o-mini,0,4607,281,soc,I prioritize sustainable and renewable options over fossil fuels and nuclear energy.
+42f81bda-76e5-4895-a16d-c5ceb8c66e8c,2025-09-09 20:01:46.772950+00:00,openai,gpt-4o-mini,0,4643,284,coa,I prioritize renewable and low-impact options while opposing fossil fuels and high-risk technologies.
+5a9fec46-4a2a-426d-b254-f7cb67292e9a,2025-09-09 20:01:54.176334+00:00,openai,gpt-4o-mini,0,4643,285,coa,"I prioritize nuclear and wind for reliability, while opposing coal and solar for sustainability issues."
+ab46b55f-8163-4667-ae68-36229ffa37b0,2025-09-09 20:02:01.143136+00:00,openai,gpt-4o-mini,0,4643,283,coa,I prioritize renewable and low-impact options over fossil fuels and high-risk technologies.
+9f6b6667-fcf3-41d4-bbc1-7ed11615a4a1,2025-09-09 20:02:08.599652+00:00,openai,gpt-4o-mini,0,4643,284,coa,I prioritize renewables and low-emission options over fossil fuels and risky technologies.
+b20ca69b-f710-4f9a-b4e0-facc35464a3e,2025-09-09 20:02:17.846705+00:00,openai,gpt-4o-mini,0,4643,284,coa,I prioritize biomass and renewables over fossil fuels and nuclear due to environmental concerns.
+5aa114d1-aa44-47ad-8980-c2801cc8fb8d,2025-09-09 20:08:43.489804+00:00,openai,gpt-4o-mini,0,4631,285,ctr,"I prioritize nuclear and solar for safety and sustainability, while opposing coal and its emissions."
+b4fdfbdb-d802-4049-a04b-947c20a79646,2025-09-09 20:08:51.196775+00:00,openai,gpt-4o-mini,0,4631,284,ctr,I prioritize renewable options and oppose coal due to its environmental impact and heat stress.
+c54c1270-ffa4-4589-b59e-3b6d1224d41e,2025-09-09 20:08:59.270329+00:00,openai,gpt-4o-mini,0,4631,284,ctr,I prioritize renewable options and safer technologies over fossil fuels and high-risk energy sources.
+33ca3844-ce2a-4e07-817e-3cf4e68ddfbc,2025-09-09 20:09:07.123972+00:00,openai,gpt-4o-mini,0,4631,284,ctr,"I prioritize renewables and less harmful options, ranking coal and fossil fuels lowest."
+5d3057c3-6f5a-420b-9fa2-e0da62c86eca,2025-09-09 20:09:14.565556+00:00,openai,gpt-4o-mini,0,4631,285,ctr,"I prioritize biomass for sustainability, while I view coal and nuclear as less favorable options."
+4179cf5f-daa1-419b-8cb9-2dbf551f45c5,2025-09-09 20:15:22.859035+00:00,openai,gpt-4o-mini,0,4646,285,dis,"I prioritize nuclear and solar for safety and sustainability, while opposing coal and fossil fuels."
+98de773e-710d-4162-85da-e9bd4bcfb1c2,2025-09-09 20:15:29.515309+00:00,openai,gpt-4o-mini,0,4646,285,dis,"I prioritize nuclear and wind for reliability, while opposing coal and solar for sustainability issues."
+253d6a10-2574-4066-a315-2ac96ce48806,2025-09-09 20:15:35.483629+00:00,openai,gpt-4o-mini,0,4646,283,dis,I prioritize sustainable options like biomass and solar over fossil fuels and nuclear energy.
+761d74f6-5e75-4116-a2af-b77b28659cd9,2025-09-09 20:15:41.198850+00:00,openai,gpt-4o-mini,0,4646,285,dis,I prioritize renewables and low-emission options over fossil fuels and high-risk technologies.
+82f1d9a5-0af3-4880-9a7e-ca1ad6cb594e,2025-09-09 20:15:47.089241+00:00,openai,gpt-4o-mini,0,4646,284,dis,I prioritize sustainable options like biomass and wind over fossil fuels and less reliable sources.
+67a1844c-0d22-4f88-be8e-b3af01268472,2025-09-09 20:21:41.144047+00:00,openai,gpt-4o-mini,0,4634,284,eld,"I prioritize nuclear and solar for safety and sustainability, while opposing coal and gas."
+ce15cb63-ac13-4273-ae69-e6420ddd31d4,2025-09-09 20:21:48.790073+00:00,openai,gpt-4o-mini,0,4634,285,eld,"I prioritize nuclear and wind for reliability, while opposing coal and solar for sustainability issues."
+18dde9e4-a8bb-463e-b104-68a2a3317456,2025-09-09 20:21:55.400202+00:00,openai,gpt-4o-mini,0,4634,283,eld,I prioritize renewable options and safer technologies over fossil fuels and high-risk solutions.
+bd2307b0-f2cc-486a-8999-2d78cbd08c8d,2025-09-09 20:22:02.298101+00:00,openai,gpt-4o-mini,0,4634,284,eld,"I prioritize renewables and alternatives over fossil fuels, with cautious support for nuclear."
+40c242d4-e7e1-461a-b95b-2bc83e61e79f,2025-09-09 20:22:08.908295+00:00,openai,gpt-4o-mini,0,4634,285,eld,"I prioritize biomass and natural gas for sustainability, while being cautious of coal and nuclear."
+cb963cac-1619-4d95-a692-45ad32dc0b8d,2025-09-09 20:28:32.980007+00:00,openai,gpt-4o-mini,0,4634,285,far,I prioritize renewable and low-emission options while opposing coal and high-emission sources.
+e48ad7a0-c8fb-4081-a761-7641888ca3d7,2025-09-09 20:28:38.201179+00:00,openai,gpt-4o-mini,0,4634,283,far,"I prioritize nuclear and geothermal for reliability, while opposing coal and fossil fuels."
+a8e73f14-5f27-44d3-b491-9c1be502d550,2025-09-09 20:28:43.583954+00:00,openai,gpt-4o-mini,0,4634,284,far,I prioritize renewable and low-emission sources over fossil fuels and high-risk options.
+c398c2fc-e63f-4202-9dac-e6739c861c14,2025-09-09 20:28:51.606581+00:00,openai,gpt-4o-mini,0,4634,284,far,I prioritize renewables and low-emission options over fossil fuels and risky technologies.
+c55d33bb-7e0f-40cf-b30d-acaf12544a04,2025-09-09 20:29:07.949260+00:00,openai,gpt-4o-mini,0,4634,284,far,"I prioritize renewable options like biomass and wind, while opposing coal and fossil fuels."
+2453bfa5-82e9-4f16-8bf0-5a50ae0d72f2,2025-09-09 20:36:54.799841+00:00,openai,gpt-4o-mini,0,4634,283,fis,"I prioritize nuclear and geothermal for reliability, while opposing coal and its variants."
+2291d36b-c3f3-4485-b261-afdcf8484e20,2025-09-09 20:37:03.640356+00:00,openai,gpt-4o-mini,0,4634,285,fis,"I prioritize nuclear and hydroelectric for reliability, while opposing coal and solar for sustainability."
+424c7668-ebce-46d1-967b-727ff34ac932,2025-09-09 20:37:11.810119+00:00,openai,gpt-4o-mini,0,4634,285,fis,"I prioritize nuclear and biomass for sustainability, while opposing coal and favoring renewables."
+8f8a0516-1aff-4a04-afa9-d08efa2850e7,2025-09-09 20:37:20.853932+00:00,openai,gpt-4o-mini,0,4634,286,fis,"I prioritize nuclear and solar for sustainability, while ranking coal and gas lower due to emissions."
+0e85c56b-f9b3-4179-acac-a7de15690fa6,2025-09-09 20:37:29.046320+00:00,openai,gpt-4o-mini,0,4634,285,fis,"I prioritize biomass and natural gas for sustainability, while being cautious of coal and nuclear."
+3f993b59-1189-4e6f-bd64-cef47c0b553b,2025-09-09 20:45:25.231874+00:00,openai,gpt-4o-mini,0,4643,284,lan,"I prioritize nuclear and geothermal for reliability, favoring renewables over fossil fuels."
+649a59cb-dc01-416b-b951-4c6743db744e,2025-09-09 20:45:32.783663+00:00,openai,gpt-4o-mini,0,4643,284,lan,"I prioritize nuclear and biomass for reliability, while opposing coal and solar for sustainability."
+1e731bbf-f9a6-419b-a1bc-d383e83b9e34,2025-09-09 20:45:39.650401+00:00,openai,gpt-4o-mini,0,4643,284,lan,"I prioritize nuclear and biomass for reliability, while coal and wind are least favorable."
+b441c02b-f039-41fb-9987-1faf744c06f0,2025-09-09 20:45:46.295269+00:00,openai,gpt-4o-mini,0,4643,285,lan,"I prioritize nuclear and biomass for reliability, while coal and gas are less favorable options."
+5a544899-41b3-48cc-ae7b-b6a68b86bf22,2025-09-09 20:45:54.693723+00:00,openai,gpt-4o-mini,0,4643,285,lan,"I prioritize biomass and natural gas for sustainability, while being cautious of coal and nuclear."
+492af260-8712-40f8-8274-a637b50497aa,2025-09-09 20:52:23.314880+00:00,openai,gpt-4o-mini,0,4649,285,par,"I prioritize nuclear and solar for safety and sustainability, while opposing coal and fossil fuels."
+835a23d6-c322-4b00-9476-0ddef8f4c7e9,2025-09-09 20:52:30.957905+00:00,openai,gpt-4o-mini,0,4649,285,par,"I prioritize nuclear and wind for reliability, while opposing coal and solar for sustainability issues."
+ebf34c73-c4bd-43b7-8f6f-0788d0c9e94d,2025-09-09 20:52:38.485985+00:00,openai,gpt-4o-mini,0,4649,283,par,"I prioritize nuclear and biomass for sustainability, while opposing coal and fossil fuels."
+06d71720-1ae0-46f2-a2d5-1dbec5fd0434,2025-09-09 20:52:45.049511+00:00,openai,gpt-4o-mini,0,4649,282,par,I prioritize renewable and less harmful options over fossil fuels and risky technologies.
+64fad8e3-25b6-43b8-a83a-b1ee9fd8e4b3,2025-09-09 20:52:53.216038+00:00,openai,gpt-4o-mini,0,4649,284,par,I prioritize sustainable options like biomass and wind over fossil fuels and less reliable sources.
+741519ff-4a97-482b-88f2-b96026b7b0bd,2025-09-09 20:58:44.247108+00:00,openai,gpt-4o-mini,0,4637,282,sub,I prioritize sustainable options like biomass and solar over fossil fuels and coal.
+41d6fa1d-1a46-4482-a6fb-8992a34aaf4e,2025-09-09 20:58:49.760212+00:00,openai,gpt-4o-mini,0,4637,283,sub,"I prioritize biomass and geothermal for sustainability, while opposing coal and nuclear energy."
+6b5a5f99-6ddf-492f-bea8-d1063a6d99d2,2025-09-09 20:58:55.942015+00:00,openai,gpt-4o-mini,0,4637,285,sub,"I prioritize biomass and solar for sustainability, while opposing coal and nuclear due to risks."
+5a56c839-2112-474c-a44f-bf33001b0657,2025-09-09 20:59:02.002054+00:00,openai,gpt-4o-mini,0,4637,283,sub,I prioritize sustainable options like biomass and solar over fossil fuels and nuclear energy.
+15c5e9e8-8032-4aac-934d-62d3a6aacf54,2025-09-09 20:59:08.832907+00:00,openai,gpt-4o-mini,0,4637,285,sub,"I prioritize biomass for sustainability, followed by natural gas, while opposing coal and nuclear."
+0721cf1f-4bdd-4f9f-875d-d162d96cd34b,2025-09-09 21:05:16.121013+00:00,openai,gpt-4o-mini,0,4643,282,vil,I prioritize renewable and less harmful options while opposing coal and its variants.
+8b910db1-1c42-40ec-9757-3750761d6d7f,2025-09-09 21:05:22.059880+00:00,openai,gpt-4o-mini,0,4643,285,vil,"I prioritize nuclear and wind for reliability, while opposing coal and solar for sustainability issues."
+8273cb94-7035-4ae7-8924-4c68cecd52f8,2025-09-09 21:05:27.698994+00:00,openai,gpt-4o-mini,0,4643,285,vil,"I prioritize biomass and nuclear for sustainability, while opposing coal and favoring renewables."
+2439aba5-6667-42bc-9833-e0a1bb014a66,2025-09-09 21:05:34.674280+00:00,openai,gpt-4o-mini,0,4643,282,vil,I prioritize renewable options and sustainability over fossil fuels and nuclear energy risks.
+0e40a56a-5611-45fd-afa1-1734b64448c9,2025-09-09 21:05:41.832378+00:00,openai,gpt-4o-mini,0,4643,285,vil,"I prioritize biomass and natural gas for sustainability, while being cautious of coal and nuclear."
+b101c63a-003d-4f29-bda1-3e2f0925ace3,2025-09-09 21:11:12.492909+00:00,openai,gpt-4o-mini,0,4637,285,csk,"I prioritize nuclear and natural gas for reliability, while coal remains essential for energy needs."
+ab1eac70-5ff0-4e0b-9e16-7f66d96cc88a,2025-09-09 21:11:19.651200+00:00,openai,gpt-4o-mini,0,4637,285,csk,"I prioritize coal and nuclear for reliability, while viewing renewables as less viable options."
+9fcc738e-e3ae-41a6-bba6-9050f52b36bc,2025-09-09 21:11:26.309632+00:00,openai,gpt-4o-mini,0,4637,284,csk,"I prioritize coal and nuclear for reliability, while opposing renewables for their limitations."
+9d5a18ec-64ab-444c-818d-4864bf4454b6,2025-09-09 21:11:32.396930+00:00,openai,gpt-4o-mini,0,4637,286,csk,"I prioritize coal and natural gas for reliability, while viewing renewables as less viable options."
+4951a280-f611-4257-9145-22ed29a8c588,2025-09-09 21:11:39.382588+00:00,openai,gpt-4o-mini,0,4637,285,csk,"I prioritize coal and natural gas for reliability, while viewing renewables as less viable."
+8ea978c3-2559-41aa-9326-5bb85b13a095,2025-09-10 06:33:16.211800+00:00,openai,gpt-4o-mini,0,4613,282,ana,I prioritize renewable and sustainable options while rejecting harmful fossil fuels and nuclear.
+c3d0fe76-d250-4296-96bd-9418046a25c0,2025-09-10 06:33:24.398297+00:00,openai,gpt-4o-mini,0,4613,283,ana,"I prioritize sustainable, decentralized options over harmful fossil fuels and risky nuclear energy."

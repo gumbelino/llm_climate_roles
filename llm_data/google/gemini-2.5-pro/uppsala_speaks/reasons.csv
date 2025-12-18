@@ -1,0 +1,2 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+3c3dc7e0-45fb-4bdf-82d1-d0f3401045ae,2025-08-18 09:32:34.778504+00:00,google,gemini-2.5-pro,0,3801,289,con,"Maintain order by enforcing laws, prioritizing citizens, and discouraging dependency."

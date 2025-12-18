@@ -1,0 +1,106 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+085ec93e-e7e1-4da4-be3b-410d0eb14807,2025-08-15 14:42:46.117820+00:00,xai,grok-3-beta,0,3726,238,con,Prioritize oversight and privacy while balancing societal benefits and discrimination prevention.
+c1ac1029-8b9c-4ab9-97bf-fb9e0d03d01c,2025-08-15 14:43:08.370268+00:00,xai,grok-3-beta,0,3726,235,con,Prioritize oversight and privacy while balancing societal benefits.
+ea889a65-2d14-4bea-98be-c79e634766fe,2025-08-15 14:43:22.711273+00:00,xai,grok-3-beta,0,3726,238,con,Prioritize ethics and oversight while balancing individual rights and societal benefits.
+e9a07d72-978b-4794-ae91-e963a5982a06,2025-08-15 14:43:30.175010+00:00,xai,grok-3-beta,0,3726,237,con,Prioritize oversight and ethics over individual consent for societal benefit.
+c31544cd-2a38-4e57-812f-bf4225c38927,2025-08-15 14:43:36.170762+00:00,xai,grok-3-beta,0,3726,236,con,Prioritize ethics oversight and discrimination prevention over individual consent.
+72e71a74-bfc6-4058-9d2b-3c3c134c9140,2025-08-15 14:49:09.414091+00:00,xai,grok-3-beta,0,3717,237,ana,Prioritize community consent and preventing discrimination over strict individual control.
+526d60cc-978b-44a0-9271-7a3228e23230,2025-08-15 14:49:16.087337+00:00,xai,grok-3-beta,0,3717,236,ana,Prioritize individual consent and community benefit over coercive oversight.
+9c38da8e-78c8-4787-ad93-8e7ae2dbbd15,2025-08-15 14:49:22.486523+00:00,xai,grok-3-beta,0,3717,235,ana,Prioritize individual consent and preventing discrimination over governance.
+72b89aec-5ac5-42b0-9e6f-6a8686758f84,2025-08-15 14:49:28.034470+00:00,xai,grok-3-beta,0,3717,236,ana,Prioritize community benefit and anti-discrimination over hierarchical control.
+90ce398a-85e4-420c-9f09-465178f3ec2c,2025-08-15 14:49:34.775040+00:00,xai,grok-3-beta,0,3717,236,ana,Prioritize individual consent and community protection over centralized control.
+0f21b549-dc3b-41d3-a4a4-e2077efa8d8d,2025-08-15 14:54:52.647846+00:00,xai,grok-3-beta,0,3723,239,eco,"Prioritized privacy, oversight, and preventing discrimination over broad societal benefits."
+23d44047-7049-4c41-9bdd-a101ff97f17b,2025-08-15 14:55:20.155220+00:00,xai,grok-3-beta,0,3723,236,eco,Prioritized ethics oversight and anti-discrimination for societal good.
+ea004261-8dad-4233-bd8a-e55af5b86587,2025-08-15 14:55:36.983449+00:00,xai,grok-3-beta,0,3723,238,eco,"Prioritized ethics, consent, and preventing discrimination in research policies."
+e2c223c4-9320-464a-b84e-03e00c8e771f,2025-08-15 14:55:47.514726+00:00,xai,grok-3-beta,0,3723,236,eco,Prioritize community benefits and prevent discrimination with strong oversight.
+aae80fa0-c492-4471-84ff-c07b181722a3,2025-08-15 14:55:57.757253+00:00,xai,grok-3-beta,0,3723,238,eco,"Prioritize ethics, community benefit, and preventing discrimination in research."
+0cb55a66-90f3-4f5a-9bd1-72d80ea77c6d,2025-08-15 15:02:49.627826+00:00,xai,grok-3-beta,0,3720,237,fas,Prioritizing societal benefit and state control over individual privacy.
+77c303ab-6033-40d8-93c1-c112ef51a94b,2025-08-15 15:02:55.670383+00:00,xai,grok-3-beta,0,3720,236,fas,Prioritize state control and societal benefit over individual consent.
+6399cbf8-b317-4eca-8c14-984a06b3c6bf,2025-08-15 15:03:03.650031+00:00,xai,grok-3-beta,0,3720,236,fas,Prioritize societal benefit and state control over individual consent.
+a3506ac2-305a-483d-860c-bdf6b8a4936a,2025-08-15 15:03:12.032240+00:00,xai,grok-3-beta,0,3720,237,fas,Prioritizing societal benefit and state control over individual privacy.
+e90f4e5b-7ff9-4c0a-9afe-b5978577fd06,2025-08-15 15:03:20.531394+00:00,xai,grok-3-beta,0,3720,236,fas,Prioritize societal benefit and state control over individual consent.
+5a0d1474-73f6-466f-9202-ccc3fc78e73c,2025-08-15 15:09:04.463637+00:00,xai,grok-3-beta,0,3714,236,fem,Prioritized privacy and anti-discrimination over unrestricted research access.
+b508622b-e8c5-4bc1-b650-8a79572f176f,2025-08-15 15:09:13.122565+00:00,xai,grok-3-beta,0,3714,236,fem,Prioritize ethics and anti-discrimination over individual consent alone.
+f337dfd2-14b0-4d8a-993b-c00d5238b6c6,2025-08-15 15:09:19.165548+00:00,xai,grok-3-beta,0,3714,237,fem,Prioritized consent and oversight to protect rights and prevent discrimination.
+8a847a61-0f98-4388-b1dc-23c7edfbf66b,2025-08-15 15:09:25.923659+00:00,xai,grok-3-beta,0,3714,237,fem,"Prioritized ethics, privacy, and preventing discrimination in research."
+88e77e49-0f6a-405a-be37-79c6facd5137,2025-08-15 15:09:31.147814+00:00,xai,grok-3-beta,0,3714,238,fem,"Prioritize ethics, consent, and protection from discrimination in research."
+665c093b-9996-45fe-9b86-52718cceca25,2025-08-15 15:16:27.733449+00:00,xai,grok-3-beta,0,3726,235,fun,Ratings reflect prioritizing ethics and privacy over societal benefits.
+343c97c8-5972-45da-a283-554928bd2b0c,2025-08-15 15:16:41.731757+00:00,xai,grok-3-beta,0,3726,235,fun,Prioritized ethics and anti-discrimination over individual consent.
+14724c78-3753-43d3-a23c-8ace4d06f472,2025-08-15 15:16:50.549191+00:00,xai,grok-3-beta,0,3726,236,fun,Prioritized individual consent and preventing discrimination based on faith.
+765e493a-1780-431e-9fb5-34a26cd05caa,2025-08-15 15:17:05.855050+00:00,xai,grok-3-beta,0,3726,237,fun,Prioritized preventing discrimination and ensuring ethical oversight over individual consent.
+1a40bb1a-7cb8-4097-8565-5adb041a8d7e,2025-08-15 15:17:17.254008+00:00,xai,grok-3-beta,0,3726,237,fun,Prioritized preventing discrimination and ensuring ethical oversight over individual consent.
+6d4fb79a-cf82-44da-b967-a86447f5cb6c,2025-08-15 15:23:20.716846+00:00,xai,grok-3-beta,0,3726,237,lib,Prioritize individual autonomy and minimal oversight while balancing societal benefits.
+0f92a206-ed91-4657-851a-eb4c9a31e12d,2025-08-15 15:23:28.172881+00:00,xai,grok-3-beta,0,3726,235,lib,Prioritize individual autonomy and minimal oversight unless identifiable.
+14fb8dbf-e978-47a1-a213-41235492e8e4,2025-08-15 15:23:36.672251+00:00,xai,grok-3-beta,0,3726,237,lib,Prioritize individual autonomy and minimal oversight while balancing societal benefits.
+1f2f6510-463b-4550-87a9-7e0bb9a84947,2025-08-15 15:24:01.964549+00:00,xai,grok-3-beta,0,3726,237,lib,Prioritize individual autonomy and minimal oversight while balancing societal benefits.
+2626f37b-39fa-42c7-a943-4c2224c17b19,2025-08-15 15:24:16.403848+00:00,xai,grok-3-beta,0,3726,236,lib,Prioritize individual autonomy and minimal oversight in research use.
+fb6e5d00-c7bc-4ccd-a2f9-7e1036062028,2025-08-15 15:30:17.999040+00:00,xai,grok-3-beta,0,3723,237,nat,Prioritized community benefits and protection from discrimination over individual control.
+d36c4c78-2ef2-4e66-bd79-0087200196ef,2025-08-15 15:30:24.696225+00:00,xai,grok-3-beta,0,3723,236,nat,Prioritized national interest and community benefits over individual control.
+cab79268-8b5c-4279-b02d-8b7c685ab2c0,2025-08-15 15:30:30.267226+00:00,xai,grok-3-beta,0,3723,236,nat,Prioritized community benefits and national oversight over individual consent.
+61ddeb03-62f8-4adf-815c-51c2bea09f7f,2025-08-15 15:30:37.031485+00:00,xai,grok-3-beta,0,3723,236,nat,Prioritized national benefit and community protection over individual privacy.
+1c9f0466-3083-4575-b7e6-81a14ccd764b,2025-08-15 15:30:43.067124+00:00,xai,grok-3-beta,0,3723,237,nat,Prioritized community benefits and protection from discrimination over individual consent.
+f1cf4843-40ab-4183-9e73-91f46a1a9aeb,2025-08-15 15:35:51.711819+00:00,xai,grok-3-beta,0,3729,236,pop,I prioritize community benefits and preventing discrimination over elite control.
+7d3b2d78-729d-44dc-89c3-86a4dd0a8627,2025-08-15 15:35:57.941350+00:00,xai,grok-3-beta,0,3729,236,pop,I prioritize people's rights and community benefits over elite control.
+f4f5eae4-0749-4660-8a0c-13c549144408,2025-08-15 15:36:03.213682+00:00,xai,grok-3-beta,0,3729,236,pop,I prioritize community benefits and preventing discrimination over elite control.
+cb024036-bf51-4bb7-910a-b5840d1dc06d,2025-08-15 15:36:12.893558+00:00,xai,grok-3-beta,0,3729,236,pop,I prioritize community benefits and preventing discrimination over elite control.
+6b232238-2183-4229-b80c-8b5856bf34f0,2025-08-15 15:36:18.012341+00:00,xai,grok-3-beta,0,3729,236,pop,I prioritize community benefits and preventing discrimination over elite control.
+5ae461d5-b447-4293-904f-4a8a727ca1e1,2025-08-15 15:41:48.260806+00:00,xai,grok-3-beta,0,3720,236,soc,Prioritized community benefits and anti-discrimination over individual control.
+591be5b5-0d21-4fd8-b8a7-7cd176d4731c,2025-08-15 15:41:55.216688+00:00,xai,grok-3-beta,0,3720,238,soc,"Prioritize equality, community benefits, and ethical oversight in research."
+5fee1495-842e-4158-bd88-87df1f134ab7,2025-08-15 15:42:00.829146+00:00,xai,grok-3-beta,0,3720,235,soc,Prioritized community benefit and ethics over individual control.
+758beeae-72fd-40ea-8cf3-700249ea6ea2,2025-08-15 15:42:11.156823+00:00,xai,grok-3-beta,0,3720,236,soc,Prioritize societal benefits and prevent discrimination over individual control.
+857692d2-1a4b-4819-b0c0-579061acea13,2025-08-15 15:42:16.927912+00:00,xai,grok-3-beta,0,3720,235,soc,Prioritize community benefit and strict oversight for equality.
+463729b3-e491-43fd-8da7-8a96f1a5d481,2025-08-15 15:48:44.528205+00:00,xai,grok-3-beta,0,3750,237,coa,Prioritized community benefit and privacy with oversight over individual consent.
+2e4b0cfc-590e-4cfc-b45f-f16fb235aeb7,2025-08-15 15:48:55.227756+00:00,xai,grok-3-beta,0,3750,235,coa,Prioritized community benefits and ethics over individual consent.
+ca5b371a-b27d-42be-a606-83c5e8dc6638,2025-08-15 15:49:03.630271+00:00,xai,grok-3-beta,0,3750,238,coa,Prioritized individual consent and oversight to protect privacy and prevent misuse.
+f7a4e7f8-2ab2-448a-8aa5-57c320507c5c,2025-08-15 15:49:13.510088+00:00,xai,grok-3-beta,0,3750,236,coa,Prioritize community benefits and prevent discrimination over strict privacy.
+a6a19334-6542-4953-a698-d8d8eb688a9a,2025-08-15 15:49:18.845268+00:00,xai,grok-3-beta,0,3750,236,coa,Prioritized community benefits and preventing discrimination over individual control.
+50bf28b3-1d90-462c-b548-16c39061665a,2025-08-15 15:54:37.404152+00:00,xai,grok-3-beta,0,3741,236,ctr,Prioritize community benefits and privacy over strict individual control.
+c6aabdea-4739-447f-ae00-23c37e33d3df,2025-08-15 15:54:47.097481+00:00,xai,grok-3-beta,0,3741,236,ctr,Prioritize privacy and community benefits over unrestricted research access.
+55d3a228-0514-412c-ad20-90edc36f68fd,2025-08-15 15:54:55.258759+00:00,xai,grok-3-beta,0,3741,236,ctr,Prioritize community benefits and privacy with oversight for research.
+a0932000-476d-40f2-8cac-69ea855aa4cb,2025-08-15 15:55:02.064575+00:00,xai,grok-3-beta,0,3741,236,ctr,I prioritize community benefits and preventing discrimination over strict privacy.
+e27dd335-d8e4-4960-8460-7d6658ade367,2025-08-15 15:55:08.105699+00:00,xai,grok-3-beta,0,3741,237,ctr,Prioritize community benefits and preventing discrimination over strict individual consent.
+f95bafb7-94ae-4cfa-9dcc-34a6e6611e96,2025-08-15 16:01:35.915941+00:00,xai,grok-3-beta,0,3750,235,dis,Prioritized community benefit and ethics over individual control.
+38cc6e02-d551-4631-9f31-0bb44f1bef47,2025-08-15 16:01:54.327662+00:00,xai,grok-3-beta,0,3750,236,dis,Prioritized privacy and community benefits over strict individual consent.
+9e23314d-9ae2-4fec-ae6c-6eeec72cd47a,2025-08-15 16:02:09.689266+00:00,xai,grok-3-beta,0,3750,237,dis,Prioritized privacy and oversight with community benefits and discrimination prevention.
+45f10394-93e9-4a37-954a-707d0054178b,2025-08-15 16:02:23.402734+00:00,xai,grok-3-beta,0,3750,236,dis,Prioritized community benefits and preventing discrimination over strict privacy.
+fd8c2b28-a74f-4b20-8d7b-029a17812470,2025-08-15 16:02:35.187835+00:00,xai,grok-3-beta,0,3750,238,dis,Prioritized preventing discrimination and ensuring community benefits over strict individual consent.
+8ee3d49a-fa6e-4d07-9c0f-a1a1bbdc7783,2025-08-15 16:09:14.249332+00:00,xai,grok-3-beta,0,3744,237,eld,Privacy and preventing discrimination are critical due to personal health risks.
+44fa64e9-ee22-47a7-bfbb-cc47b55b4e4b,2025-08-15 16:09:25.787154+00:00,xai,grok-3-beta,0,3744,236,eld,Prioritized privacy and community benefits over strict individual consent.
+4667035e-9f8f-404b-9ab8-5ea15813eff6,2025-08-15 16:09:32.649028+00:00,xai,grok-3-beta,0,3744,236,eld,Prioritized privacy and oversight due to personal data concerns.
+44b04ac1-74b6-4cf4-8924-8ae2bd962b4e,2025-08-15 16:09:44.220084+00:00,xai,grok-3-beta,0,3744,236,eld,I prioritize preventing discrimination and ensuring community benefits over privacy.
+30445f19-35be-4980-ac0c-4f05531ef4fa,2025-08-15 16:09:50.314124+00:00,xai,grok-3-beta,0,3744,238,eld,Prioritize preventing discrimination and ensuring community benefits over strict individual consent.
+fddd5d32-7e1a-418f-b7cb-68db0429d109,2025-08-15 16:15:06.183725+00:00,xai,grok-3-beta,0,3744,236,far,Prioritized community benefits and privacy over unrestricted research access.
+fe98358d-48e8-4cdc-aaaf-3e2ec35fb5df,2025-08-15 16:15:11.693540+00:00,xai,grok-3-beta,0,3744,236,far,Prioritized privacy and community benefits due to displacement concerns.
+8262ae37-c4be-4c45-ab49-37f5062a2897,2025-08-15 16:15:17.552691+00:00,xai,grok-3-beta,0,3744,236,far,Prioritized privacy and community benefits due to displacement concerns.
+9d6f8a8a-f789-4fe3-a114-3f43ec506c45,2025-08-15 16:15:23.782651+00:00,xai,grok-3-beta,0,3744,236,far,Prioritize preventing discrimination and ensuring community benefits over privacy.
+9caad5ba-219a-4d15-92b3-70b28127b8b0,2025-08-15 16:15:29.205757+00:00,xai,grok-3-beta,0,3744,237,far,Prioritized preventing discrimination and ensuring community benefits over individual consent.
+58467f53-a19f-4bed-aed9-ea67b4e0c0ee,2025-08-15 16:21:28.952192+00:00,xai,grok-3-beta,0,3747,236,fis,Prioritize community benefits and privacy with oversight for research.
+5df78f9c-077e-4cb7-a736-37dc9cf1ccbb,2025-08-15 16:21:43.462458+00:00,xai,grok-3-beta,0,3747,237,fis,"Prior, I prioritized community benefits and ethics over individual control."
+4a259f26-06bd-4fea-9cbc-225ecc5b0cfa,2025-08-15 16:22:27.005350+00:00,xai,grok-3-beta,0,3747,237,fis,Prioritized privacy and oversight with community benefits and anti-discrimination.
+0d49801f-5182-4488-b7b5-d9068ccb8bc7,2025-08-15 16:22:43.075998+00:00,xai,grok-3-beta,0,3747,237,fis,Prioritize community benefits and prevent discrimination over strict individual consent.
+3a10af39-bc6f-4699-845b-841413e048a4,2025-08-15 16:22:52.903274+00:00,xai,grok-3-beta,0,3747,237,fis,Prioritize community benefits and prevent discrimination over strict individual consent.
+1fba96b9-c79c-4c01-824b-730177697aad,2025-08-15 16:30:42.938205+00:00,xai,grok-3-beta,0,3750,237,lan,Prioritized community benefits and privacy with oversight over individual control.
+fc7988af-20d3-4ced-9823-29b53370e5f9,2025-08-15 16:31:02.678843+00:00,xai,grok-3-beta,0,3750,235,lan,Prioritized community benefits and ethics over individual control.
+b50c944f-ac06-44fb-8162-af47f47e7708,2025-08-15 16:31:13.944832+00:00,xai,grok-3-beta,0,3750,236,lan,Prioritized privacy and community benefits over unrestricted research access.
+0465c97a-d0dd-4cfb-b785-619e16b0eb07,2025-08-15 16:31:24.081932+00:00,xai,grok-3-beta,0,3750,237,lan,Prioritize community benefits and prevent discrimination over strict individual consent.
+4eebef8f-342e-4e3b-93f2-e8c3fc837cb0,2025-08-15 16:31:35.556131+00:00,xai,grok-3-beta,0,3750,236,lan,Prioritized community benefits and preventing discrimination over individual control.
+95a5a5da-1d63-4ed1-b5b4-a15a5116c501,2025-08-15 16:37:36.837090+00:00,xai,grok-3-beta,0,3756,236,par,Prioritized community benefits and privacy with oversight for research.
+b6ee4e25-9569-4ba5-9f31-f0eafcaa5b2d,2025-08-15 16:37:43.780559+00:00,xai,grok-3-beta,0,4068,393,par,Prioritize ethics and protection over ease of research access.
+b1ea1fde-1402-4739-940a-204c027a7292,2025-08-15 16:37:58.729800+00:00,xai,grok-3-beta,0,3756,236,par,Prioritized individual consent and ethics board oversight for protection.
+d39b75fd-ee95-4319-a6a6-338972e491fa,2025-08-15 16:38:06.615328+00:00,xai,grok-3-beta,0,3756,236,par,Prioritize community benefits and preventing discrimination over strict privacy.
+e776fad2-4685-4060-a4b0-40feae352826,2025-08-15 16:38:12.658310+00:00,xai,grok-3-beta,0,3756,238,par,Prioritized preventing discrimination and ensuring community benefits over strict individual consent.
+60bfbe95-e730-45d6-aa60-597e649736c8,2025-08-15 16:42:54.008489+00:00,xai,grok-3-beta,0,3744,236,sub,I prioritize community benefits and privacy over unrestricted research access.
+86f21808-f82e-48ea-8410-8ea686a62283,2025-08-15 16:43:18.402687+00:00,xai,grok-3-beta,0,3744,235,sub,Prioritize community benefits and ethics over individual control.
+ec19bf39-aa0a-4556-b281-7af5641e85b6,2025-08-15 16:43:28.683454+00:00,xai,grok-3-beta,0,3744,234,sub,Prioritize community benefits and protection from discrimination.
+585ee901-51b4-42c0-b702-003c90183541,2025-08-15 16:43:34.522909+00:00,xai,grok-3-beta,0,3744,236,sub,I prioritize community benefits and preventing discrimination over strict privacy.
+269a10b1-0155-429b-a372-3ce213629bd1,2025-08-15 16:43:43.310708+00:00,xai,grok-3-beta,0,3744,236,sub,Prioritize community benefits and preventing discrimination over individual control.
+3663ff03-4e91-4beb-ba50-36d8f6a33c14,2025-08-15 16:48:42.971167+00:00,xai,grok-3-beta,0,3750,239,vil,Prioritized community benefits and privacy with oversight due to water security concerns.
+55926b1d-3510-482b-b74d-08436bea5654,2025-08-15 16:48:50.553395+00:00,xai,grok-3-beta,0,3750,235,vil,Prioritized community benefits and ethics over individual control.
+824f16d4-6bd4-4368-96de-015c80baca54,2025-08-15 16:49:00.692802+00:00,xai,grok-3-beta,0,3750,238,vil,Prioritized community benefits and protection from discrimination over strict individual consent.
+ee1e122b-0243-47d4-949d-35cd03cbf199,2025-08-15 16:49:06.293165+00:00,xai,grok-3-beta,0,3750,235,vil,Prioritize community benefits and prevent discrimination over privacy.
+b30bc0f5-5994-440a-bf67-5bb8847abaf1,2025-08-15 16:49:23.067884+00:00,xai,grok-3-beta,0,3750,237,vil,Prioritize community benefits and prevent discrimination over strict individual consent.
+f3764fb5-cae3-4d41-ac43-dd061697e9a5,2025-08-15 16:54:52.455302+00:00,xai,grok-3-beta,0,3750,236,csk,Prioritize societal benefits and minimal regulation over privacy concerns.
+3d83fb66-1144-44c2-9c4d-de65461e5242,2025-08-15 16:55:00.837241+00:00,xai,grok-3-beta,0,3750,236,csk,Prioritize ease of research access over strict individual consent.
+95c55763-436c-4ec9-a73f-f01e146a3c8f,2025-08-15 16:55:10.310712+00:00,xai,grok-3-beta,0,3750,238,csk,Prioritize research freedom and societal benefits over individual consent and privacy.
+57cf056e-6941-4632-bf6b-95fee705a569,2025-08-15 16:55:15.583818+00:00,xai,grok-3-beta,0,3750,236,csk,Prioritize societal benefits and minimal regulation over privacy concerns.
+70b28c02-8498-4b37-af98-2e0d803bf3bd,2025-08-15 16:55:27.600143+00:00,xai,grok-3-beta,0,3750,236,csk,Prioritize individual control and societal benefits over strict oversight.
