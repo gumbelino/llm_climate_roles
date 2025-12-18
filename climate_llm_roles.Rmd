@@ -306,7 +306,6 @@ dri_alpha_data <- res
 ## H1a: random data
 
 ```{r}
-
 random_res <- list()
 N <- 5
 
@@ -447,8 +446,10 @@ for (i in 1:nrow(llm_data_it)) {
 random_res <- bind_rows(random_res)
 
 write_csv(random_res, "data/H1a_random_results.csv")
+```
 
 
+```{r, fig.width=14, fig.height=6}
 # Read your file (adjust path if needed)
 h1 <- random_res
 
@@ -486,6 +487,7 @@ h1_long <- h1 |>
                   "obs_mean" = "Observed DRI",
                   "random_mean" = "Random baseline")
   )
+
 
 ph1 <- h1_long %>%
   ggplot(aes(x = model_clean, y = mean_dri, group = model_clean)) +
@@ -534,7 +536,7 @@ ph1 <- h1_long %>%
     y = "Mean DRI"
   ) +
   
-  theme_minimal(base_size = 12) +
+  theme_minimal(base_size = 20) +
   
   theme(
     axis.text=element_text(size=12),
@@ -546,7 +548,7 @@ ph1 <- h1_long %>%
 
 ph1
 
-ggsave("plots/H1.png", ph1, width = 12, height = 8, dpi = 300)
+ggsave("plots/Fig1.png", ph1, width = 12, height = 8, dpi = 300)
 
 
 ```
@@ -612,8 +614,7 @@ write_csv(wilcox_res, "data/H1b_wilcox_results.csv")
 ```
 
 ## H2
-
-```{r}
+```{r, fig.width=14, fig.height=6}
 df <- dri_alpha_data %>%
   # use model name instead of model for plots
   left_join(models %>% select(model, name), join_by(model)) %>% 
@@ -649,19 +650,36 @@ grand_mean <- mean(df$dri, na.rm = TRUE)
 # Reorder for plotting
 emm_df$model <- reorder(emm_df$model, emm_df$emmean)
 
-ggplot(emm_df, aes(x = emmean, y = model)) +
+
+ph2a <- emm_df %>%
+  ggplot(aes(x = emmean, y = model)) +
   geom_point(size = 3, color = "black") +
   geom_errorbarh(aes(xmin = lower.CL, xmax = upper.CL), height = 0.2) +
-  geom_vline(xintercept = grand_mean, linetype = "dashed", color = "red", linewidth = 0.8) +
-  theme_minimal(base_size = 14) +
+  geom_vline(
+    xintercept = grand_mean,
+    linetype = "dashed",
+    color = "red",
+    linewidth = 0.8
+  ) +
+  theme_minimal(base_size = 20) +
   labs(
     x = "Estimated DRI (adjusted for role & survey)",
     y = "Model",
     title = "Cross-Model Differences in Deliberative Reason Index",
     subtitle = "Red dashed line = Overall mean DRI across all models"
   )
-grand_mean <- mean(df$dri, na.rm = TRUE)
 
+ph2a
+
+ggsave("plots/Fig3.png", ph2a, width = 14, height = 6, dpi = 300)
+
+
+
+grand_mean <- mean(df$dri, na.rm = TRUE)
+```
+
+
+```{r, fig.width=14, fig.height=6}
 ggplot(df, aes(x = model, y = dri, fill = model)) +
   geom_violin(alpha = 0.3, color = "black") +
   geom_jitter(width = 0.1, alpha = 0.4, size = 1) +
@@ -742,16 +760,25 @@ role_model_heat <- df %>%
 
 ```
 
-```{r}
+### Noise
+```{r, fig.width=14, fig.height=6}
 
 ph2 <- role_model_heat %>%
+  rename("uid" = "role") %>%
+  left_join(cc_roles %>%
+              select(uid, role), 
+            join_by(uid)) %>%
+  mutate(label = paste0(role, " (", uid, ")")) %>%
   ggplot(aes(x = model, y = role, fill = sd_rep)) +
   geom_tile() +
   scale_fill_distiller(palette = "RdYlGn",
                        direction = -1,
                        name = "Noise (SD)") +
-  theme_minimal(base_size = 10) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme_minimal(base_size = 20) +
+  theme(
+    # axis.text.y = element_text(size=16),
+    axis.text.x = element_text(angle = 30, hjust = 1)
+  ) +
   labs(
     x = "Model",
     y = "Role",
@@ -761,40 +788,13 @@ ph2 <- role_model_heat %>%
 
 ph2
 
-ggsave("plots/H2.png", ph2, width = 8, height = 8, dpi = 300)
-
-# ggplot(role_model_heat, aes(x = model, y = role)) +
-#   geom_point(aes(size = sd_rep, color = sd_rep)) +
-#   scale_color_distiller(palette = "RdYlGn", direction = -1) +
-#   scale_size(range = c(3, 14)) +
-#   theme_minimal()
-# ggplot(role_model_heat, aes(model, sd_rep, fill = sd_rep)) +
-#   geom_col() +
-#   facet_wrap(~ role, ncol = 3) +
-#   scale_fill_distiller(palette = "RdYlGn", direction = -1)
-# ggplot(role_model_heat, aes(model, role, fill = sd_rep)) +
-#   geom_tile() +
-#   geom_contour(aes(z = sd_rep), color = "black", alpha = 0.3)
-# 
-# 
-# ggplot(role_summary, aes(x = mean_dri, y = reorder(role, mean_dri))) +
-#   geom_point(size = 3) +
-#   geom_vline(xintercept = mean(df$dri), linetype = "dashed", color = "red") +
-#   theme_minimal(base_size = 14) +
-#   labs(
-#     x = "Mean DRI",
-#     y = "Role",
-#     title = "Which Roles Produce Higher or Lower DRI?",
-#     subtitle = "Red dashed line = overall DRI mean"
-#   )
-
-
+ggsave("plots/Fig2.png", ph2, width = 14, height = 6, dpi = 300)
 
 ```
 
-## Detailed exploration
+## Example of model inconsistencies
 
-```{r, fig.width=12, fig.height=8}
+```{r, fig.width=12, fig.height=6}
 
 model1 <- "claude-3-7-sonnet-20250219"
 model2 <- "gpt-3.5-turbo"
@@ -847,7 +847,7 @@ sds <- sds %>%
 #   select(-uid)
 
 # Function to create heatmap
-create_heatmap <- function(data, cols, title, order = 1) {
+create_heatmap <- function(data, cols, title, subtitle, caption, order = 1) {
   # Sort data by model and then role
   data_sorted <- if (order == 1) data %>%
     arrange(prompt_uid, model) %>%
@@ -867,28 +867,45 @@ create_heatmap <- function(data, cols, title, order = 1) {
   # Create heatmap
   ggplot(plot_data, aes(x = column, y = row_label, fill = value)) +
     geom_tile(color = "white", linewidth = 0.5) +
-    scale_fill_gradient2(low = "darkred", mid = "lightyellow", high = "darkgreen",
-                         midpoint = median(plot_data$value, na.rm = TRUE),
-                         na.value = "grey50") +
-    labs(title = title, x = "Column", y = "Model/Role", fill = "Value") +
-    theme_minimal() +
-    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8),
-          axis.text.y = element_text(size = 8),
-          panel.grid = element_blank(),
-          plot.title = element_text(hjust = 0.5, face = "bold"))
+    scale_fill_distiller(palette = "RdYlGn",
+                       direction = -1,
+                       name = "Noise (SD)") +
+    # scale_fill_gradient2(low = "darkred", mid = "lightyellow", high = "darkgreen",
+    #                      midpoint = median(plot_data$value, na.rm = TRUE),
+    #                      na.value = "grey50") +
+    labs(title = title, subtitle = subtitle, caption = caption, x = "DRI Survey Question", y = "Model / Role", fill = "SD (responses)") +
+    theme_minimal(base_size = 18) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          panel.grid = element_blank()
+          )
 }
 
 # Create heatmap for C columns
-c_cols <- paste0("C", 1:33)
-p1 <- create_heatmap(sds, c_cols, "Heatmap for C1:C33", order = 2)
+p_cols <- paste0("P", 1:7)
+p1 <- create_heatmap(sds, p_cols, "Noise in policy preference questions across roles", "Comparison between GPT-3.5 Turbo and Claude 3.7 Sonnet", paste("survey:", survey), order = 2)
 print(p1)
 
-p_cols <- paste0("P", 1:7)
-p2 <- create_heatmap(sds, p_cols, "Heatmap for P1:P7", order = 2)
+c_cols <- paste0("C", 1:33)
+p2 <- create_heatmap(sds, c_cols, "Noise in consideration questions across roles", "Comparison between GPT-3.5 Turbo and Claude 3.7 Sonnet", paste("survey:", survey), order = 2)
 print(p2)
 
-ggsave("plots/heatmap_C_columns.png", p1, width = 12, height = 8, dpi = 300)
-ggsave("plots/heatmap_P_columns.png", p2, width = 8, height = 8, dpi = 300)
+ggsave("plots/AppendixFig1.png", p1, width = 14, height = 6, dpi = 300)
+ggsave("plots/AppendixFig2.png", p2, width = 14, height = 6, dpi = 300)
+
+n_p <- deliberr::surveys %>%
+  filter(name == survey, type == "P") %>%
+  count() %>%
+  tibble::deframe()
+  
+deliberr::surveys %>%
+  filter(name == survey) %>%
+  arrange(type, order) %>%
+  mutate(label = paste0(type, order),
+         response = ifelse(
+           type == "C", paste("Likert from", 1, "to", scale_max), paste("Ranked-choice from", 1, "to", n_p)
+         )) %>%
+  select(label, statement, response) %>%
+  knitr::kable(caption = paste(survey, "survey questions"), col.names = c("Question", "Statement", "Response Type")) 
 
 ```
 
