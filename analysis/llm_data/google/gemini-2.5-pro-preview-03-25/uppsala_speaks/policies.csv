@@ -1,0 +1,3 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,P1. Ban Begging within Sweden,P2. Deport any immigrants found begging on the streets who have stayed in Sweden longer than three months,P3. Enforce existing laws without special consideration for beggars,P4. Forbid giving money to beggars,P5. Focus resources on addressing the the problem in source countries such as Romania,P6. Ban Illegal Settlements,P7. Provide accommodation for beggars (more)
+005ebd41-da9f-4dda-b4de-80af512408a6,2025-08-18 09:19:39.385106+00:00,google,gemini-2.5-pro-preview-03-25,0,3801,294,con,3,4,2,6,1,5,7
+d2c85e86-67a9-4cf3-a30a-fb5714ed789b,2025-08-18 09:30:11.870651+00:00,google,gemini-2.5-pro-preview-03-25,0,3801,291,con,5,1,2,4,6,3,7

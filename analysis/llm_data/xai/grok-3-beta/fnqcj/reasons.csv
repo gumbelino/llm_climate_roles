@@ -1,0 +1,106 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+1934dcb6-c1e5-4db7-9aad-4fe3bbe041a5,2025-08-15 14:40:46.590370+00:00,xai,grok-3-beta,0,4230,246,con,Prioritize maintaining current state and stability over drastic changes.
+7490ffe0-dd0a-4cc5-84d8-c33f87a9c43b,2025-08-15 14:40:55.562739+00:00,xai,grok-3-beta,0,4233,246,con,Prioritize stability and tradition over drastic change or closure.
+24494ab7-9e8a-4112-a05b-b37634c727ad,2025-08-15 14:41:02.571120+00:00,xai,grok-3-beta,0,4233,248,con,Prioritize stability and access while preserving the track's rugged nature.
+f5ff04c4-0b83-4b82-bcd7-0a91eda5b0d6,2025-08-15 14:41:08.651024+00:00,xai,grok-3-beta,0,4230,245,con,Prioritize maintaining tradition and access with minimal change.
+18f0ad28-3f1f-4a34-980c-f84d528e8b19,2025-08-15 14:41:15.581110+00:00,xai,grok-3-beta,0,4233,247,con,I prioritize maintaining access while minimizing environmental impact and major changes.
+c7047ad7-6cb1-4033-bf63-7f148a96ff12,2025-08-15 14:46:36.006492+00:00,xai,grok-3-beta,0,4221,245,ana,Prioritize minimal impact on nature while allowing access.
+d1d7cf7c-eac7-41b8-8c7b-e4f078bb70fa,2025-08-15 14:46:50.010147+00:00,xai,grok-3-beta,0,4224,246,ana,"Prioritize environment over development, favoring closure and rehabilitation."
+4ef55331-787d-4bcb-9031-6eede3a4d5b1,2025-08-15 14:47:09.103915+00:00,xai,grok-3-beta,0,4224,245,ana,Prioritize minimal impact on environment while allowing access.
+a0623317-1756-49a6-a0dd-484f774a8b43,2025-08-15 14:47:18.684536+00:00,xai,grok-3-beta,0,4221,247,ana,"Prioritize environment over development, favoring closure or minimal impact."
+a51492ed-820a-4e23-87e3-98bac9dd52bc,2025-08-15 14:47:24.728020+00:00,xai,grok-3-beta,0,4224,250,ana,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+f63f62cb-aa0a-458d-91bf-d31ee75c9ca6,2025-08-15 14:52:30.924486+00:00,xai,grok-3-beta,0,4227,244,eco,Prioritize minimal environmental impact while maintaining access.
+2b7ad8ac-6b4b-45c0-bdb0-d16b3338556b,2025-08-15 14:52:37.658136+00:00,xai,grok-3-beta,0,4230,247,eco,Prioritize environmental protection by closing and rehabilitating the road.
+d47173e0-1367-45a4-aa34-64f82e516035,2025-08-15 14:52:47.611218+00:00,xai,grok-3-beta,0,4230,245,eco,Prioritize minimal environmental impact and rehabilitation over development.
+f255fcdc-d3d5-4d5f-b1e5-85cd1af26890,2025-08-15 14:52:57.920010+00:00,xai,grok-3-beta,0,4227,248,eco,Prioritize closing and rehabilitating to protect the Daintree ecosystem.
+b14cd39e-45fe-4d4c-8214-aeb8dfcf40ba,2025-08-15 14:53:11.863680+00:00,xai,grok-3-beta,0,4230,247,eco,Prioritize environmental protection by closing and rehabilitating the road.
+44d59ea8-73be-4eee-bbcb-beef5a23022e,2025-08-15 14:59:54.410090+00:00,xai,grok-3-beta,0,4224,245,fas,Prioritize national progress and access over environmental concerns.
+11099d4c-c1ac-4e0b-8893-5e2f25aafc1e,2025-08-15 15:00:09.886555+00:00,xai,grok-3-beta,0,4227,247,fas,Upgrading to bitumen road best serves national progress and access.
+1fe2c47a-a695-461e-8c4f-1810af7a8d79,2025-08-15 15:00:24.509579+00:00,xai,grok-3-beta,0,4227,244,fas,Prioritize development and access over environmental concerns.
+7c561d65-2931-4c1f-97b0-c8c2502fc151,2025-08-15 15:00:43.214783+00:00,xai,grok-3-beta,0,4224,245,fas,Prioritize national progress and access over environmental concerns.
+e31c0da8-e980-41ee-8fc8-6852bdeb354c,2025-08-15 15:00:57.957166+00:00,xai,grok-3-beta,0,4227,245,fas,Prioritize national access and development over environmental concerns.
+ec27f447-e96d-4a20-bc3d-eda7d421600f,2025-08-15 15:06:38.629618+00:00,xai,grok-3-beta,0,4218,248,fem,Prioritizing environmental protection over development in the Daintree area.
+e9c33739-b280-4a7a-b52d-578dbf28ecc3,2025-08-15 15:06:44.857805+00:00,xai,grok-3-beta,0,4221,247,fem,"Prioritize environment over development, hence support closing the road."
+c34aceee-b30d-4788-ab15-42a219da852a,2025-08-15 15:06:52.938004+00:00,xai,grok-3-beta,0,4221,242,fem,Prioritize environmental protection over development.
+bde41fe0-2cda-45f0-a3f4-039b81846376,2025-08-15 15:06:58.571323+00:00,xai,grok-3-beta,0,4218,245,fem,Prioritizing environmental protection over development and access.
+f3ee9dcb-d49c-48fa-8af9-f9d731de99f5,2025-08-15 15:07:04.432132+00:00,xai,grok-3-beta,0,4221,247,fem,"Prioritize environment over development, hence support closing the road."
+8f102952-bc7f-4897-b7c9-a1429209ac51,2025-08-15 15:13:49.219661+00:00,xai,grok-3-beta,0,4230,244,fun,Prioritize minimal environmental impact while maintaining access.
+e04c63e0-1701-468c-a782-daa0e735bdbc,2025-08-15 15:14:07.526594+00:00,xai,grok-3-beta,0,4233,243,fun,Ratings reflect prioritizing environmental protection over development.
+a1d3cb55-8499-4a85-9912-be8f338346e1,2025-08-15 15:14:18.806702+00:00,xai,grok-3-beta,0,4233,242,fun,Prioritize environmental protection over development.
+efb0de86-d0e3-4bc0-a89e-ce3d304bddb7,2025-08-15 15:14:26.473333+00:00,xai,grok-3-beta,0,4230,242,fun,Prioritize environmental protection over development.
+3a3eb694-9c08-4880-8b16-180155d50ab0,2025-08-15 15:14:36.199485+00:00,xai,grok-3-beta,0,4233,247,fun,"I prioritize environmental protection over development, hence favoring road closure."
+9587523f-6a4e-4170-94c2-50ba083a5d8c,2025-08-15 15:20:59.398449+00:00,xai,grok-3-beta,0,4230,248,lib,I prioritize minimal intervention and individual access while avoiding major environmental harm.
+c0978fb4-86aa-41f9-a599-00ddb8055169,2025-08-15 15:21:07.603994+00:00,xai,grok-3-beta,0,4233,246,lib,I prioritize minimal intervention to balance access and environmental protection.
+1303815d-364f-4734-b2cb-b45c04cecd4d,2025-08-15 15:21:13.511588+00:00,xai,grok-3-beta,0,4233,244,lib,Balancing access and environmental impact guided my ratings.
+91c0429d-b071-4380-b3ac-39a08cd3425c,2025-08-15 15:21:19.854945+00:00,xai,grok-3-beta,0,4230,245,lib,Prioritize access and utility while minimizing environmental impact.
+a6173a86-10aa-47b6-8c3d-6f4081e68680,2025-08-15 15:21:26.812232+00:00,xai,grok-3-beta,0,4233,245,lib,I prioritize access and utility while minimizing environmental impact.
+f4d76e9a-96e6-4e4d-a8fa-b93c10cdd040,2025-08-15 15:27:57.286259+00:00,xai,grok-3-beta,0,4270,293,nat,Prioritize national access and community benefit over full closure or major upgrades.
+a4deefca-f499-46a0-adb3-ef662412544b,2025-08-15 15:28:18.991926+00:00,xai,grok-3-beta,0,4230,247,nat,Prioritizing national development and access with upgraded bitumen road.
+aaa4e122-ae7f-4bf9-a65d-bc8ac7c9811c,2025-08-15 15:28:25.803211+00:00,xai,grok-3-beta,0,4230,245,nat,Prioritize national access and development over environmental closure.
+26f3ec67-e9e1-41d3-b3c4-f9d65269f29e,2025-08-15 15:28:34.524224+00:00,xai,grok-3-beta,0,4227,246,nat,Prioritizing national access and development over environmental concerns.
+2ec76f2b-e723-4017-b060-270be3e25196,2025-08-15 15:28:43.978503+00:00,xai,grok-3-beta,0,4230,246,nat,Prioritizing national access and development over environmental closure.
+8b49d6b9-9712-4071-8770-54a419904440,2025-08-15 15:33:50.179385+00:00,xai,grok-3-beta,0,4233,246,pop,I prioritize access for regular folks over elite environmental concerns.
+6719973b-7d40-47aa-9516-96e9e510da29,2025-08-15 15:33:58.552202+00:00,xai,grok-3-beta,0,4236,248,pop,I prioritize local access and minimal environmental harm over elite-driven upgrades.
+5696fc4b-5c43-480e-b12d-57e3ee0070fc,2025-08-15 15:34:06.864905+00:00,xai,grok-3-beta,0,4236,248,pop,I prioritize minimal impact on nature while ensuring access for the people.
+d737e123-7a72-43f1-93e4-5866621f8051,2025-08-15 15:34:18.328172+00:00,xai,grok-3-beta,0,4233,250,pop,"I prioritize access for all, not just elites, while balancing environmental concerns."
+346cf1b9-f478-4f8a-a945-78021cce314d,2025-08-15 15:34:24.230522+00:00,xai,grok-3-beta,0,4236,250,pop,I prioritize upgrading the road for access over closing it for the people's benefit.
+6cf7fe05-bf88-4ed8-84b5-cec22142d82d,2025-08-15 15:39:40.373873+00:00,xai,grok-3-beta,0,4224,246,soc,"Prior, I prioritized minimal environmental impact and community access."
+5f7dde89-2baf-453d-94c8-fb72e2f9399a,2025-08-15 15:39:46.832793+00:00,xai,grok-3-beta,0,4227,246,soc,"Prioritize environment over development, favoring closure and rehabilitation."
+c8ce95d1-afe8-499d-b437-d4e035b087a9,2025-08-15 15:39:52.543244+00:00,xai,grok-3-beta,0,4227,244,soc,Prioritize environmental protection over development and access.
+44e57a49-dd24-48bf-8862-77fdbdd0bd7c,2025-08-15 15:39:57.867218+00:00,xai,grok-3-beta,0,4224,247,soc,"Prioritize environment over development, hence closing road is best."
+023177f1-8a81-4335-964e-fb87696d51e6,2025-08-15 15:40:04.830040+00:00,xai,grok-3-beta,0,4227,247,soc,"Prioritize environment over development, hence support closing the road."
+6bd1df3a-21e0-4b81-957d-248a3e024528,2025-08-15 15:45:43.241656+00:00,xai,grok-3-beta,0,4254,244,coa,I prioritize minimal environmental impact while maintaining access.
+25020113-45d7-4015-9cb7-749529229574,2025-08-15 15:45:58.208376+00:00,xai,grok-3-beta,0,4257,247,coa,I prioritize environmental protection over road upgrades due to flooding risks.
+ffb1e166-0b5a-4d6d-b4e3-0d11ffdce82b,2025-08-15 15:46:05.074926+00:00,xai,grok-3-beta,0,4257,244,coa,Prioritize minimal environmental impact while maintaining access.
+ab9c6274-8cab-4c3c-93ad-c1d7c8f81938,2025-08-15 15:46:16.480313+00:00,xai,grok-3-beta,0,4254,248,coa,I prioritize closing the road to protect the environment over any upgrades.
+f6475c3f-2c73-4aea-958f-dff88aa66054,2025-08-15 15:46:25.833704+00:00,xai,grok-3-beta,0,4257,247,coa,I prioritize environmental protection over road upgrades due to flooding risks.
+5f0ecbe5-a4dc-4ec4-aebb-1b1893b367dc,2025-08-15 15:52:26.226581+00:00,xai,grok-3-beta,0,4245,247,ctr,I prioritize minimal change to protect the environment while maintaining access.
+82c2fb76-4e10-4dce-92b6-70e9c424a4ba,2025-08-15 15:52:33.809242+00:00,xai,grok-3-beta,0,4248,248,ctr,Heat stress makes me favor closing the road to reduce environmental impact.
+d473c7cd-3389-4c1e-af14-690f7672779e,2025-08-15 15:52:39.113790+00:00,xai,grok-3-beta,0,4248,246,ctr,I prioritize minimal environmental impact while maintaining access for work.
+2cfc47ce-ffc1-48d7-8e7a-c29c23455eef,2025-08-15 15:52:52.015827+00:00,xai,grok-3-beta,0,4245,247,ctr,I prioritize road access for work but worry about environmental impact.
+0cb6af53-45cb-43e4-a614-d0f00d31eed4,2025-08-15 15:53:03.691672+00:00,xai,grok-3-beta,0,4248,247,ctr,I prioritize minimal environmental impact while ensuring safe access for work.
+210f2596-a2f4-47a9-a7f4-7484aea68be5,2025-08-15 15:58:01.432812+00:00,xai,grok-3-beta,0,4254,244,dis,I prioritize minimal environmental impact while maintaining access.
+5e282e17-7940-49dc-a438-3ef1864251e6,2025-08-15 15:58:07.216678+00:00,xai,grok-3-beta,0,4257,249,dis,I prioritize environmental protection over road upgrades due to climate and disease risks.
+b953572c-72c1-4de9-8a8c-39da7067af05,2025-08-15 15:58:19.353914+00:00,xai,grok-3-beta,0,4257,244,dis,I prioritize minimal environmental impact while maintaining access.
+f0dc49cd-305f-49a0-9077-10b9769ebd4a,2025-08-15 15:58:29.324512+00:00,xai,grok-3-beta,0,4254,247,dis,Prioritize environment over development due to climate and disease risks.
+697eb3aa-1421-463b-ad77-fff981ecd3e0,2025-08-15 15:58:48.677930+00:00,xai,grok-3-beta,0,4257,244,dis,I prioritize minimal environmental impact while maintaining access.
+3f74f771-6156-42ac-8c64-5b1a2f22cae7,2025-08-15 16:06:51.513878+00:00,xai,grok-3-beta,0,4248,244,eld,I prioritize minimal environmental impact while maintaining access.
+65ed3498-b656-4b86-994d-38ca98f93949,2025-08-15 16:06:57.434316+00:00,xai,grok-3-beta,0,4251,244,eld,I prioritize minimal environmental impact over road upgrades.
+15dcb26a-de21-4026-886d-702f6979e91e,2025-08-15 16:07:04.706123+00:00,xai,grok-3-beta,0,4251,244,eld,I prioritize minimal environmental impact while maintaining access.
+3d985ce9-1bfd-437b-8711-69d17a926a63,2025-08-15 16:07:19.291131+00:00,xai,grok-3-beta,0,4248,246,eld,"I prioritize environment over access, favoring closure and rehabilitation."
+1e1efc98-51c2-420e-a981-182626d128e7,2025-08-15 16:07:34.438584+00:00,xai,grok-3-beta,0,4251,245,eld,I prioritize environmental protection over road upgrades or access.
+857533b7-57e2-4cab-bdad-5da9c885782f,2025-08-15 16:12:59.181541+00:00,xai,grok-3-beta,0,4248,244,far,Prioritize minimal environmental impact while maintaining access.
+0cce1a5e-dfbd-4cf8-b7f7-895b840155c5,2025-08-15 16:13:23.278380+00:00,xai,grok-3-beta,0,4251,246,far,Prioritize environment over development due to climate change impact.
+a14f5357-60f6-4876-8f23-d6a6b7f86a6a,2025-08-15 16:13:35.236287+00:00,xai,grok-3-beta,0,4251,246,far,Prioritize environment over development due to climate change impact.
+3c1f3742-15c8-427b-a5db-d8fdd7fca79e,2025-08-15 16:13:41.685923+00:00,xai,grok-3-beta,0,4248,245,far,Prioritize environment over access due to climate impact.
+c490112e-f924-4d09-be52-707bbf567ce1,2025-08-15 16:13:47.664031+00:00,xai,grok-3-beta,0,4251,246,far,Prioritize environment over development due to climate change impact.
+c6ed7242-5995-4264-8043-11b8cf6ae5ac,2025-08-15 16:19:15.422800+00:00,xai,grok-3-beta,0,4251,244,fis,I prioritize minimal environmental impact while maintaining access.
+14cf4545-2b71-4062-9912-9e6cf4a0d38f,2025-08-15 16:19:27.793850+00:00,xai,grok-3-beta,0,4254,246,fis,Prioritize environment over development due to ocean warming impact.
+8dc31af8-2ebe-4fec-b6e3-ce5402ac4303,2025-08-15 16:19:36.910083+00:00,xai,grok-3-beta,0,4254,244,fis,I prioritize minimal environmental impact while maintaining access.
+b7f7a8f7-7209-4346-a970-7cf1635f16f4,2025-08-15 16:19:43.402122+00:00,xai,grok-3-beta,0,4251,244,fis,I prioritize minimal environmental impact while maintaining access.
+ebd302f3-acfc-4544-8b3c-32f69425ec1a,2025-08-15 16:19:51.159783+00:00,xai,grok-3-beta,0,4254,246,fis,"Concerned about environmental impact, prefer minimal road upgrades."
+d9c9025c-e4ae-4b18-90d2-5c030dc85972,2025-08-15 16:26:59.368522+00:00,xai,grok-3-beta,0,4408,324,lan,I prioritize minimal impact on the environment while maintaining access.
+7dc0fd15-8cfa-4f31-81d2-aa0cf83d4a4f,2025-08-15 16:27:15.659920+00:00,xai,grok-3-beta,0,4257,244,lan,I prioritize minimal environmental impact over road upgrades.
+c4f4e633-c51c-4cad-aff3-b3006517141b,2025-08-15 16:27:33.069921+00:00,xai,grok-3-beta,0,4257,244,lan,I prioritize minimal environmental impact while maintaining access.
+e05474f6-cf31-438d-9a81-fa065ff2442e,2025-08-15 16:27:57.234394+00:00,xai,grok-3-beta,0,4254,244,lan,I prioritize minimal environmental impact while maintaining access.
+7b385b4a-6e34-41e6-95df-03a33c04005f,2025-08-15 16:28:25.603275+00:00,xai,grok-3-beta,0,4257,245,lan,Prioritize minimal impact on environment while maintaining access.
+b0aef181-f416-403c-9def-407876eb6c16,2025-08-15 16:35:06.434083+00:00,xai,grok-3-beta,0,4260,249,par,Concern for environment and child’s health drives preference for minimal road impact.
+8188f892-3b3a-40d0-9cfa-7be9f4e73f38,2025-08-15 16:35:16.017756+00:00,xai,grok-3-beta,0,4263,247,par,I prioritize environmental protection over road upgrades due to climate concerns.
+a39e606d-c17e-4309-8cc8-3ad8b8dacde3,2025-08-15 16:35:45.304441+00:00,xai,grok-3-beta,0,4263,244,par,I prioritize minimal environmental impact while maintaining access.
+9c29b7e4-3d8c-4c62-970e-2ecc2059e5c2,2025-08-15 16:35:55.956274+00:00,xai,grok-3-beta,0,4260,249,par,I prioritize closing the road to protect the environment due to climate concerns.
+1109c02c-90d9-4e85-a263-b5bbb002b91a,2025-08-15 16:36:04.292750+00:00,xai,grok-3-beta,0,4263,245,par,I prioritize environment over access due to climate concerns.
+e7af3db0-61da-4066-8419-42b2de6bd045,2025-08-15 16:40:47.067623+00:00,xai,grok-3-beta,0,4248,244,sub,I prioritize minimal environmental impact while maintaining access.
+8053905e-66f2-43e1-9d0f-28a3d4e624b9,2025-08-15 16:40:57.315914+00:00,xai,grok-3-beta,0,4251,244,sub,I prioritize minimal environmental impact over road upgrades.
+421f07ba-5c2f-4dd8-baf1-cb45ec3dc3cd,2025-08-15 16:41:15.997212+00:00,xai,grok-3-beta,0,4251,244,sub,I prioritize minimal environmental impact over road upgrades.
+e57ba413-3b03-486d-af76-f6f216062b22,2025-08-15 16:41:22.697872+00:00,xai,grok-3-beta,0,4248,245,sub,I prioritize environment over development due to climate impact.
+b81ab9b9-f0a8-4ee0-851a-75533eca072f,2025-08-15 16:41:29.960992+00:00,xai,grok-3-beta,0,4251,246,sub,"I prioritize environment over access, favoring closure and rehabilitation."
+b7dfa7a3-a22b-48b0-8dda-dbac89cbb648,2025-08-15 16:46:37.761243+00:00,xai,grok-3-beta,0,4254,244,vil,I prioritize minimal environmental impact while maintaining access.
+f428dd65-5ba7-4c14-a985-dbd1701094df,2025-08-15 16:46:43.953621+00:00,xai,grok-3-beta,0,4257,248,vil,I prioritize environmental protection over road upgrades due to water security concerns.
+1d89999d-97db-4b17-885a-9a59da194db5,2025-08-15 16:46:50.471114+00:00,xai,grok-3-beta,0,4257,244,vil,I prioritize minimal environmental impact while maintaining access.
+05e5d221-9430-4dfd-819e-b328410c6ba6,2025-08-15 16:46:55.879160+00:00,xai,grok-3-beta,0,4254,246,vil,Prioritize environment over development due to water security concerns.
+00342e32-a475-4dd0-a082-bfe902892106,2025-08-15 16:47:01.594206+00:00,xai,grok-3-beta,0,4257,246,vil,I prioritize environment over development due to water security concerns.
+c8b610a4-8418-4f8b-b145-d95351d23a87,2025-08-15 16:52:46.479940+00:00,xai,grok-3-beta,0,4254,245,csk,I prioritize economic growth and access over environmental concerns.
+19d7a4d2-307a-451c-847d-74a14f28336d,2025-08-15 16:52:53.393873+00:00,xai,grok-3-beta,0,4257,245,csk,I prioritize economic growth and access over environmental concerns.
+f772b416-96dc-4451-a9c0-8e4698da925f,2025-08-15 16:52:59.185803+00:00,xai,grok-3-beta,0,4257,245,csk,I prioritize economic access and development over environmental concerns.
+97d2518b-45c9-4393-b47b-a33e45a41550,2025-08-15 16:53:06.660789+00:00,xai,grok-3-beta,0,4254,245,csk,I prioritize economic access and development over environmental concerns.
+0ee7668e-451a-4388-a802-23de4816a9f3,2025-08-15 16:53:21.943127+00:00,xai,grok-3-beta,0,4257,247,csk,"I prioritize economic access over environmental concerns, favoring road upgrades."

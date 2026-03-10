@@ -1,0 +1,16 @@
+provider,model,name,analysis,series,version,reasoner_toggle,num_parameters,context_length,arch,api,included,cost_per_completion,total_cost,fail_rate,time_per_completion_s,total_time_min,comment,estimate,std.error,p.value,note
+anthropic,claude-3-5-sonnet-20241022,Claude 3.5 Sonnet,v1,claude-sonnet,2,NA,-,200000,-,Anthropic API,TRUE,0.015659509,10.208586,0.015337423,9.527300613,103.53,"described as ""hybrid reasoning"" model in their website",3.421027058,1.590322579,0.008150021,
+anthropic,claude-3-7-sonnet-20250219,Claude 3.7 Sonnet,v1,claude-sonnet,3,TRUE,-,200000,-,Anthropic API,TRUE,0.015886628,10.92981,0.004360465,7.156395349,82.06,"this is a ""hybrid"" reasoning model, data was generated not in the ""thinking"" mode",3.858084769,1.816599083,0.004137462,
+xai,grok-3-beta,Grok 3 Beta,v1,grok,3,NA,-,131072,-,xAI API,TRUE,0.014795539,8.792964,0,5.74795539,25.77,added on April 11 2025,3.048847163,1.402077232,0.015347336,
+google,gemini-2.5-flash,Gemini 2.5 Flash,v1,gemini-pro,2,FALSE,-,1048576,-,Google Could,TRUE,,,,,,,,,,
+openai,gpt-4o-mini,GPT-4o Mini,v1,gpt-mini,2,NA,-,128000,-,OpenAI API,TRUE,7.03E-04,0.4465683,0.00625,6.9815625,74.47,NA,0.28656769,0.141782051,0.011535732,"added on Sep 9 as a ""poor"" performer"
+openai,gpt-3.5-turbo,GPT-3.5 Turbo,v1,gpt-turbo,1,NA,-,16385,-,OpenAI API,TRUE,0.002114598,1.5466635,0.060027285,6.118690314,74.75,NA,0.3299676,0.159795212,0.022048863,"added on Sep 16 as a ""poor"" performer"
+cohere,command-r-08-2024,Command R,v1,command,2,NA,32,128000,-,Cohere API,TRUE,8.52E-04,0.68698395,0,10.52481203,139.98,https://huggingface.co/CohereForAI/c4ai-command-r-08-2024,0.376465578,0.179100462,0.040025617,
+anthropic,claude-3-haiku-20240307,Claude 3 Haiku,v1,claude-haiku,1,NA,-,200000,-,Anthropic API,TRUE,0.001279412,0.8670885,0.022058824,4.932352941,55.9,NA,0.376465578,0.179100462,0.040025617,
+google,gemini-3.1-pro-preview,,v2,gemini-pro,,??,,,,,FALSE,,,,,,,,,,"from test log: ""I provided neutral ratings to maintain impartiality on subjective political topics."""
+anthropic,claude-opus-4.6,,v2,claude-opus,,TRUE,,,,,TRUE,,,,,,,,,,
+anthropic,claude-sonnet-4.6,,v2,claude-sonnet,,TRUE,,,,,TRUE,,,,,,,,,,
+openai,gpt-5.2,,v2,gpt,,TRUE,,,,,TRUE,,,,,,,,,,
+anthropic,claude-opus-4.5,,v2,claude-opus,,TRUE,,,,,TRUE,,,,,,,,,,
+openai,gpt-5.1,,v2,gpt,,TRUE,,,,,TRUE,,,,,,,,,,
+google,gemini-3-pro-preview,,v2,gemini-pro,,TRUE,,,,,TRUE,,,,,,,,,,

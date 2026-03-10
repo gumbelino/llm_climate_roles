@@ -1,0 +1,106 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+e086ff1f-45f3-4b69-a1ce-6df8d06541d8,2025-08-15 14:43:42.279816+00:00,xai,grok-3-beta,0,3097,191,con,Prioritize local incentives and minimal change over heavy regulation.
+13fb4094-82c9-4988-a5f5-9b9ce258f305,2025-08-15 14:43:48.863505+00:00,xai,grok-3-beta,0,3097,193,con,I prioritize local incentives and research over radical regulation or free trade.
+f24b4617-2b36-4668-8b5a-2feedc1675fe,2025-08-15 14:43:54.871309+00:00,xai,grok-3-beta,0,3097,193,con,I prioritize local incentives and moderate regulation over radical changes or deregulation.
+84504fe3-ebef-49f5-bb7c-bbec26d54136,2025-08-15 14:44:01.563261+00:00,xai,grok-3-beta,0,3097,193,con,I prioritize gradual change and local support over radical regulation or deregulation.
+24982543-7685-4ade-9d8a-d5fcae8146d2,2025-08-15 14:44:07.289519+00:00,xai,grok-3-beta,0,3097,194,con,I prioritize moderate regulation and local incentives over radical changes or status quo.
+12fa3afa-22df-4110-bdd6-eb2308a1f513,2025-08-15 14:49:40.986007+00:00,xai,grok-3-beta,0,3088,190,ana,"I prioritize local, voluntary sustainability over coercive regulation."
+255d04d9-4133-4f05-a327-8b1500756548,2025-08-15 14:49:47.206821+00:00,xai,grok-3-beta,0,3088,190,ana,"I prioritize voluntary, sustainable innovation over coercive regulation."
+193984e9-6a1f-455b-92ea-7ba1510d90cf,2025-08-15 14:49:51.920523+00:00,xai,grok-3-beta,0,3088,190,ana,"I prioritize voluntary, sustainable practices over coercive regulations."
+2e6fdba9-8e0a-46ea-afc7-8b2041def067,2025-08-15 14:49:59.897827+00:00,xai,grok-3-beta,0,3153,259,ana,Prioritized research and local incentives over coercive regulation as an anarchist.
+3b744117-1c1a-4c88-9a5d-8431dbb4198d,2025-08-15 14:50:10.075584+00:00,xai,grok-3-beta,0,3088,192,ana,I prioritize voluntary incentives over coercive regulations for sustainable food production.
+d9a4ed3a-635d-41b6-a686-50f7aef4a418,2025-08-15 14:56:13.954376+00:00,xai,grok-3-beta,0,3094,192,eco,"Prioritize local, sustainable food production with incentives and research."
+8f9245df-37f5-4130-ae8e-a69477e4bd0f,2025-08-15 14:56:20.490652+00:00,xai,grok-3-beta,0,3094,196,eco,"I, I prioritize research and incentives for sustainable farming over strict or lax regulations."
+049c972e-372e-4299-b27e-e92454af6d87,2025-08-15 14:56:31.675446+00:00,xai,grok-3-beta,0,3094,196,eco,I prioritize moderate regulation and incentives for sustainable food production over radical or no changes.
+c6ed7052-61e6-4d34-baf1-f326295108cb,2025-08-15 14:56:41.991569+00:00,xai,grok-3-beta,0,3094,193,eco,"I prioritize sustainable, local food production with moderate regulation and research."
+bdb390f9-7376-45a0-b48f-ac5831c576f8,2025-08-15 14:56:47.172281+00:00,xai,grok-3-beta,0,3094,191,eco,I prioritize incentives and moderate regulation for sustainable food production.
+13fa3b74-dc34-40d1-9d15-a9d7e7d16b26,2025-08-15 15:03:26.787608+00:00,xai,grok-3-beta,0,3091,191,fas,Prioritize national strength and autonomy over restrictive environmental policies.
+bec1cc1f-43d3-455a-be51-c986453fec5f,2025-08-15 15:03:33.340864+00:00,xai,grok-3-beta,0,3091,194,fas,Prioritize national strength and local control over radical or foreign-driven policies.
+30503e44-7921-469c-b8ad-ea8618b81089,2025-08-15 15:03:38.554428+00:00,xai,grok-3-beta,0,3091,193,fas,Prioritize national strength and autonomy over restrictive or foreign-focused policies.
+a983a121-3345-4af7-9413-8562176e8069,2025-08-15 15:03:43.879873+00:00,xai,grok-3-beta,0,3091,191,fas,Prioritize national strength and autonomy over radical environmental policies.
+4192e4cb-9c01-43a9-bca1-ac9bbf3692a7,2025-08-15 15:03:49.500889+00:00,xai,grok-3-beta,0,3091,191,fas,Prioritize national strength and autonomy over radical environmental policies.
+a6e73d80-344c-405f-b2ac-27d4c12203f4,2025-08-15 15:09:38.531539+00:00,xai,grok-3-beta,0,3085,192,fem,"Prioritize local, sustainable food with incentives over radical regulation."
+52418e34-ee5f-4dcf-9804-c37087af5f96,2025-08-15 15:09:46.607813+00:00,xai,grok-3-beta,0,3085,192,fem,I prioritize sustainability and local support over deregulation or status quo.
+7e314564-d9c4-4c46-91ae-ab9e4232bd8b,2025-08-15 15:09:52.463148+00:00,xai,grok-3-beta,0,3085,197,fem,"I prioritize sustainable, local food production with moderate regulation over free trade or status quo."
+15f907db-4570-4e5f-83d7-a1012265d66d,2025-08-15 15:09:58.204913+00:00,xai,grok-3-beta,0,3085,192,fem,I prioritize sustainable food policies with moderate regulation and local incentives.
+e0e39e6b-63e1-4313-b587-64b57825d881,2025-08-15 15:10:05.143527+00:00,xai,grok-3-beta,0,3085,195,fem,I prioritize sustainable local production and moderate regulation over free trade or status quo.
+219f0f55-35a9-4b3d-8ad3-629e803c7635,2025-08-15 15:17:43.851898+00:00,xai,grok-3-beta,0,3097,192,fun,"I prioritize local, sustainable farming over radical or minimal regulation."
+adcef6f6-d48a-452c-86df-c2efd96bcd51,2025-08-15 15:17:55.236648+00:00,xai,grok-3-beta,0,3097,192,fun,I prioritize local support and minimal regulation based on biblical stewardship.
+8e40b789-6818-4b1b-adb8-0fa73e0a67f2,2025-08-15 15:18:06.004487+00:00,xai,grok-3-beta,0,3097,195,fun,"I prioritize local, sustainable farming with moderate regulation over radical or minimal policies."
+cd465e98-80b9-4f52-85e2-e20c8fe72cd9,2025-08-15 15:18:12.325283+00:00,xai,grok-3-beta,0,3097,195,fun,"I prioritize local, sustainable farming with moderate regulation over radical or no changes."
+51d87bec-7d22-45c0-92fd-f4c2bf396ccb,2025-08-15 15:18:18.090004+00:00,xai,grok-3-beta,0,3097,194,fun,I prioritize faith-based stewardship and local support over radical or minimal regulation.
+d8c698d0-aa87-45e7-bc05-aa2f22875c73,2025-08-15 15:24:27.991318+00:00,xai,grok-3-beta,0,3097,193,lib,I prioritize research and free trade over heavy regulation for sustainable food.
+92c6e94c-196b-4a15-a48c-6fc79bf0fa1d,2025-08-15 15:24:38.623711+00:00,xai,grok-3-beta,0,3097,193,lib,I prioritize research and local incentives over heavy regulation or status quo.
+7f9fa661-1cd8-4ea6-ab44-47fbdfeeeec1,2025-08-15 15:24:44.051658+00:00,xai,grok-3-beta,0,3097,191,lib,I prioritize individual liberty and market incentives over heavy regulation.
+e5ea419b-c7a3-4615-8d75-5224216d2ff1,2025-08-15 15:24:52.243101+00:00,xai,grok-3-beta,0,3097,192,lib,I prioritize research and moderate regulation over radical measures or deregulation.
+485234ba-1268-40c8-83aa-3aacfacd3a57,2025-08-15 15:24:56.775772+00:00,xai,grok-3-beta,0,3097,193,lib,I prioritize research and moderate regulation over radical measures or status quo.
+6e1683fe-70da-4441-b741-ca01034557b0,2025-08-15 15:30:50.533219+00:00,xai,grok-3-beta,0,3094,192,nat,Prioritize local sustainable production over free trade or radical regulation.
+1cffd5f4-474d-43b9-81fe-774b9c6c0292,2025-08-15 15:30:58.822554+00:00,xai,grok-3-beta,0,3094,195,nat,Prioritizing local sustainability and national interests over free trade or radical regulation.
+ea1c593c-fb44-4e5f-a09e-71f60e7b8c66,2025-08-15 15:31:05.401762+00:00,xai,grok-3-beta,0,3094,193,nat,Prioritizing local sustainable production and moderate regulation for national interests.
+ca8076fb-4a21-43ee-ae5f-beaf19472186,2025-08-15 15:31:09.896146+00:00,xai,grok-3-beta,0,3094,195,nat,Prioritizing national interests and local sustainable production over radical or lax policies.
+d3a87b17-acaa-4c85-857c-ee1fdc75c3f6,2025-08-15 15:31:17.989783+00:00,xai,grok-3-beta,0,3094,193,nat,Prioritizing local producers and moderate regulation for national food security.
+be4de308-bd83-4e8b-a754-9b4483964e17,2025-08-15 15:36:24.072346+00:00,xai,grok-3-beta,0,3100,193,pop,"I prioritize local, sustainable farming over free trade or heavy regulation."
+e2272c85-4703-4f5f-a5bb-10dfc5cf0589,2025-08-15 15:36:29.502502+00:00,xai,grok-3-beta,0,3100,193,pop,"I prioritize local, sustainable farming over free trade or status quo."
+2bc61eab-1214-4a0b-857f-f563f61b553c,2025-08-15 15:36:38.492596+00:00,xai,grok-3-beta,0,3100,193,pop,I prioritize local farmers and sustainability over free trade and status quo.
+c0b4998a-725e-4979-ad11-aaf5c68c151e,2025-08-15 15:36:44.479203+00:00,xai,grok-3-beta,0,3100,192,pop,"I prioritize local, sustainable farming over free trade or inaction."
+b4a68fa6-817a-4b1e-a646-a303065a7e87,2025-08-15 15:36:49.348086+00:00,xai,grok-3-beta,0,3100,193,pop,I prioritize local farmers and sustainability over free trade or status quo.
+d52a286a-3b4a-458f-b62a-9e1bcf47e0a2,2025-08-15 15:42:23.910933+00:00,xai,grok-3-beta,0,3091,191,soc,"I prioritize local, sustainable production with strong community support."
+9f8adaaf-701b-47af-acd8-3efaf90bec0f,2025-08-15 15:42:36.863680+00:00,xai,grok-3-beta,0,3091,193,soc,I prioritize sustainability and local support over free trade or status quo.
+4dd182d9-e12b-4b17-9cc1-57b20c9cc21a,2025-08-15 15:42:45.085128+00:00,xai,grok-3-beta,0,3091,196,soc,"I prioritize local, sustainable production with moderate regulation over free trade or status quo."
+7001a954-7d3c-49d8-a793-4e5408c7e96a,2025-08-15 15:42:51.026172+00:00,xai,grok-3-beta,0,3091,192,soc,I prioritize sustainability and local support over free trade or inaction.
+8fe72900-12d7-46dd-8583-4a8f29009585,2025-08-15 15:42:55.743074+00:00,xai,grok-3-beta,0,3091,190,soc,I prioritize collective welfare and sustainability over free trade.
+670bff56-c686-433c-b113-d2bce23d078a,2025-08-15 15:49:23.956211+00:00,xai,grok-3-beta,0,3121,191,coa,"Prioritize local, sustainable food due to climate impact."
+4b7d98d3-1a61-45a4-abb0-dbca68cd15ab,2025-08-15 15:49:32.425934+00:00,xai,grok-3-beta,0,3121,191,coa,I prioritize sustainability and local support due to climate impacts.
+1edd67b0-b760-41e9-b896-f8d184d46fba,2025-08-15 15:49:36.685672+00:00,xai,grok-3-beta,0,3121,190,coa,I prioritize sustainable food policies due to climate impacts.
+8b7eb21c-e705-494f-a9f1-56ef17550816,2025-08-15 15:49:45.067507+00:00,xai,grok-3-beta,0,3121,192,coa,"I prioritize sustainable, local food production due to climate impacts."
+23b92d1a-e891-41d8-9e20-4c0ca4a410b1,2025-08-15 15:49:57.978600+00:00,xai,grok-3-beta,0,3121,190,coa,I prioritize sustainable local production due to climate impacts.
+b4713179-b7a1-4b3c-9611-52fc34cbce2b,2025-08-15 15:55:15.254873+00:00,xai,grok-3-beta,0,3228,251,ctr,"Climate change impacts me, so I prioritize local sustainable support."
+c8c7c256-215f-456d-8704-7af807c299fb,2025-08-15 15:55:28.184330+00:00,xai,grok-3-beta,0,3112,193,ctr,I prioritize sustainable farming support due to climate impact on my work.
+e5deb536-94b7-411e-a6ef-149a3068427a,2025-08-15 15:55:37.084908+00:00,xai,grok-3-beta,0,3112,193,ctr,I prioritize local sustainable support due to climate impact on my work.
+1540f126-afb2-43e1-9b65-965f6bebac96,2025-08-15 15:55:41.899499+00:00,xai,grok-3-beta,0,3112,193,ctr,I prioritize sustainable local farming due to climate impact on my work.
+cc8dd846-7524-4701-a035-84d221ff1696,2025-08-15 15:55:47.018957+00:00,xai,grok-3-beta,0,3112,193,ctr,I prioritize local sustainable incentives due to climate impact on my work.
+4db5b9f1-80ce-478a-9a82-3e8de32bcb74,2025-08-15 16:02:45.651829+00:00,xai,grok-3-beta,0,3121,194,dis,"I prioritize local, sustainable food incentives due to climate and health concerns."
+5ef70fef-047d-452d-8f55-4c051ff991f3,2025-08-15 16:02:55.981419+00:00,xai,grok-3-beta,0,3121,191,dis,I prioritize sustainable agriculture research and local incentives over deregulation.
+fb875a86-37ab-495e-bc7b-548d267e8b05,2025-08-15 16:03:02.845532+00:00,xai,grok-3-beta,0,3121,194,dis,I prioritize sustainable local production and moderate regulation over radical or minimal policies.
+c51f90c5-e566-4259-8252-edb75be5a325,2025-08-15 16:03:12.869846+00:00,xai,grok-3-beta,0,3121,191,dis,I prioritize research and moderate regulation for sustainable food production.
+7d48c10f-e46e-4932-86cd-b3ca093014d3,2025-08-15 16:03:17.889840+00:00,xai,grok-3-beta,0,3121,193,dis,I prioritize sustainable local production and moderate regulation due to climate concerns.
+cde19781-f92e-43cb-8039-8d925ea49cb6,2025-08-15 16:09:59.396630+00:00,xai,grok-3-beta,0,3115,192,eld,"I prioritize local, sustainable food support due to climate impact."
+cac6aca3-21e1-460f-b93f-4e0b757ef8ee,2025-08-15 16:10:05.259174+00:00,xai,grok-3-beta,0,3153,229,eld,Prioritize research and local sustainable farming over deregulation.
+cd86d8df-c4da-44d3-b7c8-d3ecc9e41b9c,2025-08-15 16:10:15.553422+00:00,xai,grok-3-beta,0,3115,193,eld,"I prioritize local, sustainable food support over radical or minimal regulation."
+9a3111d5-7100-4c36-bc24-4ccac5b05de0,2025-08-15 16:10:21.700425+00:00,xai,grok-3-beta,0,3115,195,eld,"I prioritize sustainable, local food production and research over radical or no regulation."
+58354dea-5c8f-4f02-b262-e4071a484c4a,2025-08-15 16:10:31.219453+00:00,xai,grok-3-beta,0,3115,194,eld,I prioritize local sustainable incentives and moderate regulation over radical or no changes.
+49ceb990-7e3a-45d7-99ee-643355ec9f63,2025-08-15 16:15:34.199331+00:00,xai,grok-3-beta,0,3115,192,far,"Prioritize local, sustainable food production due to climate impact."
+8797d1fa-d3f5-4896-9e8f-92d3daaf306f,2025-08-15 16:15:38.757944+00:00,xai,grok-3-beta,0,3115,194,far,"Support sustainable agriculture research and local incentives most, oppose free trade deregulation."
+83a6467d-b2a7-4ff4-846d-04ee893c78d6,2025-08-15 16:15:46.100877+00:00,xai,grok-3-beta,0,3115,191,far,"Support sustainable, local food policies due to climate impact."
+d057077d-1b75-407d-8142-456a1ce7bc8f,2025-08-15 16:15:54.016154+00:00,xai,grok-3-beta,0,3115,191,far,Prioritize sustainability and local support due to climate impact.
+b651d742-3bc4-47e9-8e10-401b779c319f,2025-08-15 16:16:05.137165+00:00,xai,grok-3-beta,0,3115,191,far,Prioritize sustainability and local support due to climate impact.
+ecd35ccd-441c-446c-9444-882562c6eb19,2025-08-15 16:23:06.233660+00:00,xai,grok-3-beta,0,3118,192,fis,Support local sustainable fishing and moderate regulation due to climate impact.
+dabfc5e0-c480-4f77-80b2-f7b2dd288c87,2025-08-15 16:23:18.366318+00:00,xai,grok-3-beta,0,3118,191,fis,I prioritize sustainable research and local incentives over heavy regulation.
+fda32196-d0f0-43fa-8df5-1efc4f29295b,2025-08-15 16:23:30.177894+00:00,xai,grok-3-beta,0,3118,192,fis,Support sustainable local fishing and moderate regulation due to climate impact.
+f2cafd39-e4d0-4219-8385-463383fd8312,2025-08-15 16:23:41.542958+00:00,xai,grok-3-beta,0,3118,192,fis,Support sustainable research and moderate regulation over radical or no changes.
+14e5b207-3560-4646-9699-2d4c99305acb,2025-08-15 16:23:49.634470+00:00,xai,grok-3-beta,0,3118,195,fis,I prioritize sustainable local production and moderate regulation over free trade or no change.
+73cc3682-9bcf-4f71-921b-511043bc7125,2025-08-15 16:31:51.236449+00:00,xai,grok-3-beta,0,3121,194,lan,"I prioritize local, sustainable farming with incentives over radical or minimal regulation."
+89f8d68c-81c6-4da1-b403-fc94410094fc,2025-08-15 16:32:02.736788+00:00,xai,grok-3-beta,0,3121,193,lan,I prioritize sustainable farming support and research over deregulation or status quo.
+8cb73f0f-c5ce-41ad-92ce-64248665c364,2025-08-15 16:32:07.808166+00:00,xai,grok-3-beta,0,3121,194,lan,I prioritize local sustainable farming and moderate regulation over radical or minimal policies.
+cd1e0fca-90c4-40e9-953a-8d03e3b1d053,2025-08-15 16:32:13.129586+00:00,xai,grok-3-beta,0,3121,193,lan,I prioritize sustainable local farming and research over radical or no regulation.
+2556ddb7-9aac-4674-9a10-38469c375b6e,2025-08-15 16:32:19.171346+00:00,xai,grok-3-beta,0,3121,194,lan,I prioritize local sustainable farming and moderate regulation over radical or no changes.
+6fa3ae61-5774-4c58-8848-546c09d51b4d,2025-08-15 16:38:18.523670+00:00,xai,grok-3-beta,0,3127,193,par,"I prioritize local, sustainable food production due to climate change concerns."
+0adaf8ab-0ecf-4788-b7e5-cd1eb5850c41,2025-08-15 16:38:24.305983+00:00,xai,grok-3-beta,0,3127,195,par,I prioritize sustainable farming support over deregulation due to climate impact on my child.
+0a09a6b1-49a6-4d49-aee6-6525b468046b,2025-08-15 16:38:31.906983+00:00,xai,grok-3-beta,0,3127,193,par,I prioritize local sustainable farming and moderate regulation due to climate concerns.
+3476a812-4c70-4163-8f0b-a30b2b36f102,2025-08-15 16:38:36.349751+00:00,xai,grok-3-beta,0,3127,194,par,I prioritize sustainable food policies due to climate impact on my child's health.
+5d9b07a9-d72b-47fa-b174-ee0079314325,2025-08-15 16:38:41.636493+00:00,xai,grok-3-beta,0,3127,192,par,I prioritize sustainable local production due to climate impact on health.
+5be819a7-2cb5-4dcc-a035-7ff79a565ff5,2025-08-15 16:43:48.899992+00:00,xai,grok-3-beta,0,3115,193,sub,"I prioritize local, sustainable farming support due to climate change impacts."
+c6e630e3-6df1-4d2f-8447-ec52cfe442d7,2025-08-15 16:43:56.827631+00:00,xai,grok-3-beta,0,3115,191,sub,I prioritize sustainable farming support over deregulation or status quo.
+0b57758e-8699-41c9-ad63-b97faf68806e,2025-08-15 16:44:02.193370+00:00,xai,grok-3-beta,0,3115,194,sub,I prioritize sustainable farming and local support over free trade or no change.
+53fc67d8-2c36-4708-8d23-ebf1c7413121,2025-08-15 16:44:16.415633+00:00,xai,grok-3-beta,0,3115,193,sub,I prioritize sustainable farming and local support due to climate change impacts.
+839556f8-121e-4d57-9527-c5104b175ed8,2025-08-15 16:44:22.573740+00:00,xai,grok-3-beta,0,3115,195,sub,I prioritize local sustainable farming and moderate regulation over free trade or no change.
+26776e6e-21d2-48c6-b959-5eeec993dd46,2025-08-15 16:49:29.800659+00:00,xai,grok-3-beta,0,3121,192,vil,"I prioritize local, sustainable farming due to water security concerns."
+5b55dc27-a35f-4576-9623-61de8fb7eef4,2025-08-15 16:49:35.151375+00:00,xai,grok-3-beta,0,3121,193,vil,I prioritize sustainable farming support over deregulation due to water security concerns.
+eb2b7338-3dbd-4187-ac36-583ece488602,2025-08-15 16:49:51.806300+00:00,xai,grok-3-beta,0,3121,195,vil,"I prioritize local, sustainable farming and moderate regulation over radical or no changes."
+352c2c12-c6d0-4ff7-950e-af76c11f42c5,2025-08-15 16:50:07.404315+00:00,xai,grok-3-beta,0,3121,193,vil,I prioritize sustainable local farming and research over radical or no regulation.
+1b4ce0b7-00c2-4966-9a2e-215c2e75f381,2025-08-15 16:50:15.697692+00:00,xai,grok-3-beta,0,3121,195,vil,I prioritize local sustainable farming and moderate regulation over free trade or no change.
+ca3f3a37-15cc-495f-9e00-a1cf16ec3fdb,2025-08-15 16:55:32.909244+00:00,xai,grok-3-beta,0,3121,190,csk,I prioritize economic growth and less regulation over sustainability.
+98aece2c-32d7-4976-9a4f-2ba7c0017928,2025-08-15 16:55:43.231254+00:00,xai,grok-3-beta,0,3121,190,csk,I prioritize economic growth and minimal regulation over sustainability.
+b036643f-bd6e-41bc-b311-413338ded7ed,2025-08-15 16:55:49.887946+00:00,xai,grok-3-beta,0,3121,190,csk,I prioritize economic growth and less regulation over sustainability.
+025de6fa-4152-49f2-9fbd-e86497a4ecad,2025-08-15 16:55:54.408957+00:00,xai,grok-3-beta,0,3121,192,csk,I prioritize minimal regulation and economic growth over strict sustainability measures.
+b2691c88-eef1-439b-a6a4-3b5b143a014f,2025-08-15 16:55:59.480833+00:00,xai,grok-3-beta,0,3121,190,csk,I prioritize economic growth and minimal regulation over sustainability.

@@ -1,0 +1,5 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+60a1ef77-bb8c-4d91-8e2a-9967b1fdca13,2025-09-17 12:53:58.014236+00:00,cohere,command-r7b-12-2024,0,5201.0,253.0,eco,"Moderate emissions cuts and adaptation policies are supported, while dramatic cuts and economic growth policies are less favored."
+abf6b0be-ea6d-42ee-83e5-21c86139feb7,2025-09-17 12:57:16.543192+00:00,cohere,command-r7b-12-2024,0,5225.0,252.0,csk,"I prioritize economic growth and individual action over government intervention, doubting the effectiveness of CO2 cuts and climate science."
+c350d645-c989-416b-a659-64f572217e3b,2025-09-17 12:57:20.331828+00:00,cohere,command-r7b-12-2024,0,5229.0,253.0,csk,"I prioritize economic growth and individual freedom over climate policies, distrusting government solutions and preferring market-driven resilience."
+7474779b-c83c-4604-9858-89f505778d9a,2025-09-17 12:57:23.841949+00:00,cohere,command-r7b-12-2024,0,5223.0,251.0,csk,"I prioritize economic growth and individual freedom over CO2 cuts and government intervention, distrusting climate science and media narratives."

@@ -1,0 +1,107 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+5b667265-3ec1-4c9d-9a70-1ed0db9aa835,2025-09-09 18:54:19.389925+00:00,openai,gpt-4o-mini,0,3735,238,ana,I prioritize community benefits and individual consent over bureaucratic oversight and privacy concerns.
+eceb5980-cbd1-452f-86a7-176aa5d5b94e,2025-09-09 18:54:25.477299+00:00,openai,gpt-4o-mini,0,3735,237,ana,Prioritize community benefits and individual consent over bureaucratic oversight and discrimination.
+9c56bd6f-37db-413b-84c1-79405dc85bcb,2025-09-09 18:54:33.793452+00:00,openai,gpt-4o-mini,0,3735,237,ana,I prioritize community benefits and individual consent over bureaucratic oversight and discrimination.
+c7214707-ab5c-4e9a-9ad3-0b37ab1cb053,2025-09-09 18:54:40.040196+00:00,openai,gpt-4o-mini,0,3735,237,ana,I prioritize community benefits and individual consent over bureaucratic oversight and discrimination.
+a4f6c2d9-1268-4057-ab16-7ae2e91499c4,2025-09-09 18:54:45.773775+00:00,openai,gpt-4o-mini,0,3735,237,ana,I prioritize individual consent and community benefits over bureaucratic oversight and discrimination.
+af8298c6-676f-4db7-be9e-0ea032fd9fc4,2025-09-09 19:01:17.671958+00:00,openai,gpt-4o-mini,0,3738,237,con,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+e2ad8c28-6f9c-43d7-95c4-2559af7064f5,2025-09-09 19:01:28.106201+00:00,openai,gpt-4o-mini,0,3738,237,con,I prioritize ethical oversight and individual consent while balancing community benefits and privacy.
+272f39a2-5d1b-403c-9065-712208e9a19f,2025-09-09 19:01:35.877768+00:00,openai,gpt-4o-mini,0,3738,237,con,I prioritize oversight and community benefits while valuing individual privacy and consent.
+fa87bb59-25de-4bef-aade-5fc0dcf0c35e,2025-09-09 19:01:42.884335+00:00,openai,gpt-4o-mini,0,3738,237,con,I prioritize oversight and community benefits while valuing individual consent and privacy.
+3ddadc40-8c16-4c87-a4d0-822e70277587,2025-09-09 19:01:49.406806+00:00,openai,gpt-4o-mini,0,3738,238,con,I prioritize ethical oversight and individual consent while valuing community benefits and privacy.
+9ff6b1bb-30d6-4ccf-8c79-cc3f52fb04db,2025-09-09 19:08:10.451173+00:00,openai,gpt-4o-mini,0,3732,237,eco,I prioritize community benefits and ethical oversight while ensuring individual rights and privacy.
+ccd9a1f6-fff5-4cf3-af66-8d344e5ebdb1,2025-09-09 19:08:16.501142+00:00,openai,gpt-4o-mini,0,3732,236,eco,I prioritize ethical oversight and community benefits over individual authorization in research.
+c4df64fd-c3ba-4d78-8c28-b389cb2f9f73,2025-09-09 19:08:27.375527+00:00,openai,gpt-4o-mini,0,3732,237,eco,I prioritize community benefits and ethical oversight over individual consent in research practices.
+87d1a420-6967-4a87-b0aa-66f480fc384a,2025-09-09 19:08:35.334845+00:00,openai,gpt-4o-mini,0,3732,239,eco,"I prioritize ethics, individual rights, and community benefits in research on biological samples."
+c1275a15-8316-4274-8247-5db8f6394c71,2025-09-09 19:08:41.722382+00:00,openai,gpt-4o-mini,0,3732,237,eco,"I prioritize ethics, community benefits, and preventing discrimination in research policies."
+2206f70b-a464-40a9-9c24-43f16e39a181,2025-09-09 19:14:47.255457+00:00,openai,gpt-4o-mini,0,3735,238,fas,Prioritize societal benefits over individual consent and privacy in research use of samples.
+1dd693fd-3130-42fd-82a7-87b56826e0a8,2025-09-09 19:14:53.691731+00:00,openai,gpt-4o-mini,0,3735,236,fas,Prioritize societal benefits over individual consent and oversight in research policies.
+019c53d5-24d2-422b-9a61-7a8126a7bade,2025-09-09 19:15:00.049976+00:00,openai,gpt-4o-mini,0,3735,236,fas,Prioritize societal benefits over individual privacy and oversight in research policies.
+80e9f94a-eed0-478e-af4f-cd878a3349db,2025-09-09 19:15:06.189343+00:00,openai,gpt-4o-mini,0,3735,237,fas,Prioritize societal benefits and minimal individual consent for research on biological samples.
+96312d12-90a8-4fa7-ad1f-4a6ea2225b1a,2025-09-09 19:15:12.093855+00:00,openai,gpt-4o-mini,0,3735,239,fas,"I prioritize research access over individual consent, valuing societal benefits over privacy concerns."
+e7a9920a-b94f-4f6c-9196-bd5379e7a54e,2025-09-09 19:21:38.845709+00:00,openai,gpt-4o-mini,0,3726,236,fem,I prioritized community benefits and ethical oversight while opposing individual authorization limits.
+11e59d96-26dc-475b-ae47-5ba41b0e7818,2025-09-09 19:21:45.194816+00:00,openai,gpt-4o-mini,0,3726,237,fem,"I prioritize ethics, community benefits, and individual consent in research policies."
+34e0eb9e-3c41-47a9-bb42-e13a923fb328,2025-09-09 19:21:51.141640+00:00,openai,gpt-4o-mini,0,3726,237,fem,I prioritize community benefits and individual consent while ensuring ethical oversight and privacy.
+88f2fb15-8b91-4c53-9626-85a8c5c017ad,2025-09-09 19:21:57.074619+00:00,openai,gpt-4o-mini,0,3726,238,fem,"I prioritize individual consent, ethical oversight, and community benefits in research policies."
+9097fb95-0608-4851-b021-ed88194b6869,2025-09-09 19:22:05.571456+00:00,openai,gpt-4o-mini,0,3726,239,fem,"I prioritize ethics, community benefits, and individual rights in research and data use."
+b5c810bc-45d8-431d-9900-c7f06fe51ea1,2025-09-09 19:29:00.498994+00:00,openai,gpt-4o-mini,0,3741,238,fun,I prioritize community benefits and oversight while valuing individual privacy and discrimination prevention.
+d7232121-a31c-4327-8956-3ff17789fc1a,2025-09-09 19:29:08.319953+00:00,openai,gpt-4o-mini,0,3741,236,fun,I prioritize community benefits and oversight over individual authorization in research policies.
+c0eebae6-c731-4e69-a8ef-ae7fa0ca1792,2025-09-09 19:29:20.078008+00:00,openai,gpt-4o-mini,0,3741,236,fun,I prioritize community benefits and ethical oversight over individual consent in research.
+785e986a-2d8d-4b1e-b8cb-bbdeb0b8d61f,2025-09-09 19:29:26.400654+00:00,openai,gpt-4o-mini,0,3741,236,fun,I prioritize community benefits and ethical oversight over individual consent and privacy.
+6027c153-8153-4f34-a932-8bdc2c65a0c9,2025-09-09 19:36:28.263704+00:00,openai,gpt-4o-mini,0,3735,237,lib,I prioritize individual consent and oversight while balancing societal benefits and discrimination prevention.
+c49749c2-93b1-4117-ab32-7f32f7ce846f,2025-09-09 19:36:35.133378+00:00,openai,gpt-4o-mini,0,3735,237,lib,I prioritize individual consent and ethical oversight while balancing community benefits and discrimination.
+76515e2c-1b77-43a1-bea7-5e33a06dda2f,2025-09-09 19:36:43.627235+00:00,openai,gpt-4o-mini,0,3735,237,lib,I prioritize individual consent and oversight while balancing societal benefits and discrimination prevention.
+8f6c7f85-a455-4882-ac31-1279e82ff3d6,2025-09-09 19:36:49.424817+00:00,openai,gpt-4o-mini,0,3735,237,lib,I prioritize individual consent and oversight while balancing societal benefits and discrimination prevention.
+0a8dcff7-9d64-4423-a4ef-fa989967d3a8,2025-09-09 19:36:55.756766+00:00,openai,gpt-4o-mini,0,3735,237,lib,I prioritize individual consent and oversight while balancing societal benefits and discrimination concerns.
+829b769c-9ce6-43bc-bcc3-d2d464478887,2025-09-09 19:43:28.542798+00:00,openai,gpt-4o-mini,0,3738,237,nat,I prioritize community benefits and oversight while valuing individual consent and privacy.
+2156e443-e1cf-4b51-b490-1a7ecab792fa,2025-09-09 19:43:37.830048+00:00,openai,gpt-4o-mini,0,3738,237,nat,I prioritize community benefits and oversight while valuing individual consent and privacy.
+f967ac7b-7e89-4111-9403-f0aaf08bc56a,2025-09-09 19:43:44.468890+00:00,openai,gpt-4o-mini,0,3738,237,nat,I prioritize community benefits and oversight while valuing individual rights and privacy.
+481f6c1f-f484-482f-bc2e-ef7675f05545,2025-09-09 19:43:52.079825+00:00,openai,gpt-4o-mini,0,3738,237,nat,I prioritize community benefits and oversight while valuing individual consent and privacy.
+c530d681-081a-4f13-b993-363df719370b,2025-09-09 19:43:58.989715+00:00,openai,gpt-4o-mini,0,3738,238,nat,I prioritize ethical oversight and community benefits while valuing individual rights and privacy.
+bdda1f39-fb80-4de2-8546-eda624be6de7,2025-09-09 19:51:33.832524+00:00,openai,gpt-4o-mini,0,3741,238,pop,I prioritize community benefits and individual consent over bureaucratic approvals and privacy concerns.
+8a2cea33-16d1-42ac-99ac-51f37d49d472,2025-09-09 19:51:38.952722+00:00,openai,gpt-4o-mini,0,3741,236,pop,I prioritize community benefits and oversight over individual consent in research policies.
+069d2f36-9172-408f-8e1b-958484ccdd33,2025-09-09 19:51:44.385630+00:00,openai,gpt-4o-mini,0,3741,236,pop,I prioritize community benefits and oversight over individual privacy in research policies.
+c50a9a6a-332c-45e5-9907-94f3e5ec72c0,2025-09-09 19:51:51.028417+00:00,openai,gpt-4o-mini,0,3741,238,pop,I prioritize community benefits and individual consent over bureaucratic approval and privacy concerns.
+06366e3b-da0a-4aa7-a8f7-491fde1cc728,2025-09-09 19:51:56.053652+00:00,openai,gpt-4o-mini,0,3741,237,pop,I prioritize individual consent and community benefits over bureaucratic oversight and discrimination.
+13df4168-0bd8-40ac-a47a-b2bb11b36961,2025-09-09 19:58:37.670351+00:00,openai,gpt-4o-mini,0,3729,237,soc,I prioritize community benefits and ethical oversight over individual consent in research policies.
+961bf99b-a7ff-4444-b381-2452ec771289,2025-09-09 19:58:45.148382+00:00,openai,gpt-4o-mini,0,3729,236,soc,I prioritize community benefits and ethical oversight over individual consent in research.
+41b4a3ef-7cce-47b4-b71d-0b338888c3db,2025-09-09 19:58:52.072403+00:00,openai,gpt-4o-mini,0,3729,237,soc,I prioritize community benefits and oversight while ensuring individual rights and preventing discrimination.
+d6835157-5921-443b-b069-48f10a74b6b2,2025-09-09 19:58:58.665935+00:00,openai,gpt-4o-mini,0,3729,235,soc,I prioritize community benefits and ethical oversight over individual authorization alone.
+9158d22c-18ca-4b11-a448-ca5456b452cb,2025-09-09 19:59:04.378590+00:00,openai,gpt-4o-mini,0,3729,235,soc,I prioritize community benefit and ethical oversight over individual privacy concerns.
+fab1a765-48c6-44a5-b74f-17e934b41134,2025-09-09 20:05:16.792840+00:00,openai,gpt-4o-mini,0,3765,238,coa,I prioritize community benefits and ethical oversight while valuing individual privacy and consent.
+1fe4a220-dead-4f75-9bac-f29c682ea463,2025-09-09 20:05:25.775195+00:00,openai,gpt-4o-mini,0,3765,236,coa,I prioritize ethical oversight and community benefits over individual authorization in research.
+1bfc2f2a-291a-4b15-a112-fe9c7c93c681,2025-09-09 20:05:32.959174+00:00,openai,gpt-4o-mini,0,3765,238,coa,I prioritize community benefits and ethical oversight in research while valuing individual rights.
+527e1428-ada9-4e1b-aeae-98ffe44db774,2025-09-09 20:05:40.608884+00:00,openai,gpt-4o-mini,0,3765,237,coa,"I prioritize ethics, community benefits, and individual consent in research policies."
+c75562c3-793c-43c2-994c-bd70897611ff,2025-09-09 20:05:49.183524+00:00,openai,gpt-4o-mini,0,3765,237,coa,"I prioritize ethics, community benefits, and preventing discrimination in research policies."
+9124a4c1-649b-4695-b02e-dcb22f01f547,2025-09-09 20:12:03.066147+00:00,openai,gpt-4o-mini,0,3753,235,ctr,I prioritize community benefits and oversight while minimizing individual privacy risks.
+4e031dbf-45b4-46a5-b9a6-8114f53e19f9,2025-09-09 20:12:09.264608+00:00,openai,gpt-4o-mini,0,3753,236,ctr,I prioritize community benefits and oversight over individual consent in research policies.
+b5c35526-2a46-436d-8a47-63338bdb71bb,2025-09-09 20:12:16.510415+00:00,openai,gpt-4o-mini,0,3753,236,ctr,I prioritize community benefits and oversight over individual privacy in research policies.
+9c28797f-1868-4581-bb0b-50924799df87,2025-09-09 20:12:23.647325+00:00,openai,gpt-4o-mini,0,3753,237,ctr,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+ca7befbe-718b-4151-884e-f2fd049a9724,2025-09-09 20:12:29.972974+00:00,openai,gpt-4o-mini,0,3753,236,ctr,I prioritize ethics and community benefits over individual consent in research policies.
+508ee59d-a012-49d8-962f-7e6744bb73f8,2025-09-09 20:18:42.845043+00:00,openai,gpt-4o-mini,0,3768,238,dis,I prioritized community benefits and ethical oversight while valuing individual privacy and consent.
+6bcf1dca-c529-4676-862a-e4cb2b2c7d04,2025-09-09 20:18:50.539890+00:00,openai,gpt-4o-mini,0,3768,236,dis,I prioritize ethical oversight and community benefits over individual authorization in research.
+5e4c41bd-75ab-45fd-b133-eb12101ebc6d,2025-09-09 20:18:58.506071+00:00,openai,gpt-4o-mini,0,3768,238,dis,I prioritize community benefits and ethical oversight in research while valuing individual rights.
+7ae2e30a-ff87-4d51-bd47-8c049f1f3065,2025-09-09 20:19:05.703961+00:00,openai,gpt-4o-mini,0,3768,237,dis,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+4d2f956d-35a0-41a4-b7a0-cb63581e8206,2025-09-09 20:19:12.351876+00:00,openai,gpt-4o-mini,0,3768,237,dis,"I prioritize ethics, community benefits, and individual rights in research policies."
+b6c96092-eee6-495d-8b2c-1478a386b91c,2025-09-09 20:24:55.967324+00:00,openai,gpt-4o-mini,0,3756,236,eld,I prioritize community benefits and oversight while minimizing individual risk and discrimination.
+75fce456-6cab-4696-938e-b1e7febbe2d4,2025-09-09 20:25:02.613524+00:00,openai,gpt-4o-mini,0,3756,236,eld,I prioritize community benefits and ethical oversight over individual authorization in research.
+e5a1c32e-fc8e-4ee7-94ec-98f7a2f3baa9,2025-09-09 20:25:08.683141+00:00,openai,gpt-4o-mini,0,3756,237,eld,I prioritize community benefits and oversight while valuing individual privacy and consent.
+453c12a6-5dd8-4540-8fc5-b72dbbd7ab58,2025-09-09 20:25:18.926987+00:00,openai,gpt-4o-mini,0,3756,237,eld,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+35f7806d-8d09-4e52-aea1-fab39b5a49de,2025-09-09 20:25:27.478636+00:00,openai,gpt-4o-mini,0,3756,236,eld,I prioritize ethics and community benefits over individual privacy in research policies.
+b4068c8d-8bc2-447a-a50f-01a2d0c78128,2025-09-09 20:33:23.129856+00:00,openai,gpt-4o-mini,0,3756,238,far,I prioritized community benefits and oversight while valuing individual privacy and preventing discrimination.
+ba2ebf2c-6d74-41b8-91f1-62df6b541f39,2025-09-09 20:33:30.248219+00:00,openai,gpt-4o-mini,0,3756,236,far,I prioritized community benefits and ethical oversight over individual consent and privacy.
+5e25d26f-e9c6-40b5-963b-62f6d1b3db29,2025-09-09 20:33:36.798806+00:00,openai,gpt-4o-mini,0,3756,238,far,I prioritize community benefits and ethical oversight in research while valuing individual rights.
+41201cb3-b4b9-4309-97c6-73852441d05e,2025-09-09 20:33:42.711400+00:00,openai,gpt-4o-mini,0,3756,237,far,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+13a51ec2-685d-42ee-bb09-97be9ed5a9c1,2025-09-09 20:33:50.440878+00:00,openai,gpt-4o-mini,0,3756,237,far,"I prioritize ethics, community benefits, and preventing discrimination in research policies."
+8ca196ea-1ef7-4b79-ae7c-97f411075790,2025-09-09 20:41:23.833908+00:00,openai,gpt-4o-mini,0,3756,238,fis,I prioritize community benefits and ethical oversight while valuing individual privacy and consent.
+f75ea0fc-6e1c-480f-994f-f6cc5db59f4f,2025-09-09 20:41:30.424609+00:00,openai,gpt-4o-mini,0,3756,236,fis,I prioritize community benefits and ethical oversight over individual authorization in research.
+0c73b2a7-a02a-4b4f-9889-8834f8bb5b95,2025-09-09 20:41:40.442501+00:00,openai,gpt-4o-mini,0,3756,238,fis,I prioritize community benefits and ethical oversight in research while valuing individual rights.
+69cb7bcf-94ac-48b6-9ac2-3d7caf57d955,2025-09-09 20:41:47.544215+00:00,openai,gpt-4o-mini,0,3756,237,fis,"I prioritize ethics, individual consent, and community benefits in research policies."
+4b0ff46d-627e-409e-94c0-cf75bb556eab,2025-09-09 20:41:58.157153+00:00,openai,gpt-4o-mini,0,3756,237,fis,I prioritize ethics and community benefits while ensuring individual rights and preventing discrimination.
+5bec4cc9-eee6-4bab-a129-f676ec4e6aee,2025-09-09 20:48:58.005727+00:00,openai,gpt-4o-mini,0,3765,238,lan,I prioritize community benefits and ethical oversight while valuing individual privacy and consent.
+08df004e-488f-4bda-a984-55112f02ff90,2025-09-09 20:49:15.395065+00:00,openai,gpt-4o-mini,0,3765,236,lan,I prioritize community benefits and ethical oversight over individual authorization in research.
+c065e77a-454d-4977-9194-94c106eaf3ca,2025-09-09 20:49:29.168699+00:00,openai,gpt-4o-mini,0,3765,238,lan,I prioritize community benefits and ethical oversight in research while valuing individual rights.
+be3403e8-dfa9-4eae-a8b8-3297aad8b5f6,2025-09-09 20:49:35.465031+00:00,openai,gpt-4o-mini,0,3765,239,lan,"I prioritize ethics, community benefits, and individual rights in research on biological samples."
+86136114-dba6-4546-9c21-a06c54a94edb,2025-09-09 20:49:41.822277+00:00,openai,gpt-4o-mini,0,3765,237,lan,I prioritize ethics and community benefits while ensuring individual rights and preventing discrimination.
+e3b655c4-84e3-4d99-a13e-13b58560c0a9,2025-09-09 20:55:33.371771+00:00,openai,gpt-4o-mini,0,3771,237,par,I prioritize community benefits and ethical oversight while ensuring individual privacy and consent.
+55b2651d-0c08-4c48-a26c-2d36f3217dfd,2025-09-09 20:55:46.138768+00:00,openai,gpt-4o-mini,0,3771,236,par,I prioritize community benefits and ethical oversight over individual authorization in research.
+266bcbb9-f381-46df-b7f4-e990c9c3ec7d,2025-09-09 20:55:54.376656+00:00,openai,gpt-4o-mini,0,3771,238,par,I prioritize community benefits and ethical oversight in research while valuing individual consent.
+b6c6bf3e-8b37-47a1-83a7-18fe734ba911,2025-09-09 20:56:01.187365+00:00,openai,gpt-4o-mini,0,3771,237,par,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+779576ee-02bd-4d4b-a81f-afcd9eafe164,2025-09-09 20:56:09.234380+00:00,openai,gpt-4o-mini,0,3771,238,par,"I prioritize ethics, privacy, and community benefits in research on biological samples."
+fb7fc95b-e81a-48f7-9e9d-80693960f9a7,2025-09-09 21:01:59.016503+00:00,openai,gpt-4o-mini,0,3759,237,sub,I prioritize community benefits and oversight while valuing individual consent and privacy.
+a26a1db1-3d8b-4511-9b4e-0e30250c77b2,2025-09-09 21:02:05.931423+00:00,openai,gpt-4o-mini,0,3759,237,sub,I prioritize community benefits and oversight while valuing individual consent and privacy.
+10135dd8-8db0-4887-9575-4f4bcd05bb1e,2025-09-09 21:02:12.273301+00:00,openai,gpt-4o-mini,0,3759,237,sub,I prioritize community benefits and oversight while valuing individual consent and privacy.
+25edddd1-e4ec-4829-a7ac-435dbf0a514c,2025-09-09 21:02:18.612948+00:00,openai,gpt-4o-mini,0,3759,237,sub,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+ae25b8a4-afaf-4439-96f9-511df13f6d0d,2025-09-09 21:02:24.885038+00:00,openai,gpt-4o-mini,0,3759,236,sub,I prioritize ethics and community benefits over individual privacy in research practices.
+8138ab53-83ac-40b1-8dd2-a320fe991751,2025-09-09 21:08:11.715617+00:00,openai,gpt-4o-mini,0,3765,238,vil,I prioritize community benefits and ethical oversight while valuing individual consent and privacy.
+f30983ef-7b68-4268-957e-c39d9be76c32,2025-09-09 21:08:19.595190+00:00,openai,gpt-4o-mini,0,3765,236,vil,I prioritize community benefits and oversight over individual authorization in research policies.
+fa6a1e42-257c-4581-94bb-ac8eba01fe4d,2025-09-09 21:08:27.891148+00:00,openai,gpt-4o-mini,0,3765,237,vil,I prioritize community benefits and oversight while valuing individual consent and privacy.
+85ccca53-6d13-4885-a5b4-b07814b347bc,2025-09-09 21:08:34.924217+00:00,openai,gpt-4o-mini,0,3765,237,vil,I prioritize individual consent and community benefits while ensuring ethical oversight in research.
+c4094d0d-2b57-4404-86b9-450153c82225,2025-09-09 21:08:40.079545+00:00,openai,gpt-4o-mini,0,3765,237,vil,I prioritize ethics and community benefits while ensuring individual rights and preventing discrimination.
+a5f9e812-b900-4110-b3a0-8291eb34da27,2025-09-09 21:14:15.864082+00:00,openai,gpt-4o-mini,0,3759,237,csk,I prioritize societal benefits and minimal restrictions on research over individual privacy concerns.
+ddf87e9f-6a17-4d4a-b0f9-365d3b22b7d0,2025-09-09 21:14:23.019233+00:00,openai,gpt-4o-mini,0,3759,236,csk,I prioritize societal benefits and minimal restrictions on research over individual consent.
+90f783ea-582e-4511-bb50-918ec0fca607,2025-09-09 21:14:29.885509+00:00,openai,gpt-4o-mini,0,3759,237,csk,I prioritize societal benefits and individual consent over strict privacy and oversight measures.
+5334b877-59dc-43a2-9a2c-4b9dbd14e9c8,2025-09-09 21:14:37.672415+00:00,openai,gpt-4o-mini,0,3759,237,csk,I prioritize minimal oversight and maximizing societal benefits over individual consent and privacy.
+0ed797d0-fb2c-4cb9-8cd7-b27b329643af,2025-09-09 21:14:44.225140+00:00,openai,gpt-4o-mini,0,3759,237,csk,I prioritize individual rights and societal benefits over strict oversight and privacy concerns.
+1629dd9c-3d9d-4359-b62f-bb74d2457dbe,2025-09-10 06:30:31.032383+00:00,openai,gpt-4o-mini,0,3741,237,fun,I prioritize community benefits and oversight while valuing individual privacy and consent.
+5dc3efbb-00b4-4564-ab90-4f183db383e2,2025-09-10 06:30:39.633981+00:00,openai,gpt-4o-mini,0,3741,236,fun,I prioritize community benefits and oversight over individual consent in research policies.

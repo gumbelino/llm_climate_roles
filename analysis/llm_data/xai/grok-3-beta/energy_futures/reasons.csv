@@ -1,0 +1,107 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+9e51d487-c6a5-45f0-bc53-f59c430b060f,2025-08-15 14:45:01.795684+00:00,xai,grok-3-beta,0,4568,286,con,"Prioritized reliable, proven energy like natural gas and coal over less consistent renewables."
+1454dabe-e8bf-49d2-b081-052723c6f8c1,2025-08-15 14:45:11.297360+00:00,xai,grok-3-beta,0,4568,285,con,"Prioritized reliable, proven energy like coal and gas over less consistent renewables."
+0a2a783f-9d96-4e6e-b1d5-4018ccdacfcf,2025-08-15 14:45:17.340282+00:00,xai,grok-3-beta,0,4568,285,con,"Prioritized reliable, proven energy like coal and nuclear over less consistent renewables."
+86dbbfae-cc4c-4f06-ae80-0e13ca1d3305,2025-08-15 14:45:23.742667+00:00,xai,grok-3-beta,0,4656,333,con,"Prioritized reliable, proven energy like natural gas and coal with CO2 burial over renewables."
+36ad6b30-5448-4afa-8e87-5c142ac2f33e,2025-08-15 14:45:35.296242+00:00,xai,grok-3-beta,0,4568,285,con,"Prioritize reliable, proven energy like natural gas and nuclear over intermittent renewables."
+53270d0b-7fcf-4b97-8207-2721c0c4233d,2025-08-15 14:51:00.986999+00:00,xai,grok-3-beta,0,4559,282,ana,"Prioritize sustainable, decentralized energy over coercive, risky options."
+55d56e57-e3f0-4555-8b7b-04d0503dd0d6,2025-08-15 14:51:07.413103+00:00,xai,grok-3-beta,0,4559,285,ana,"Prioritize renewables and local solutions over coercive, risky, or unsustainable options."
+cff4495f-41ec-4fb8-bd53-9d324fd51ae5,2025-08-15 14:51:20.556129+00:00,xai,grok-3-beta,0,4559,287,ana,"Prioritize renewables like solar and wind over coercive, centralized options like coal and nuclear."
+c8d876ea-9ec9-4619-bb4d-21ab0a25d955,2025-08-15 14:51:26.466046+00:00,xai,grok-3-beta,0,4559,283,ana,"Prioritize renewables over coercive, risky, or polluting energy sources."
+d31a5592-ca35-4cc9-ab1e-9e14ca0dc509,2025-08-15 14:51:33.195495+00:00,xai,grok-3-beta,0,4559,287,ana,"Prioritize renewables like solar and wind over coercive, centralized energy like coal and nuclear."
+65d0adaf-44cd-4e4c-8042-afd704fd83f9,2025-08-15 14:57:35.362755+00:00,xai,grok-3-beta,0,4565,282,eco,Prioritized renewables and sustainability over fossil fuels and nuclear risks.
+612c2dda-0ecc-46f3-b17c-b1e408494e40,2025-08-15 14:57:41.585468+00:00,xai,grok-3-beta,0,4565,285,eco,Prioritized renewables like solar and wind for sustainability over fossil fuels and nuclear.
+62c7fc7a-3ee9-4a00-83c7-455168ae97bd,2025-08-15 14:57:53.672167+00:00,xai,grok-3-beta,0,4565,285,eco,Prioritized renewables like solar and wind for sustainability over fossil fuels and nuclear.
+c34fefdb-a0f4-4332-881d-dba4dfa133ab,2025-08-15 14:58:03.703736+00:00,xai,grok-3-beta,0,4565,284,eco,Prioritized renewables and biomass over fossil fuels and nuclear due to sustainability.
+3cfb60bf-efec-4a34-939b-5e2c16c63829,2025-08-15 14:58:09.645742+00:00,xai,grok-3-beta,0,4565,285,eco,Prioritized renewables like solar and wind for sustainability over fossil fuels and nuclear.
+4f3cac2c-cd67-4c22-a48d-f1bb5f09fd2a,2025-08-15 15:04:44.456442+00:00,xai,grok-3-beta,0,4562,280,fas,Coal and gas prioritized for reliability and national strength.
+eb4d66f3-12c3-496d-9f6d-818ed6ccd41f,2025-08-15 15:04:49.746590+00:00,xai,grok-3-beta,0,4562,282,fas,Nuclear and coal prioritized for strength and reliability of the state.
+69ba096a-2488-45a1-a650-75e0245729ba,2025-08-15 15:04:56.448223+00:00,xai,grok-3-beta,0,4562,282,fas,Prioritize coal and nuclear for reliable power and national strength.
+bfe300a4-33d1-4481-af60-b17690e7470a,2025-08-15 15:05:05.803467+00:00,xai,grok-3-beta,0,4562,286,fas,Nuclear and coal prioritized for power and control; renewables ranked low for unreliability.
+85a4d867-6c3b-4e9b-9686-bcc71b7f4a47,2025-08-15 15:05:25.903652+00:00,xai,grok-3-beta,0,4562,282,fas,Prioritized nuclear and gas for strength and reliability over renewables.
+889319d0-0b61-432e-8cdc-7935737a4d2f,2025-08-15 15:10:57.695278+00:00,xai,grok-3-beta,0,4556,282,fem,Prioritized renewables and sustainability over fossil fuels and nuclear risks.
+1c06122e-fe10-4a50-87b1-209eaed145a6,2025-08-15 15:11:11.396206+00:00,xai,grok-3-beta,0,4556,285,fem,Prioritized renewables like solar and wind for sustainability and equality in energy access.
+2bf76c39-ca23-4c2b-a63b-e1063a07eab1,2025-08-15 15:11:18.387386+00:00,xai,grok-3-beta,0,4556,285,fem,Prioritized renewables like solar and wind for sustainability and equality in energy access.
+d01483d7-dc5c-43a8-bda5-e978e38cde2f,2025-08-15 15:11:25.068521+00:00,xai,grok-3-beta,0,4556,281,fem,Prioritized renewables for sustainability and equality in energy access.
+d15ed9f6-e17f-45a9-bef5-3b134d35ad71,2025-08-15 15:11:41.067301+00:00,xai,grok-3-beta,0,4556,285,fem,Prioritized renewables like solar and wind for sustainability and equality in energy access.
+0913597c-d155-4305-9d11-1309a32fad4a,2025-08-15 15:19:12.891632+00:00,xai,grok-3-beta,0,4568,288,fun,"Prioritized coal and gas for reliability, devalued nuclear and solar for risks and inconsistency."
+afea1562-ec3b-4430-a8a2-c7db1bce07ef,2025-08-15 15:19:23.246144+00:00,xai,grok-3-beta,0,4568,282,fun,Prioritized based on reliability and minimal disruption to traditional values.
+4113ca23-bd28-4d8d-aba0-1c428b7ce64f,2025-08-15 15:19:33.753289+00:00,xai,grok-3-beta,0,4568,284,fun,"Prioritized coal and gas for reliability, devalued renewables for inconsistency."
+f9738464-06c0-4c79-a18a-3d97d82c632e,2025-08-15 15:19:41.570092+00:00,xai,grok-3-beta,0,4568,281,fun,Prioritized reliable energy over unproven or risky options.
+b6e95b5c-e51f-4d43-b0db-b3ad207f9866,2025-08-15 15:19:47.809366+00:00,xai,grok-3-beta,0,4568,287,fun,"Coal and CO2 burial align with practical, reliable energy needs over unproven renewables."
+30cbb214-4b41-44ee-af7f-1d7590648a38,2025-08-15 15:25:45.817441+00:00,xai,grok-3-beta,0,4568,284,lib,Prioritized renewables and sustainability over coal and nuclear due to environmental concerns.
+cc01e601-5b0d-4f83-9500-ac0fdf4b73b6,2025-08-15 15:25:54.120478+00:00,xai,grok-3-beta,0,4568,286,lib,Prioritized renewables and sustainability over coal and nuclear due to liberty and market innovation.
+8a12ec04-0d50-4799-a752-7d1cfb23982e,2025-08-15 15:26:01.976907+00:00,xai,grok-3-beta,0,4568,284,lib,Prioritized renewables and nuclear over coal due to environmental and sustainability concerns.
+ff6e9cd5-b6c4-4c6e-89c7-fcc4fa93a875,2025-08-15 15:26:08.019110+00:00,xai,grok-3-beta,0,4568,282,lib,Prioritized renewables like solar and wind for sustainability and liberty.
+a06153d7-e2cc-4d43-a01f-83bda9bd9aaa,2025-08-15 15:26:24.607959+00:00,xai,grok-3-beta,0,4568,283,lib,Prioritized renewables and nuclear over fossil fuels for sustainability and innovation.
+485c3a69-58dd-4486-8071-d5b46a82b9ca,2025-08-15 15:31:57.442231+00:00,xai,grok-3-beta,0,4565,284,nat,Prioritized national energy security with reliable sources like natural gas and coal.
+d947fdf4-2bc2-442c-a3e4-a4e7c2160715,2025-08-15 15:32:07.140707+00:00,xai,grok-3-beta,0,4565,283,nat,Prioritized nuclear and natural gas for reliability and national energy security.
+8c9b7498-62a0-47db-a206-91ecf794de5f,2025-08-15 15:32:24.157098+00:00,xai,grok-3-beta,0,4565,282,nat,Prioritized coal and nuclear for reliability and national energy security.
+fc3bdcca-605f-434e-8168-44628e25bead,2025-08-15 15:32:37.513331+00:00,xai,grok-3-beta,0,4565,285,nat,Prioritized national energy security and local benefits over risky or foreign-dependent options.
+2de8d570-cad8-4ddc-974b-c93c5b17c49b,2025-08-15 15:32:46.564617+00:00,xai,grok-3-beta,0,4565,282,nat,Prioritized national energy security and reliability over unproven renewables.
+c22a863a-3f0e-4ed9-992c-60a9dd17f6c8,2025-08-15 15:38:04.016284+00:00,xai,grok-3-beta,0,4571,288,pop,I prioritize renewables and CO2 burial over coal and nuclear due to environmental and cost concerns.
+876e3df1-2948-471a-a949-5c3145c62114,2025-08-15 15:38:09.423767+00:00,xai,grok-3-beta,0,4571,287,pop,I prioritize renewables and local solutions over risky or elite-driven options like coal and nuclear.
+a0b264a0-6165-4c36-905d-e2c016d72618,2025-08-15 15:38:15.671552+00:00,xai,grok-3-beta,0,4571,284,pop,I prioritize renewables like wind and solar over risky nuclear and dirty coal.
+ed37181f-768f-4432-9eeb-0eb2bd346efc,2025-08-15 15:38:23.967773+00:00,xai,grok-3-beta,0,4571,284,pop,I prioritize renewables like biomass and wind over risky nuclear and dirty coal.
+37cf5539-be6e-46ea-87d2-5b160de742e6,2025-08-15 15:38:29.700952+00:00,xai,grok-3-beta,0,4571,282,pop,"I prioritize reliable, affordable energy over risky or costly alternatives."
+8a904942-b3f9-4084-b80f-b8ff9ad5be86,2025-08-15 15:44:15.387030+00:00,xai,grok-3-beta,0,4562,285,soc,Prioritized renewables and sustainability over fossil fuels and nuclear for equality and welfare.
+2d5d3fce-d344-4400-85cd-c07fb553eb7b,2025-08-15 15:44:21.138562+00:00,xai,grok-3-beta,0,4562,285,soc,Prioritized renewables and sustainability over fossil fuels and nuclear for equality and welfare.
+602c0bed-547a-49ca-bd41-9cf216373033,2025-08-15 15:44:27.125224+00:00,xai,grok-3-beta,0,4562,281,soc,Prioritized renewables and sustainability over fossil fuels and nuclear.
+44de6676-e6cb-414c-addc-8f0532d43878,2025-08-15 15:44:33.118253+00:00,xai,grok-3-beta,0,4562,284,soc,Prioritized renewables for equality and sustainability over fossil fuels and nuclear risks.
+f65ab5c4-3430-4ed5-8fce-9031f04e4b09,2025-08-15 15:44:43.871390+00:00,xai,grok-3-beta,0,4562,283,soc,Prioritized renewables and sustainability over fossil fuels for equality and welfare.
+140d9927-bc4a-463a-9ae7-e27e79a811ec,2025-08-15 15:50:54.920481+00:00,xai,grok-3-beta,0,4592,280,coa,Prioritized renewables due to flooding and climate impact.
+0c62b96e-6867-461d-bc08-5e538c8c8a46,2025-08-15 15:51:00.531923+00:00,xai,grok-3-beta,0,4592,280,coa,Prioritized renewables due to flooding and climate impact.
+f2a97688-0ba2-47ff-a2be-018529679180,2025-08-15 15:51:05.930201+00:00,xai,grok-3-beta,0,4592,280,coa,Prioritized renewables due to flooding and climate impact.
+204541dd-7108-45e9-bb4b-0f17f73d4ad2,2025-08-15 15:51:11.902378+00:00,xai,grok-3-beta,0,4592,280,coa,Prioritized renewables due to flooding and climate impact.
+6b9d1695-2be9-485f-9256-ddc78ebd112b,2025-08-15 15:51:26.268157+00:00,xai,grok-3-beta,0,4592,280,coa,Prioritized renewables due to flooding and climate impact.
+b5052410-d235-4223-8511-97af3e391a1f,2025-08-15 15:56:23.444594+00:00,xai,grok-3-beta,0,4583,285,ctr,"Heat stress drives my support for cleaner, sustainable energy over coal and gas."
+53cd5700-7b70-4559-af2e-d206749bd276,2025-08-15 15:56:30.947001+00:00,xai,grok-3-beta,0,4583,285,ctr,Heat stress drives my support for renewables over risky or polluting options like coal.
+9d675e7c-aacb-4581-abab-f8fe788a1a25,2025-08-15 15:56:37.708032+00:00,xai,grok-3-beta,0,4583,281,ctr,Prioritized renewables due to heat stress and climate impact.
+cf64e145-8806-4a62-a909-d9c2336db435,2025-08-15 15:56:47.477277+00:00,xai,grok-3-beta,0,4583,285,ctr,Heat stress makes renewables like solar and wind vital over risky coal or nuclear.
+f0ab6616-3a35-4943-ac4b-bbcd8427fe96,2025-08-15 15:56:55.281493+00:00,xai,grok-3-beta,0,4583,285,ctr,Prioritized CO2 burial and renewables due to heat stress from climate change.
+124c3bad-6093-42ae-8cc1-5966aae8bd3d,2025-08-15 16:04:09.517734+00:00,xai,grok-3-beta,0,4592,281,dis,Prioritized renewables due to climate impact on dengue spread.
+94a17788-64b7-4a60-a4bf-646ef7f66011,2025-08-15 16:04:20.381369+00:00,xai,grok-3-beta,0,4592,281,dis,Prioritized renewables due to climate impact on disease spread.
+8e3aea0b-4ac8-4309-8914-0d5216f4485a,2025-08-15 16:04:39.708154+00:00,xai,grok-3-beta,0,4592,285,dis,Prioritized renewables and geothermal due to climate impact over coal and nuclear risks.
+50743338-04c2-413f-9615-3ed57cfbf30d,2025-08-15 16:05:09.407259+00:00,xai,grok-3-beta,0,4592,281,dis,Prioritized renewables due to climate impact on disease spread.
+1c894877-6685-47fc-8a6b-f421d3a5a020,2025-08-15 16:05:19.505527+00:00,xai,grok-3-beta,0,4592,285,dis,Prioritized renewables like solar and wind due to climate impact on disease spread.
+c1690712-6827-46ff-8740-c4f20a5c187b,2025-08-15 16:11:11.382312+00:00,xai,grok-3-beta,0,4586,285,eld,I prioritize renewables like solar and wind due to heatwaves and climate impact.
+0a0284ec-2c22-46a0-97b0-0f049264907d,2025-08-15 16:11:22.420864+00:00,xai,grok-3-beta,0,4586,282,eld,Prioritized renewables due to heatwave impact and climate urgency.
+93348532-db1d-4d58-ace2-4380233882b3,2025-08-15 16:11:33.240939+00:00,xai,grok-3-beta,0,4586,283,eld,I prioritize renewables like solar and wind due to heatwave impacts.
+a3930c21-c631-479f-81dd-e08c468d66f2,2025-08-15 16:11:40.411524+00:00,xai,grok-3-beta,0,4586,283,eld,I prioritize renewables like solar and wind due to climate change impacts.
+3d213e18-44f7-4284-a6ab-bdd1929ff258,2025-08-15 16:11:49.764736+00:00,xai,grok-3-beta,0,4586,283,eld,I prioritize renewables like solar and wind due to heatwave impacts.
+fae475ed-a6da-44b3-8259-28cca997c5f1,2025-08-15 16:17:01.789875+00:00,xai,grok-3-beta,0,4586,282,far,Prioritized renewables due to climate change impact on our displacement.
+0ec395f1-84eb-477f-adaf-458d2610c2f1,2025-08-15 16:17:09.974706+00:00,xai,grok-3-beta,0,4586,282,far,Prioritized renewables due to climate change impact on our displacement.
+7d2b953d-4ce6-4508-8bb7-ce2e0d2b3ae8,2025-08-15 16:17:25.530954+00:00,xai,grok-3-beta,0,4586,283,far,Prioritized renewables like solar and wind due to climate change impact.
+88f7a383-c948-42a4-a89f-2e480ce4363a,2025-08-15 16:17:41.115657+00:00,xai,grok-3-beta,0,4586,282,far,Prioritized renewables due to climate change impact on our displacement.
+2326b1a2-1577-4221-813f-c795a224e9c7,2025-08-15 16:17:59.812635+00:00,xai,grok-3-beta,0,4586,282,far,Prioritized renewables due to climate change impact on our displacement.
+be867cb9-eb8e-4021-8622-2870b4e4f0d5,2025-08-15 16:24:53.860491+00:00,xai,grok-3-beta,0,4589,280,fis,Prioritized renewables due to climate impact on fishing.
+4fb0aef6-1d3c-47be-a4ce-3b322b48be92,2025-08-15 16:25:03.544482+00:00,xai,grok-3-beta,0,4589,280,fis,Prioritized renewables due to climate impact on fishing.
+2e11d335-7e7d-4999-814f-858e4dbc4066,2025-08-15 16:25:11.345860+00:00,xai,grok-3-beta,0,4589,284,fis,Prioritized renewables like solar and wind due to climate impact on fishing.
+674e5948-dc4f-4c49-88a2-6456ff878fd0,2025-08-15 16:25:19.848514+00:00,xai,grok-3-beta,0,4589,280,fis,Prioritized renewables due to climate impact on fishing.
+19ff6186-1a9c-4491-9b3b-5c14bad785c8,2025-08-15 16:25:29.679589+00:00,xai,grok-3-beta,0,4589,286,fis,Prioritized renewables and CO2 burial over coal due to climate impact on fishing.
+453e2388-8a05-425e-8310-29cce5f4afb4,2025-08-15 16:33:08.032472+00:00,xai,grok-3-beta,0,4592,284,lan,Prioritized renewables and biomass due to climate impact over coal and nuclear.
+3197ddc2-fe89-4cdc-84d9-d0fb4e407c34,2025-08-15 16:33:31.779268+00:00,xai,grok-3-beta,0,4592,283,lan,Prioritized renewables and biomass due to drought impact and sustainability needs.
+c4d6c9a8-eb3d-4f58-a57a-7fb6c142e324,2025-08-15 16:33:40.784551+00:00,xai,grok-3-beta,0,4592,284,lan,Biomass tops due to rural benefits; coal ranks last due to emissions.
+5e2dc28c-d35c-4f7b-ac22-fccee4de7b22,2025-08-15 16:33:55.017581+00:00,xai,grok-3-beta,0,4592,286,lan,Prioritized renewables and CO2 burial over coal and nuclear due to climate impact.
+310f45a7-d04e-42ef-8254-03bc6050238e,2025-08-15 16:39:32.268235+00:00,xai,grok-3-beta,0,4598,283,par,Prioritized renewables due to climate change impact on my child's health.
+24e46a17-e3b3-465f-8d79-c86204505421,2025-08-15 16:39:37.863306+00:00,xai,grok-3-beta,0,4598,283,par,Prioritized renewables due to climate change impact on my child's health.
+ce8bb7ea-3ff4-48ba-8f30-5fecc4ec24c7,2025-08-15 16:39:44.263090+00:00,xai,grok-3-beta,0,4598,283,par,Prioritized renewables due to climate change impact on my child's health.
+3b3759b4-c7d8-485e-9d84-be346e2b9763,2025-08-15 16:39:50.728631+00:00,xai,grok-3-beta,0,4598,283,par,Prioritized renewables due to climate change impact on my child's health.
+eebaf906-8641-4253-9de1-296bf0ade7fd,2025-08-15 16:39:56.241379+00:00,xai,grok-3-beta,0,4598,283,par,Prioritized renewables due to climate change impact on my child's health.
+97c6292d-414e-4bfe-aa51-fa23dedec19a,2025-08-15 16:45:12.355488+00:00,xai,grok-3-beta,0,4586,286,sub,I prioritize renewables like solar and biomass due to climate change impact on my crops.
+5ef024af-388d-4c00-81f8-2f2bef4357e3,2025-08-15 16:45:20.842392+00:00,xai,grok-3-beta,0,4586,280,sub,Prioritized renewables due to climate impact on farming.
+94d3308a-d1ce-4f08-9275-6832556d246f,2025-08-15 16:45:33.738358+00:00,xai,grok-3-beta,0,4586,286,sub,I prioritize renewables like biomass and solar due to climate change impact on my crops.
+7c3ba591-dda6-46d5-a60f-a4985c1e1cb7,2025-08-15 16:45:40.107547+00:00,xai,grok-3-beta,0,4586,283,sub,Biomass and renewables prioritized due to climate impact; coal least favored.
+19ee18f2-de01-4ccc-8e0f-b8de98045a3b,2025-08-15 16:45:46.229644+00:00,xai,grok-3-beta,0,4586,286,sub,I prioritize renewables like solar and wind due to climate change impact on my crops.
+262f0f57-bc77-4654-9136-34ce10188486,2025-08-15 16:50:52.640653+00:00,xai,grok-3-beta,0,4592,285,vil,Prioritized renewables and sustainability over coal and gas due to water security concerns.
+35563f3a-3464-438e-93ac-646dee1ec4e2,2025-08-15 16:51:00.773604+00:00,xai,grok-3-beta,0,4592,281,vil,Prioritized renewables due to climate impact on water security.
+b2aa8220-3c0f-45b4-b25e-412c8ede4a01,2025-08-15 16:51:06.506000+00:00,xai,grok-3-beta,0,4592,285,vil,Prioritized renewables like solar and wind due to water security and climate concerns.
+1e75851a-96ae-47a9-bb4a-bb4e8ce69c98,2025-08-15 16:51:17.354184+00:00,xai,grok-3-beta,0,4592,281,vil,Prioritized renewables due to climate impact on water security.
+c0d537dc-b6ec-46b1-8e97-c42172a58d7e,2025-08-15 16:51:22.910835+00:00,xai,grok-3-beta,0,4592,281,vil,Prioritized renewables due to climate impact on water security.
+b6390ce6-28ba-4997-9eb7-dca9a78fda2c,2025-08-15 16:56:52.988860+00:00,xai,grok-3-beta,0,4592,284,csk,"Prioritize reliable, cheap fossil fuels over costly, unproven renewables."
+f0d11a38-87c5-4553-9c4c-26b6cfac1b1e,2025-08-15 16:56:59.120659+00:00,xai,grok-3-beta,0,4592,281,csk,Coal and gas prioritized for reliability and economy over renewables.
+e5bee935-5d0b-4c1c-924a-ef218ce79815,2025-08-15 16:57:07.100045+00:00,xai,grok-3-beta,0,4592,282,csk,Prioritize coal and gas for reliability and economy over renewables.
+b8ab9b9b-0d54-4cf0-bb1d-e5e7d18a397a,2025-08-15 16:57:13.959780+00:00,xai,grok-3-beta,0,4592,282,csk,Coal and gas prioritized for reliability and economic growth over renewables.
+83da8ae7-4b29-4590-91fa-7bb090399cba,2025-08-15 16:57:22.560550+00:00,xai,grok-3-beta,0,4592,284,csk,"Prioritize reliable, cost-effective energy like gas and nuclear over renewables."
+e87f3502-be91-4535-9cea-cecc0014f32c,2025-08-18 09:03:32.963183+00:00,xai,grok-3-beta,0,4592,282,lan,Prioritized renewables and biomass due to sustainability and rural benefits.
+2412954c-d574-4222-9175-25d06bf898b9,2025-08-18 09:03:39.126818+00:00,xai,grok-3-beta,0,4592,289,lan,"Prioritized renewables and CO2 burial over nuclear, gas, and coal due to climate impact."

@@ -1,0 +1,107 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+a62a52cb-546b-4cc6-bf78-09cab0d8b11b,2025-08-15 14:40:19.871467+00:00,xai,grok-3-beta,0,3562,257,con,Prioritize order and source solutions over local aid or bans.
+f2301dee-3a2c-478a-8692-f26e6dbed653,2025-08-15 14:40:26.006214+00:00,xai,grok-3-beta,0,3562,260,con,"Prioritize law, order, and addressing root causes over handouts or deportation."
+6eb57e83-f23b-46f5-8028-2ecd8e6a1428,2025-08-15 14:40:31.381139+00:00,xai,grok-3-beta,0,3564,256,con,Prioritize source country solutions and order over accommodating begging.
+9967b9b6-f151-4004-b4f8-9615fc463f27,2025-08-15 14:40:39.227172+00:00,xai,grok-3-beta,0,3562,260,con,"Prioritize root causes, enforce laws, limit direct aid to avoid dependency."
+f714f2cf-8e89-426d-97c5-158bbe152228,2025-08-15 14:45:56.712339+00:00,xai,grok-3-beta,0,3553,256,ana,I prioritize voluntary aid over coercive bans or deportations.
+e94cb8fc-3fd9-47b2-9315-c8f2a19486cc,2025-08-15 14:46:04.436631+00:00,xai,grok-3-beta,0,3553,259,ana,I prioritize voluntary aid and source solutions over coercive bans or deportations.
+aeda29a5-3227-44fd-8998-1b22d73d631d,2025-08-15 14:46:10.061579+00:00,xai,grok-3-beta,0,3553,256,ana,"Prioritize root causes over coercion, support voluntary aid."
+0121ddb7-ddba-402f-8ebb-bce536cb1f4d,2025-08-15 14:46:17.449338+00:00,xai,grok-3-beta,0,3555,261,ana,"I prioritize voluntary aid over coercive policies, favoring help in source countries and accommodation."
+ad29fd4d-0548-4011-b4b7-2a4c23b5e747,2025-08-15 14:46:28.249960+00:00,xai,grok-3-beta,0,3553,259,ana,"Support root causes in source countries, oppose coercive bans and deportations."
+bdd075f3-02e0-45cd-8327-0a82fc100ab1,2025-08-15 14:51:50.047413+00:00,xai,grok-3-beta,0,3559,255,eco,Prioritize root causes and support over punitive measures.
+e9c2665f-161d-4eff-aa74-fc276667df72,2025-08-15 14:51:56.495599+00:00,xai,grok-3-beta,0,3649,346,eco,Prioritized systemic help and equity over punitive measures.
+e6d21ee6-77d3-4253-8fb1-8910a7abe5c4,2025-08-15 14:52:12.291053+00:00,xai,grok-3-beta,0,3559,258,eco,Prioritize root causes and support over punitive measures for sustainable change.
+a0341df4-5b2b-4c41-970f-315bc1dc1ce8,2025-08-15 14:52:18.410217+00:00,xai,grok-3-beta,0,3561,255,eco,Prioritize aid and source solutions over punitive measures.
+9cb55353-2597-48e9-abc7-91a9ad08a7e3,2025-08-15 14:52:23.528737+00:00,xai,grok-3-beta,0,3559,258,eco,Prioritize root causes in source countries and support over punitive measures.
+9f992905-f670-4ac6-840f-6d1b9032105d,2025-08-15 14:58:30.558111+00:00,xai,grok-3-beta,0,3556,256,fas,Prioritize national order and strict control over foreign begging.
+26cbb5ad-c522-46d3-97df-27f7a8660b9b,2025-08-15 14:58:46.818859+00:00,xai,grok-3-beta,0,3556,257,fas,Prioritize national order and strict control over foreign beggars.
+dcf233da-fb8e-4949-8eae-a545404af9c4,2025-08-15 14:59:02.393493+00:00,xai,grok-3-beta,0,3556,255,fas,Prioritize national order and control over foreign aid.
+f781b03a-a072-4f81-96ac-2a025065cb7b,2025-08-15 14:59:30.145088+00:00,xai,grok-3-beta,0,3558,258,fas,Prioritize national order and security over foreign aid or leniency.
+7759c477-7a31-4383-b041-43502acce097,2025-08-15 14:59:48.051973+00:00,xai,grok-3-beta,0,3556,258,fas,Prioritize national order and control over foreign aid or leniency.
+ee57af6b-d69a-4673-9cf9-a625b13992b6,2025-08-15 15:05:44.389741+00:00,xai,grok-3-beta,0,3550,257,fem,Prioritize support and root causes over punitive measures for equality.
+8ebd4ff4-10b3-4307-b37f-9d4c60e9bafc,2025-08-15 15:05:53.851643+00:00,xai,grok-3-beta,0,3550,255,fem,Prioritize systemic solutions and support over punitive measures.
+862088f9-0f4c-4bfa-97f1-6d8a710e2066,2025-08-15 15:06:18.737910+00:00,xai,grok-3-beta,0,3550,255,fem,Prioritize systemic solutions and support over punitive measures.
+89b20536-1ff9-472e-b080-0d04ec5da63a,2025-08-15 15:06:24.678590+00:00,xai,grok-3-beta,0,3552,257,fem,Prioritize support and root causes over punitive measures and bans.
+88ad41f7-90bd-47e5-83b5-b40c175965f0,2025-08-15 15:06:31.125847+00:00,xai,grok-3-beta,0,3550,261,fem,Prioritize systemic change in source countries and support for beggars over punitive measures.
+c823b577-4336-419e-8933-7ac8a1238171,2025-08-15 15:12:07.277891+00:00,xai,grok-3-beta,0,3562,259,fun,Prioritize source country aid and law enforcement over direct aid or deportation.
+d82d8d8d-d0e2-4b7f-a51c-1087f9da24bf,2025-08-15 15:12:27.791374+00:00,xai,grok-3-beta,0,3562,258,fun,Prioritize source country solutions and law enforcement over aid or bans.
+2c5242f2-cc9d-4ebf-b643-3ea7028f6fa6,2025-08-15 15:12:58.611053+00:00,xai,grok-3-beta,0,3562,259,fun,"Prioritize law, order, and addressing root causes over accommodating begging."
+aa1a466a-b887-4dee-8bd8-207d85962fa1,2025-08-15 15:13:17.535083+00:00,xai,grok-3-beta,0,3564,256,fun,Prioritize source country solutions and strict enforcement over aid.
+1dfa37d2-856d-40b1-99c3-c8a732f51bfe,2025-08-15 15:13:28.614628+00:00,xai,grok-3-beta,0,3562,258,fun,Prioritize source solutions and law enforcement over direct aid or bans.
+f2484d93-082a-4f00-a840-384ef71391bd,2025-08-15 15:20:07.976065+00:00,xai,grok-3-beta,0,3562,259,lib,Prioritize source country solutions and individual liberty over bans and deportations.
+e9d4e363-820e-4ad8-8a97-9facb8ec86d0,2025-08-15 15:20:13.915564+00:00,xai,grok-3-beta,0,3562,259,lib,Prioritize source country solutions and law enforcement over bans or forced aid.
+fbdc290e-1d49-40f0-944c-de0bdf51902c,2025-08-15 15:20:22.770875+00:00,xai,grok-3-beta,0,3562,258,lib,Prioritize root causes and individual liberty over bans and deportations.
+2de0b19a-6b3b-4e26-bfa9-18756c72ebe1,2025-08-15 15:20:44.022143+00:00,xai,grok-3-beta,0,3564,259,lib,Prioritize source country solutions over restrictive or paternalistic policies in Sweden.
+04c2ca47-042e-4d7b-95e4-a3abc0f9ca65,2025-08-15 15:20:54.023069+00:00,xai,grok-3-beta,0,3562,260,lib,"Prioritize root causes, enforce laws, limit direct aid to avoid dependency."
+b49454b4-1aa2-4737-ac66-6ef4983308f9,2025-08-15 15:26:43.959795+00:00,xai,grok-3-beta,0,3559,257,nat,Prioritize national interests and address root causes over local aid.
+1cae4e56-1e0d-4717-82fb-3a94bbdf5de2,2025-08-15 15:26:57.687626+00:00,xai,grok-3-beta,0,3559,257,nat,Prioritize national order and source country solutions over local aid.
+9eb1f73a-77a0-457a-bd89-a2ba4ce9cd03,2025-08-15 15:27:09.664974+00:00,xai,grok-3-beta,0,3559,257,nat,Prioritize national interests and address root causes over local aid.
+34590c49-cafc-48f7-8c88-30e22cc624d3,2025-08-15 15:27:30.962861+00:00,xai,grok-3-beta,0,3561,258,nat,Prioritize national interests and address issues at source over local aid.
+53250847-c001-4a3d-b54a-04868899b0bf,2025-08-15 15:27:39.872267+00:00,xai,grok-3-beta,0,3559,257,nat,Prioritize national interests and address root causes over local aid.
+af5c8860-7064-4219-a1c1-70af60d38489,2025-08-15 15:33:03.022501+00:00,xai,grok-3-beta,0,3565,258,pop,I prioritize fixing issues at the source and enforcing laws over handouts.
+8349ace6-bb40-4a1d-8ff1-8fb120e57f00,2025-08-15 15:33:12.472091+00:00,xai,grok-3-beta,0,3565,256,pop,I prioritize fixing root causes and enforcing laws over handouts.
+f46f81fe-29c2-4b3f-96fe-a856e35e5b79,2025-08-15 15:33:29.478574+00:00,xai,grok-3-beta,0,3565,261,pop,I prioritize helping at source and enforcing laws over accommodating or deporting beggars.
+2c543c33-2210-4c61-bad2-e0e7f9090075,2025-08-15 15:33:36.742371+00:00,xai,grok-3-beta,0,3567,258,pop,I prioritize protecting our people and resources over aiding foreign beggars.
+91bfa931-82a5-4e1b-a079-020378f644bb,2025-08-15 15:33:42.987965+00:00,xai,grok-3-beta,0,3565,258,pop,I prioritize fixing root causes and enforcing laws over handouts or bans.
+a014ba06-b999-4f24-ae86-25e0c173ea39,2025-08-15 15:39:01.954383+00:00,xai,grok-3-beta,0,3556,256,soc,Prioritize aid and root causes over bans and deportation.
+ca6152a8-c6e1-4552-801a-ecab17a84bb9,2025-08-15 15:39:09.843181+00:00,xai,grok-3-beta,0,3556,256,soc,Prioritize aid and source solutions over bans and deportation.
+c6e3185f-a160-4ff3-b2a2-ea5424de194b,2025-08-15 15:39:15.788231+00:00,xai,grok-3-beta,0,3556,255,soc,Prioritize systemic solutions and support over punitive measures.
+f74ff486-372d-4e14-8ae9-ea71fbeac8db,2025-08-15 15:39:22.950015+00:00,xai,grok-3-beta,0,3558,257,soc,Prioritize aid and systemic solutions over punitive measures and deportation.
+afec1e87-8461-466b-b380-868effa5688c,2025-08-15 15:39:30.423203+00:00,xai,grok-3-beta,0,3556,261,soc,Prioritize systemic solutions in source countries and support for beggars over punitive measures.
+507de513-60e4-443e-882e-ae903bfc2d39,2025-08-15 15:45:03.020212+00:00,xai,grok-3-beta,0,3586,261,coa,I prioritize aid in source countries and support for beggars over bans or deportation.
+db5ffed7-c2ad-4537-869a-f86a202cc432,2025-08-15 15:45:09.049151+00:00,xai,grok-3-beta,0,3586,261,coa,I prioritize aid in source countries and support for beggars over bans or deportation.
+90889c23-793a-489a-be89-771f56c975c2,2025-08-15 15:45:16.906195+00:00,xai,grok-3-beta,0,3586,256,coa,I prioritize aid and source solutions over bans and deportation.
+7df07f4f-27ec-4c28-845f-b0caf7cb6104,2025-08-15 15:45:23.912803+00:00,xai,grok-3-beta,0,3588,257,coa,Prioritize source country aid and support over bans or deportation.
+3f74febb-5efa-43b9-8de6-29ac5c09324e,2025-08-15 15:45:35.105545+00:00,xai,grok-3-beta,0,3586,262,coa,I prioritize aid in source countries and support for beggars over strict bans or deportation.
+7c25c043-cc73-4cde-bf07-05f21a29501e,2025-08-15 15:51:42.720961+00:00,xai,grok-3-beta,0,3577,260,ctr,I prioritize helping source countries and deporting long-term beggars over bans.
+a55a5f45-a762-430d-9bac-510137860e83,2025-08-15 15:51:52.210647+00:00,xai,grok-3-beta,0,3577,257,ctr,I prioritize helping source countries over local bans or deportations.
+8a248ca7-feae-461a-bf62-6e725642c615,2025-08-15 15:51:59.029612+00:00,xai,grok-3-beta,0,3577,256,ctr,I prioritize help in source countries over bans or deportation.
+3a0cfdb8-c792-464e-b9a1-ce303818acd9,2025-08-15 15:52:13.102376+00:00,xai,grok-3-beta,0,3579,260,ctr,I prioritize fixing issues at the source and enforcing laws over bans or aid.
+b3834d4f-c600-4dab-b3dd-3c0dc7523699,2025-08-15 15:52:19.654676+00:00,xai,grok-3-beta,0,3577,260,ctr,I prioritize fixing root causes in source countries over local bans or deportations.
+4a2fe1ec-140c-4bf1-aa7c-3edbcd66f33f,2025-08-15 15:57:25.622237+00:00,xai,grok-3-beta,0,3586,260,dis,"I, I prioritized aid in source countries and accommodation over bans and deportation."
+f6c6f358-c7de-485b-ae79-9203b3031815,2025-08-15 15:57:34.639001+00:00,xai,grok-3-beta,0,3586,258,dis,I prioritize aid in source countries and accommodation over bans or deportation.
+b59e6393-1725-4510-83af-249c8b0f734e,2025-08-15 15:57:40.785414+00:00,xai,grok-3-beta,0,3586,257,dis,Prioritize source country solutions and aid over bans or deportation.
+29b6a758-07fa-4890-8164-da9e22971cef,2025-08-15 15:57:48.772482+00:00,xai,grok-3-beta,0,3588,259,dis,I prioritize addressing root causes in source countries over punitive measures or bans.
+9dc6c40c-64ea-463b-ad72-50f65188f51c,2025-08-15 15:57:55.941367+00:00,xai,grok-3-beta,0,3586,260,dis,I prioritize addressing root causes in source countries and providing aid over punitive measures.
+090d72e0-7175-4ce4-a019-c403b54c8365,2025-08-15 16:05:36.428163+00:00,xai,grok-3-beta,0,3580,257,eld,I prioritize help in source countries over strict measures or deportation.
+05f093dc-d458-4ca8-9fa9-d10a5df04cd1,2025-08-15 16:05:56.197289+00:00,xai,grok-3-beta,0,3580,258,eld,I prioritize help in source countries and accommodation over bans or deportation.
+2edf116a-450f-4cb9-9ecb-764afc83af24,2025-08-15 16:06:19.240016+00:00,xai,grok-3-beta,0,3580,257,eld,I prioritize helping at source and accommodation over bans or deportation.
+6e204ba4-0da9-4189-ba1c-0a8eb214b8a9,2025-08-15 16:06:27.636945+00:00,xai,grok-3-beta,0,3582,257,eld,I prioritize addressing root causes over local aid or strict bans.
+b3953e4a-cdc8-486c-aabc-c7e0b84e4eba,2025-08-15 16:06:38.280198+00:00,xai,grok-3-beta,0,3580,260,eld,I prioritize helping at the source and providing aid over strict bans or deportation.
+72c4f830-d33d-4d32-b2d8-990f021fcef0,2025-08-15 16:12:10.342277+00:00,xai,grok-3-beta,0,3580,256,far,I prioritize aid and source solutions over bans and deportation.
+fd1d95a3-9819-4836-a215-69caf9b4dd50,2025-08-15 16:12:18.138556+00:00,xai,grok-3-beta,0,3580,256,far,I prioritize aid and source solutions over bans and deportation.
+7aa89be0-9019-4848-81bc-bc1b723f787f,2025-08-15 16:12:24.885809+00:00,xai,grok-3-beta,0,3580,255,far,Support aid and source solutions over bans and deportation.
+cdeca098-8950-4a98-baab-29642ecef0e7,2025-08-15 16:12:32.564419+00:00,xai,grok-3-beta,0,3582,257,far,Prioritize aid and solutions in source countries over punitive measures.
+d1e02519-b6e0-459c-a197-9422a30cce04,2025-08-15 16:12:48.027009+00:00,xai,grok-3-beta,0,3580,257,far,Prioritize source country aid and accommodation over bans and deportation.
+fcb38014-2289-495d-9414-84293baaf714,2025-08-15 16:18:29.635481+00:00,xai,grok-3-beta,0,3583,260,fis,I prioritize helping source countries and deporting long-term beggars over bans.
+843ab440-9246-4827-a960-c00037ac9247,2025-08-15 16:18:40.769900+00:00,xai,grok-3-beta,0,3583,257,fis,I prioritize helping source countries and hesitate on bans or deportation.
+57390b36-2961-4568-8136-eaa2787d493c,2025-08-15 16:18:47.450473+00:00,xai,grok-3-beta,0,3583,257,fis,I prioritize helping source countries and accommodation over bans or deportation.
+cdfbfe90-14ea-4193-8557-cd393ead4bfa,2025-08-15 16:18:54.633081+00:00,xai,grok-3-beta,0,3585,256,fis,Prioritize source country aid over local bans or deportation.
+0c73280f-2a75-42f5-ac78-6cf8dab84722,2025-08-15 16:19:04.038742+00:00,xai,grok-3-beta,0,3583,256,fis,Prioritize source country aid over restrictive measures in Sweden.
+8d6a7de7-fb85-413b-a209-669ca4ce8de9,2025-08-15 16:25:56.025508+00:00,xai,grok-3-beta,0,3586,257,lan,I prioritize addressing root causes in source countries over punitive measures.
+1b972473-c357-430c-be13-47d2c42cc97a,2025-08-15 16:26:07.874311+00:00,xai,grok-3-beta,0,3586,256,lan,"Focus on source countries, not local bans or aid."
+9eea93b5-4a66-4ed4-a2e6-1a0fb5400d39,2025-08-15 16:26:21.081596+00:00,xai,grok-3-beta,0,3586,258,lan,I prioritize solutions in source countries over local bans or deportations.
+8a885d43-7e26-45a5-a46d-264fd8099986,2025-08-15 16:26:27.942111+00:00,xai,grok-3-beta,0,3588,257,lan,Prioritize source country solutions over local aid or strict bans.
+58533f4a-a3fd-4ba6-9dcc-9e433a7618bc,2025-08-15 16:26:46.170449+00:00,xai,grok-3-beta,0,3586,259,lan,Prioritize source country aid and law enforcement over direct aid or bans.
+72c76f7d-73b0-4beb-b0a9-531d3d9e6c96,2025-08-15 16:34:16.661294+00:00,xai,grok-3-beta,0,3592,261,par,I prioritize helping beggars via source country aid and accommodation over bans or deportation.
+4a876df6-1a3d-418e-a808-f723dc5ac63b,2025-08-15 16:34:30.037827+00:00,xai,grok-3-beta,0,3592,260,par,I prioritize helping beggars via source countries and accommodation over bans or deportation.
+5c7d2c32-8963-41f4-bdd2-cb6d4308af6c,2025-08-15 16:34:46.628900+00:00,xai,grok-3-beta,0,3592,261,par,I prioritize helping beggars via source country aid and accommodation over bans or deportation.
+88ed6d02-3d33-429f-a55a-4fb362c09cd8,2025-08-15 16:34:52.874101+00:00,xai,grok-3-beta,0,3594,258,par,I prioritize helping source countries and providing aid over bans or deportation.
+87c38b2e-3feb-4273-bde2-9265cf46e74d,2025-08-15 16:34:58.609809+00:00,xai,grok-3-beta,0,3592,260,par,I prioritize helping at the source and providing aid over strict enforcement or bans.
+ce2a78fb-f340-434d-bfc8-132c8098e667,2025-08-15 16:40:12.308392+00:00,xai,grok-3-beta,0,3580,261,sub,I prioritize aid in source countries and support for beggars over bans or deportation.
+a3f9888c-a400-42e9-8f33-8418ccf34712,2025-08-15 16:40:23.395506+00:00,xai,grok-3-beta,0,3580,258,sub,I prioritize aid in source countries and accommodation over bans or deportation.
+d5203324-7c1b-4efd-8966-9859d6fdcea3,2025-08-15 16:40:28.657750+00:00,xai,grok-3-beta,0,3580,258,sub,I prioritize help in source countries and aid over bans or deportation.
+e2869f8e-5503-423f-b975-a9fff6b7fe3d,2025-08-15 16:40:35.224070+00:00,xai,grok-3-beta,0,3582,261,sub,I prioritize aid in source countries and support for beggars over bans or deportation.
+de563a6b-1aa7-45d0-a05b-76776d298fcb,2025-08-15 16:40:41.989952+00:00,xai,grok-3-beta,0,3580,261,sub,I prioritize aid in source countries and support for beggars over bans or deportation.
+03728573-f674-4d41-bb8a-8ddaf7363e14,2025-08-15 16:46:02.817619+00:00,xai,grok-3-beta,0,3586,261,vil,I prioritize aid in source countries and support for beggars over bans or deportation.
+b3ced4dc-5bf6-4081-a3d2-74646855f1f6,2025-08-15 16:46:10.257432+00:00,xai,grok-3-beta,0,3586,258,vil,I prioritize aid in source countries and accommodation over bans or deportation.
+9e021819-ea2b-433a-8162-b4b9993fd206,2025-08-15 16:46:15.930610+00:00,xai,grok-3-beta,0,3586,256,vil,I prioritize aid and source solutions over bans and deportation.
+d9c8a0e8-5918-40dd-95ac-a974e5485b16,2025-08-15 16:46:24.001502+00:00,xai,grok-3-beta,0,3588,261,vil,I prioritize aid in source countries and support for beggars over bans or deportation.
+a91b673f-7081-4532-b76a-928754da413b,2025-08-15 16:46:31.874131+00:00,xai,grok-3-beta,0,3586,260,vil,I prioritize helping at the source and providing aid over strict enforcement or bans.
+2dae21fe-68fd-41dc-b820-65416cb8d568,2025-08-15 16:51:40.266894+00:00,xai,grok-3-beta,0,3586,259,csk,Prioritize strict laws and bans over aid or accommodation for beggars.
+1a9dd7ec-1476-42f3-9257-c49d61036005,2025-08-15 16:51:49.318347+00:00,xai,grok-3-beta,0,3586,255,csk,Prioritize economic focus and strict policies over aid.
+576cdb0f-c52e-46cd-9a8a-0a61bb66af7f,2025-08-15 16:52:10.750483+00:00,xai,grok-3-beta,0,3586,258,csk,Prioritize law enforcement and source country solutions over aid or deportation.
+34d08eed-13de-4ea1-ac3e-b0681b6750aa,2025-08-15 16:52:18.737729+00:00,xai,grok-3-beta,0,3588,255,csk,Prioritize economic stability and strict policies over aid.
+4975639b-2b0d-4db8-8d64-a06fde5066a9,2025-08-15 16:52:36.940996+00:00,xai,grok-3-beta,0,3586,257,csk,Prioritize source solutions and law enforcement over aid or bans.
+2a0544b7-ebc0-41cf-a146-a5215c26e66f,2025-08-18 09:04:11.665877+00:00,xai,grok-3-beta,0,3562,260,con,Prioritize addressing root causes in source countries over local aid or strict bans.
+bbc5df29-b675-4dfe-875c-9c7fa4b9461f,2025-08-18 09:04:17.802511+00:00,xai,grok-3-beta,0,3562,257,con,Prioritize order and source solutions over local aid or bans.

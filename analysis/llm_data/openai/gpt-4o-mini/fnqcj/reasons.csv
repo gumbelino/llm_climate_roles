@@ -1,0 +1,106 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+14c49390-53f9-4ebb-9b6a-1e511cd5cdb1,2025-09-09 18:51:51.796813+00:00,openai,gpt-4o-mini,0,4397,247,ana,I prioritize closing and rehabilitating the road over maintaining or upgrading it.
+74eef20c-7d88-4826-85a9-d3acb688d6cc,2025-09-09 18:51:58.766244+00:00,openai,gpt-4o-mini,0,4397,247,ana,I prioritize closing and rehabilitating over upgrades or maintenance of the road.
+2dc17ef4-7a95-4203-9ede-0f0f129e360d,2025-09-09 18:52:06.015292+00:00,openai,gpt-4o-mini,0,4397,248,ana,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+266b7bd9-8871-43f5-a93b-4929a87c31ba,2025-09-09 18:52:13.662804+00:00,openai,gpt-4o-mini,0,4397,249,ana,I prioritize closing and rehabilitating the road to protect the environment over any upgrades.
+0672a36f-45e9-432c-9cc4-fec3e328701a,2025-09-09 18:52:21.079148+00:00,openai,gpt-4o-mini,0,4397,250,ana,I prioritize closing and rehabilitating the road to protect the environment over maintenance or upgrades.
+1a7e09a1-2947-425b-bfba-e9c631ae2c51,2025-09-09 18:58:33.561750+00:00,openai,gpt-4o-mini,0,4400,245,con,I prioritize preserving access while ensuring safety and minimal environmental impact.
+db5078de-2f87-4d82-8700-df187c2e1ae6,2025-09-09 18:58:39.780046+00:00,openai,gpt-4o-mini,0,4400,248,con,I prioritize minimal change while ensuring safety and access over full upgrades or closures.
+d3c8cd21-6bae-4fd0-81ee-a052d38acb06,2025-09-09 18:58:46.617824+00:00,openai,gpt-4o-mini,0,4400,245,con,I prioritize gradual improvement while preserving access and minimizing environmental impact.
+9e0ea4ab-d1b7-4b64-a63d-5d30c477c52f,2025-09-09 18:58:52.247017+00:00,openai,gpt-4o-mini,0,4400,245,con,I prioritize preserving access while ensuring safety and minimal environmental impact.
+f4e59c0c-f9cb-495f-8d18-26f67d24823b,2025-09-09 18:58:57.650231+00:00,openai,gpt-4o-mini,0,4400,247,con,I prioritize gradual improvements while preserving the track's integrity and limiting development.
+6b32f488-0a41-4a97-9cf2-c49a546ee78b,2025-09-09 19:05:38.414702+00:00,openai,gpt-4o-mini,0,4394,248,eco,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+bf6b6253-8e9b-479b-a96d-7023f2e4be83,2025-09-09 19:05:45.050939+00:00,openai,gpt-4o-mini,0,4394,247,eco,"Closing the road for rehabilitation is best, while upgrades risk environmental harm."
+37c52c07-b0fe-41d1-8f00-551d737688f9,2025-09-09 19:05:51.818468+00:00,openai,gpt-4o-mini,0,4394,248,eco,I prioritize closing the road for rehabilitation to protect the environment over any upgrades.
+d2dc0a1e-304d-419a-948c-1e6dcd69af34,2025-09-09 19:05:58.320376+00:00,openai,gpt-4o-mini,0,4394,249,eco,I prioritize closing and rehabilitating the road to protect the environment over any upgrades.
+da5149e5-b304-42cb-990c-ab2b9e3c3e1c,2025-09-09 19:06:04.321657+00:00,openai,gpt-4o-mini,0,4394,248,eco,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+94037d20-d262-42ee-80d5-9ea6e14c1a52,2025-09-09 19:12:00.079614+00:00,openai,gpt-4o-mini,0,4397,247,fas,I prioritize upgrading the road for access and development over conservation or closure.
+a5d19047-7131-473c-aa25-d8db08c9793a,2025-09-09 19:12:08.375861+00:00,openai,gpt-4o-mini,0,4397,247,fas,I prioritize upgrading the road for access and development over conservation or closure.
+e3f52435-50f9-4fe0-8e3e-2fc022101cf4,2025-09-09 19:12:14.399903+00:00,openai,gpt-4o-mini,0,4397,248,fas,I prioritize upgrading the road for access and development over maintaining or closing it.
+b5670ea6-2020-420a-b6b5-2dc0f1266fed,2025-09-09 19:12:20.634842+00:00,openai,gpt-4o-mini,0,4397,248,fas,I prioritize upgrading the road for access and development over maintaining or closing it.
+9a0e65f7-7a4d-45ea-9776-7925cf08e1f6,2025-09-09 19:12:27.052369+00:00,openai,gpt-4o-mini,0,4397,247,fas,"I prioritize full access and development over environmental concerns, hence the ratings."
+c966302c-662d-4625-b0b4-4df36b222bd0,2025-09-09 19:19:02.785666+00:00,openai,gpt-4o-mini,0,4388,248,fem,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+f2634ced-8a42-4e24-b357-00d2f9df1013,2025-09-09 19:19:09.081299+00:00,openai,gpt-4o-mini,0,4388,249,fem,"Closing the road for rehabilitation is best for the environment, while upgrades harm it."
+9aef5396-3eb5-426b-87f0-4c257bc458ce,2025-09-09 19:19:14.971890+00:00,openai,gpt-4o-mini,0,4388,245,fem,I prioritize environmental protection and rehabilitation over road upgrades or maintenance.
+86995d4b-f135-497f-95c8-a1c2666086ea,2025-09-09 19:19:21.321359+00:00,openai,gpt-4o-mini,0,4388,249,fem,I prioritize closing and rehabilitating the road to protect the environment over any upgrades.
+2c324d18-b808-4d92-84cc-80d0e15386f5,2025-09-09 19:19:27.873834+00:00,openai,gpt-4o-mini,0,4388,247,fem,Closing and rehabilitating the road best protects the environment and local ecosystems.
+aef423ea-5039-4513-aabc-951f94e04b6c,2025-09-09 19:26:01.660106+00:00,openai,gpt-4o-mini,0,4403,247,fun,I prioritize closing the road for environmental protection over maintaining or upgrading it.
+d97c6758-fb0b-4f3f-bd95-bbf214a5eebd,2025-09-09 19:26:08.239266+00:00,openai,gpt-4o-mini,0,4403,246,fun,I prioritize environmental protection while allowing limited access and maintaining current conditions.
+0cdad605-074a-4933-a8c7-a2cdaba0b5a7,2025-09-09 19:26:16.712247+00:00,openai,gpt-4o-mini,0,4403,246,fun,I prioritize upgrading for access while minimizing environmental impact and preserving nature.
+3a85e5f0-0c82-4f7b-b746-44c7de092605,2025-09-09 19:26:23.048248+00:00,openai,gpt-4o-mini,0,4403,247,fun,I prioritize environmental protection and oppose road upgrades or maintenance that harm nature.
+9903f334-f489-42af-bd48-80078dc5f938,2025-09-09 19:26:29.357350+00:00,openai,gpt-4o-mini,0,4403,247,fun,I prioritize closing the road for environmental protection over maintaining or upgrading it.
+030b288c-ca09-4979-9f0f-099ea78ffa70,2025-09-09 19:33:14.653418+00:00,openai,gpt-4o-mini,0,4397,246,lib,I prioritize upgrading for access while minimizing environmental impact and preserving autonomy.
+fcade61e-a542-43bd-91d3-ededf73c1c48,2025-09-09 19:33:20.691388+00:00,openai,gpt-4o-mini,0,4397,246,lib,I prioritize minimal intervention while ensuring safety and access for local communities.
+2f8354ba-0e6e-49e8-95cb-6b7c8e198fe0,2025-09-09 19:33:27.350512+00:00,openai,gpt-4o-mini,0,4397,246,lib,I prioritize minimal intervention while ensuring safety and access for local residents.
+116b0909-d99b-428f-b1a4-b9dd1ae9a8e9,2025-09-09 19:33:32.896442+00:00,openai,gpt-4o-mini,0,4397,248,lib,I prioritize minimal intervention while ensuring safety and access over complete closure or upgrades.
+b3735c44-a489-49a8-95c2-dca1b546962b,2025-09-09 19:33:38.707420+00:00,openai,gpt-4o-mini,0,4397,249,lib,"I prioritize limited impact and access, favoring maintenance over full upgrades or closures."
+e7dc4c49-2546-444f-8494-3ffaf416945a,2025-09-09 19:40:40.292020+00:00,openai,gpt-4o-mini,0,4400,246,nat,I prioritize upgrading for access while balancing environmental concerns and community needs.
+d4d2f95d-e04d-4dff-98fd-90aa108f3f93,2025-09-09 19:40:46.748179+00:00,openai,gpt-4o-mini,0,4400,247,nat,"I prioritize development while minimizing environmental impact, favoring upgrades over closures."
+53b2d0b9-b3d4-449f-b9ee-80f96c1bbdb8,2025-09-09 19:40:53.922292+00:00,openai,gpt-4o-mini,0,4400,245,nat,I prioritize upgrading the road for access while minimizing environmental impact.
+48db2129-c2e4-437f-8b1f-ea97c417bf32,2025-09-09 19:41:00.266866+00:00,openai,gpt-4o-mini,0,4400,246,nat,I prioritize preserving the environment and community over road upgrades or maintenance.
+71e7af7c-17b4-495c-be64-cc2447a55ad6,2025-09-09 19:41:06.614757+00:00,openai,gpt-4o-mini,0,4400,251,nat,"I prioritize preserving the environment, so I oppose upgrading to bitumen and prefer minimal intervention."
+4bdfb9e6-d5e5-48ca-a8fc-d056afb34d3f,2025-09-09 19:48:34.177646+00:00,openai,gpt-4o-mini,0,4403,248,pop,I prioritize closing the road for rehabilitation over maintaining or upgrading it for vehicles.
+58a9ad6e-778d-4ede-95da-b7a1a91e9af1,2025-09-09 19:48:40.345235+00:00,openai,gpt-4o-mini,0,4403,247,pop,I prioritize closing the road to protect the environment over upgrades or maintenance.
+57f565b1-8786-49f2-8877-905fc4be83e4,2025-09-09 19:48:46.376512+00:00,openai,gpt-4o-mini,0,4403,248,pop,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+d0f53982-6017-404f-8b6b-2e2f0a1dc723,2025-09-09 19:48:52.326460+00:00,openai,gpt-4o-mini,0,4403,248,pop,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+0ad11adb-c68d-4d0f-a586-ba3d1ade2342,2025-09-09 19:48:58.681897+00:00,openai,gpt-4o-mini,0,4403,248,pop,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+ae60a5fd-4094-4722-8e11-a93b24b64053,2025-09-09 19:56:07.369961+00:00,openai,gpt-4o-mini,0,4391,246,soc,I prioritize environmental protection and community welfare over road upgrades and maintenance.
+d59a8b67-c092-4eba-89ae-fb30b2441c6e,2025-09-09 19:56:16.771770+00:00,openai,gpt-4o-mini,0,4391,246,soc,Closing the road for rehabilitation best protects the environment and community interests.
+d741f046-0d9f-42b8-bb69-3b86ed225b88,2025-09-09 19:56:23.193816+00:00,openai,gpt-4o-mini,0,4391,246,soc,I prioritize environmental protection and community welfare over road upgrades and access.
+b8b6fdc9-b036-4ff1-b68e-69cc8d81795c,2025-09-09 19:56:31.362325+00:00,openai,gpt-4o-mini,0,4391,247,soc,I prioritize closing the road for environmental protection over any upgrades or maintenance.
+b64b2541-9592-4da1-914e-9d80a0f48bac,2025-09-09 19:56:37.887111+00:00,openai,gpt-4o-mini,0,4391,245,soc,I prioritize environmental protection and rehabilitation over road upgrades and maintenance.
+eb9e8cfc-9cea-454b-9517-ee6f490f046d,2025-09-09 20:02:35.257287+00:00,openai,gpt-4o-mini,0,4427,249,coa,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+9883d049-67d1-4084-9cb2-82b28e2dea32,2025-09-09 20:02:42.728145+00:00,openai,gpt-4o-mini,0,4427,248,coa,I prioritize closing the road for rehabilitation over upgrades that could harm the environment.
+45485a15-56c4-4416-bdb5-ed0990d504fb,2025-09-09 20:02:51.231197+00:00,openai,gpt-4o-mini,0,4427,248,coa,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+983d2d71-79f5-4a66-87f9-cc3abbbb7927,2025-09-09 20:03:00.405820+00:00,openai,gpt-4o-mini,0,4427,245,coa,I prioritize environmental protection and rehabilitation over road upgrades or maintenance.
+2923f351-6cf5-48f0-a306-8e1f86587fb0,2025-09-09 20:03:07.715326+00:00,openai,gpt-4o-mini,0,4427,248,coa,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+3811826e-6444-4cfb-b2bf-7cd1c8aa32fb,2025-09-09 20:09:37.965755+00:00,openai,gpt-4o-mini,0,4415,246,ctr,I prioritize closing the road for environmental protection over upgrades or maintenance.
+bcaacb24-08df-4778-b02a-c16dd05c9636,2025-09-09 20:09:43.692906+00:00,openai,gpt-4o-mini,0,4415,248,ctr,I prioritize closing the road to protect the environment over upgrading or maintaining it.
+32e75c60-211e-4db8-990a-b9b00085093b,2025-09-09 20:09:53.446230+00:00,openai,gpt-4o-mini,0,4415,248,ctr,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+726f334f-aef3-4d32-a21d-e0ab58e77641,2025-09-09 20:10:00.189550+00:00,openai,gpt-4o-mini,0,4415,248,ctr,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+2c506aa0-7250-4cb4-b432-c6efab6596aa,2025-09-09 20:10:06.738958+00:00,openai,gpt-4o-mini,0,4415,248,ctr,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+3dd58ef4-8685-444a-9fbb-fa97fdc3151b,2025-09-09 20:16:09.555767+00:00,openai,gpt-4o-mini,0,4430,249,dis,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+252193aa-ac01-412a-b7fc-66004c51a53e,2025-09-09 20:16:20.288945+00:00,openai,gpt-4o-mini,0,4430,248,dis,I prioritize closing the road for rehabilitation over upgrades that could harm the environment.
+469969e6-a103-40e2-809c-a60f757965f3,2025-09-09 20:16:27.761239+00:00,openai,gpt-4o-mini,0,4430,249,dis,"I prioritize environmental protection over access, hence support closing and rehabilitating the road."
+0ea8cf05-95f5-4f87-8472-a5a0e75bc624,2025-09-09 20:16:34.665222+00:00,openai,gpt-4o-mini,0,4430,245,dis,I prioritize environmental protection and rehabilitation over road upgrades or maintenance.
+e5ae6688-3ee6-46d2-9560-b55eec5b25b9,2025-09-09 20:16:42.618425+00:00,openai,gpt-4o-mini,0,4430,246,dis,"I prioritize environmental protection over access, favoring rehabilitation over upgrades."
+1151ca29-9c40-4263-80aa-b0d93c71c786,2025-09-09 20:22:39.661869+00:00,openai,gpt-4o-mini,0,4418,249,eld,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+910b7072-431e-412f-bbbc-95762bb2bd5f,2025-09-09 20:22:46.732949+00:00,openai,gpt-4o-mini,0,4418,247,eld,I prioritize closing the road for rehabilitation over upgrades that harm the environment.
+daeb075e-6ea3-4342-bff9-d4cb5531d5a9,2025-09-09 20:22:53.239553+00:00,openai,gpt-4o-mini,0,4418,248,eld,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+49e23147-8f1b-4866-a8a2-3dcf38fd241a,2025-09-09 20:22:59.804551+00:00,openai,gpt-4o-mini,0,4418,248,eld,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+e7a4a8b4-4435-4bfd-a21a-096074616152,2025-09-09 20:23:06.932244+00:00,openai,gpt-4o-mini,0,4418,248,eld,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+c58045f1-8723-42fb-95d0-107c2b797e79,2025-09-09 20:29:36.538206+00:00,openai,gpt-4o-mini,0,4418,248,far,I prioritize closing the road for rehabilitation over maintaining or upgrading it for vehicles.
+3899f40e-5e25-45aa-9f86-bbc360ecc487,2025-09-09 20:29:46.634873+00:00,openai,gpt-4o-mini,0,4418,248,far,I prioritize closing the road to protect the environment over upgrading or maintaining it.
+a45aa459-bbed-43d8-a343-f43ec804b296,2025-09-09 20:29:58.995743+00:00,openai,gpt-4o-mini,0,4418,248,far,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+eaface7f-2edc-4f46-a247-5fb3a4a9c69e,2025-09-09 20:30:25.721016+00:00,openai,gpt-4o-mini,0,4418,248,far,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+bdd3c29e-0674-4716-baf2-d6bda8f3de0d,2025-09-09 20:30:38.617472+00:00,openai,gpt-4o-mini,0,4418,248,far,I prioritize closing and rehabilitating the road to protect the environment over upgrades.
+1f57b63f-d0a1-43ab-8309-a2249e04bc6a,2025-09-09 20:38:16.354171+00:00,openai,gpt-4o-mini,0,4418,247,fis,I prioritize closing the road for rehabilitation over upgrades that harm the environment.
+993bedc7-938f-43bc-9b6a-134d278ff9e5,2025-09-09 20:38:24.231991+00:00,openai,gpt-4o-mini,0,4418,248,fis,I prioritize closing the road for rehabilitation over upgrades that could harm the environment.
+4b3db7b1-8137-4b47-8adc-d1a36337a1b3,2025-09-09 20:38:31.716795+00:00,openai,gpt-4o-mini,0,4418,249,fis,"I prioritize environmental protection over access, hence support closing and rehabilitating the road."
+509a6d96-4614-408f-84c1-b91c58047af4,2025-09-09 20:38:39.294350+00:00,openai,gpt-4o-mini,0,4418,248,fis,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+417b4627-65a5-4baf-86c6-ab8ec6c4d9e1,2025-09-09 20:38:49.119660+00:00,openai,gpt-4o-mini,0,4418,246,fis,I prioritize rehabilitation and minimal impact over upgrades or maintaining current conditions.
+c69c0a27-d68a-473b-8b75-7c29fa557695,2025-09-09 20:46:25.935104+00:00,openai,gpt-4o-mini,0,4427,246,lan,"I prioritize environmental protection over access, favoring closure and rehabilitation."
+6d12f50c-a256-4bfe-b207-c5eadc75faf0,2025-09-09 20:46:32.691681+00:00,openai,gpt-4o-mini,0,4427,249,lan,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+e9ea2561-e82b-4512-ad87-594c0247e54b,2025-09-09 20:46:40.213619+00:00,openai,gpt-4o-mini,0,4427,245,lan,I prioritize environmental protection and rehabilitation over road upgrades or maintenance.
+5f5868a6-5053-4731-9a7c-3241246b17af,2025-09-09 20:46:47.075233+00:00,openai,gpt-4o-mini,0,4427,248,lan,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+050f5e66-0454-44e3-b8bf-cb51c1088676,2025-09-09 20:46:55.318633+00:00,openai,gpt-4o-mini,0,4427,249,lan,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+d98819fc-534d-49b8-9cc2-de46ec8550e0,2025-09-09 20:53:09.602739+00:00,openai,gpt-4o-mini,0,4433,246,par,I prioritize closing the road for environmental protection over upgrades or maintenance.
+4cc15fd0-7a1a-435e-84bf-0c0bbcce8a2f,2025-09-09 20:53:15.712434+00:00,openai,gpt-4o-mini,0,4433,249,par,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+da9f04d4-809c-4300-becf-3a25456f77c7,2025-09-09 20:53:23.219047+00:00,openai,gpt-4o-mini,0,4433,245,par,I prioritize environmental protection and rehabilitation over road upgrades or maintenance.
+41035641-17a3-4efe-9a37-fc17ce6b5557,2025-09-09 20:53:30.523777+00:00,openai,gpt-4o-mini,0,4433,248,par,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+ce8ede4b-215e-46f0-922e-520b419df01c,2025-09-09 20:53:36.755906+00:00,openai,gpt-4o-mini,0,4433,246,par,I prioritize rehabilitation and minimal impact over upgrades or maintaining current conditions.
+4b48ecb5-24e8-47e4-baf1-31f9261cf6d7,2025-09-09 20:59:28.826810+00:00,openai,gpt-4o-mini,0,4421,248,sub,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+19db2e10-b2bd-4a52-8be7-c2c93b07bd38,2025-09-09 20:59:34.826212+00:00,openai,gpt-4o-mini,0,4421,248,sub,I prioritize closing the road to protect the environment over upgrading or maintaining it.
+14179aa4-9e6f-4ba4-866b-22f89b2b2ce5,2025-09-09 20:59:41.080163+00:00,openai,gpt-4o-mini,0,4421,248,sub,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+60a0b00e-3b7b-44b8-8f06-3f371948bb91,2025-09-09 20:59:47.533749+00:00,openai,gpt-4o-mini,0,4421,248,sub,I prioritize closing the road to protect the environment over any upgrades or maintenance.
+e922859c-bcc4-453d-8003-239ed3b36eec,2025-09-09 20:59:53.343503+00:00,openai,gpt-4o-mini,0,4421,248,sub,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+ee2e5225-e6b0-4d94-92ff-9c4a1b76da0d,2025-09-09 21:06:00.108409+00:00,openai,gpt-4o-mini,0,4427,249,vil,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+a625e444-aa1a-47e9-ba47-2936731bdbc0,2025-09-09 21:06:07.329907+00:00,openai,gpt-4o-mini,0,4427,249,vil,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+029e4ffb-0c9b-48f6-bf13-b360a6fa0394,2025-09-09 21:06:14.182614+00:00,openai,gpt-4o-mini,0,4427,249,vil,"I prioritize environmental protection over access, hence support closing and rehabilitating the road."
+0ee9dedf-7585-4c04-92c5-4a615c31e9df,2025-09-09 21:06:20.820013+00:00,openai,gpt-4o-mini,0,4427,248,vil,I prioritize closing the road to protect the environment over maintaining or upgrading it.
+17319f1e-1882-4363-aded-b51d575a84d6,2025-09-09 21:06:27.129203+00:00,openai,gpt-4o-mini,0,4427,249,vil,I prioritize closing the road for rehabilitation over upgrades or maintenance to protect the environment.
+b3349152-4a7c-41f4-afbb-8994c98a63a7,2025-09-09 21:11:58.288209+00:00,openai,gpt-4o-mini,0,4421,249,csk,I support upgrading the road for access and economic growth over closing or limiting it.
+9344c3e7-e68d-4948-9786-2422d2a400b2,2025-09-09 21:12:03.680389+00:00,openai,gpt-4o-mini,0,4421,248,csk,I support upgrading the road for access and development over closing or limiting it.
+af391f11-9cce-4d9e-8aed-5875b5335bae,2025-09-09 21:12:09.407705+00:00,openai,gpt-4o-mini,0,4421,247,csk,I prioritize upgrading the road for access and economic growth over environmental concerns.
+f4aa6c1d-3dec-4512-b926-4a1fc162fda8,2025-09-09 21:12:15.164224+00:00,openai,gpt-4o-mini,0,4421,247,csk,I prioritize upgrading the road for access and economic growth over environmental concerns.
+53f6e255-a069-4ddb-b2a3-38892353ce7d,2025-09-09 21:12:22.333993+00:00,openai,gpt-4o-mini,0,4421,247,csk,I prioritize upgrading the road for access and economic growth over environmental concerns.

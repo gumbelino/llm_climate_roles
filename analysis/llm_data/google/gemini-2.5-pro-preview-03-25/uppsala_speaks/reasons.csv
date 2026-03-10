@@ -1,0 +1,3 @@
+cuid,created_at,provider,model,temperature,input_tokens,output_tokens,prompt_uid,reason
+005ebd41-da9f-4dda-b4de-80af512408a6,2025-08-18 09:19:39.385106+00:00,google,gemini-2.5-pro-preview-03-25,0,3801,294,con,"Swedish law, order, and citizens first. Aid should be directed to their home countries."
+d2c85e86-67a9-4cf3-a30a-fb5714ed789b,2025-08-18 09:30:11.870651+00:00,google,gemini-2.5-pro-preview-03-25,0,3801,291,con,We must enforce our laws and protect our society. Charity begins at home.
